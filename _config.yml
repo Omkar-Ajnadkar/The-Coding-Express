@@ -23,11 +23,11 @@ author:  # change following line to your infomation.
   cv:  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: fa-python
+    - name: fa-code
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
+    - name: icon-android
+    - name: icon-javascript
   desc:  I am enthusiast in Computer Programming and learning various applications of Python. Have learnt programming languages C, C++, Python and Front-end Web Development. A tech enthusiast and always like to remain updated in tech universe.Open to all kinds of job and internship offerings.   # Describe yourself.
 
 # comment
