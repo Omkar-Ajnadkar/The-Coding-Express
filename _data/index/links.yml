@@ -1,18 +1,19 @@
 # links section data
-- last_name: Name 1
+- last_name: LinkedIN
   first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
-
+  desc: 
+  website: www.linkedin.com/in/omkar-ajnadkar
+  email: omkarajnadkar@gmail.com
+  
 - last_name: Omkar
   first_name: Ajnadkar
   desc: Contact me
   website: https://omkar-ajnadkar.github.io/The-Coding-Express/
   email: omkarajnadkar@gmail.com
   
-- last_name: LN
+- last_name: GitHub
   first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+  desc: 
+  website: https://github.com/Omkar-Ajnadkar
+  email: omkarajnadkar@gmail.com
+  
