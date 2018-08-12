@@ -536,11 +536,6 @@
 			"sn":1
 		},
 		{
-			"name":"Maths",
-			"icon":"maths.svg",
-			"sn":2
-		},
-		{
 			"name":"Reading",
 			"icon":"book.svg",
 			"sn":3
@@ -553,12 +548,7 @@
 		{
 			"name":"Cricket",
 			"icon":"cricket.png",
-			"sn":5
-		},
-		{
-			"name":"Football",
-			"icon":"ronaldo.svg",
-			"sn":6
+			"sn":2
 		}
 	],
 	"qoutes": [
