@@ -105,8 +105,8 @@ function loadLikes(likes){
 var profile;
 	swal(
 		{
-			title:"helloWorld!!!",
-			text:"Hello visitor, you have landed upon little webspace of moghya.",
+			title:"Hello World!",
+			text:"Hey...This is Omkar. Thanks for visiting my website...",
 			confirmButtonColor:"#1f1f1f"
 		}
 	);
@@ -137,7 +137,7 @@ $.get("js/profile.json",
 
 function onBodyLoad(){
 	console.log('body loaded');
-	$('#moghyaSays').css('display','block');
+	$('#Says').css('display','block');
 }
 
 $(document).ready(function(){
