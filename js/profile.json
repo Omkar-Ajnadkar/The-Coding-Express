@@ -543,12 +543,17 @@
 		{
 			"name":"Cycling",
 			"icon":"cycling.svg",
-			"sn":4
+			"sn":5
 		},
 		{
 			"name":"Cricket",
 			"icon":"cricket.svg",
 			"sn":2
+		},
+		{
+			"name":"Football",
+			"icon":"football.svg",
+			"sn":4
 		}
 	],
 	"qoutes": [
