@@ -73,6 +73,10 @@ function loadEducations(educations){
 	$('#education').html(educationsInnerHTML);
 }
 
+function loadContactMe(){
+	$('#contactme').html(<div id="anymod-onnlo"></div>);
+}
+
 function loadLinks(profileLinks){
 	var i=0,j;			
 	profileLinks.sort(function(a,b){
@@ -105,7 +109,7 @@ function loadLikes(likes){
 var profile;
 	swal(
 		{
-			title:"Hello World!",
+			title:"Hello you!",
 			text:"Hey...This is Omkar. Thanks for visiting my website...",
 			confirmButtonColor:"#1f1f1f"
 		}
@@ -132,6 +136,7 @@ $.get("js/profile.json",
 		loadProjects(profile.projects);
 		loadWorks(profile.works);
 		loadEducations(profile.educations);
+		loadContactMe();
 		console.log(profile);
 });
 
