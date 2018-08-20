@@ -44,54 +44,54 @@
 				{
 					"courseCode": "3IT211",
 					"courseName": "Theory of Computation",
-					"sn": 5
+					"sn": 4
 
 				},
 				{
 					"courseCode": "3IT201",
 					"courseName": "Discrete Mathemactics",
-					"sn": 6
+					"sn": 5
 
 				},
 				{
 					"courseCode": "3IT303",
 					"courseName": "Operating System",
-					"sn": 10
+					"sn": 6
 
 				},
 				{
 					"courseCode": "3IT341",
 					"courseName": "Mini-Project - I",
-					"sn": 24
+					"sn": 7
 
 				},
 				{
 					"courseCode": "3IT322",
 					"courseName": "Unix Operating System",
-					"sn": 11
+					"sn": 8
 
 				},
 				{
 					"courseCode": "3IT212",
 					"courseName": "Computer Organization and Architechture",
-					"sn": 18
+					"sn": 9
 				},
 				{
 					"courseCode": "3MA204",
 					"courseName": "Linear Algebra",
-					"sn": 7
+					"sn": 10
 
 				}
 				{
 					"courseCode": "3IT252",
 					"courseName": "Data Structures Lab",
-					"sn": 29
+					"sn": 11
 
 				},
 				{
 					"courseCode": "3IT203",
 					"courseName": "Processor Architechture",
-					"sn": 17
+					"sn": 12
 
 
 				},
@@ -99,26 +99,26 @@
 					"courseCode": "3IT281",
 					"courseName": "Mini Project - II",
 					"courseScore": "10/10",
-					"sn": 22
+					"sn": 13
 
 				},
 				{
 					"courseCode": "3IT255",
 					"courseName": "Programming Lab - I (C++)",
-					"sn": 26
+					"sn": 14
 
 				},
 				{
 					"courseCode": "3IT341",
 					"courseName": "Mini-Project - III",
-					"sn": 24
+					"sn": 15
 
 				},
 				{
 					"courseCode": "3IT255",
 					"courseName": "Programming Lab - II (Python)",
 					"courseScore": "10/10",
-					"sn": 26
+					"sn": 16
 
 				}
 			]
