@@ -9,6 +9,11 @@
 	font-size: 1.25rem;
 }
 
+.links{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25rem;
+}
+
 #name sub{
 	font-size: 50%;		
 	text-transform: lowercase;

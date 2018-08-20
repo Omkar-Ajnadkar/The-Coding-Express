@@ -80,11 +80,11 @@ function loadLinks(profileLinks){
 	});
 	var profileLinksInnerHTML = '';
 	while(i<profileLinks.length){
-		profileLinksInnerHTML+='<div class="row">'
+		profileLinksInnerHTML+='<div class="row"><ul>'
 		for(j=i;j<profileLinks.length&&j<i+5;j++){
-			profileLinksInnerHTML+='<div class="row"><a href="'+profileLinks[j].link+'" target="_blank" >'+profileLinks[j].name+'</a></div>';
+			profileLinksInnerHTML+='<li><div class="row links"><a href="'+profileLinks[j].link+'" target="_blank" >'+profileLinks[j].name+'</a></div></li>';
 		}
-		profileLinksInnerHTML+='</div>';
+		profileLinksInnerHTML+='</ul></div>';
 		i=j;
 	}
 	$('#links').html(profileLinksInnerHTML);
