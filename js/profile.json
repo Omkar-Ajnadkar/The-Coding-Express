@@ -131,7 +131,8 @@
 			"score": "86.0%",
 			"inst": "Pace Junior Science College, Thane",
 			"board": "Maharshtra State Board",
-			"courses": [{
+			"courses": [
+				{
 					"courseCode": "041",
 					"courseName": "Mathemactics",
 					"courseScore": "87/100",
@@ -336,6 +337,15 @@
 			"tags": ["evoting", "website"],
 			"shortInfo": "Created secure e-voting system for small scale elections.",
 			"link":"http://anku255.pythonanywhere.com"
+		},
+		{
+			"sn":8, "projectTitle": "Sign Language and Static-Gesture Recognition",
+			"periodStart": "Aug 2018",
+			"periodEnd": "Present",
+			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
+			"tags": ["guesture", "sign_language"],
+			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
+			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		}
 	],
 	"summary": "Hi, I’m Omkar. I am full-stack web developer, android developer and a data science enthusiast who is diving 'deep' in the field of ML and DL. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
