@@ -114,7 +114,7 @@ $.get("js/profile.json",
 	function(data, status){
 		profile = data;
 		var pInfo = profile.personalInfo;
-		$('title').html(pInfo.nick+'|Portfolio');
+		$('title').html(pInfo.nick+' | Portfolio');
 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
 		$('#image img').attr('src','img/'+pInfo.myimg);
 		$('#contact').html('Call me:'+pInfo.mob+'</br> Mail me:'+pInfo.email);
