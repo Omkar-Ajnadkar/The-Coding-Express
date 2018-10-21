@@ -288,9 +288,9 @@
 			"sn":2, "projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
-			"toolsUsed": ["Flask", "Heroku", "MOngoDB", "HTML", "CSS", "JavaScript"],
+			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
 			"tags": ["educational-system", "website"],
-			"shortInfo": "This is an Image-Processing based attendance system, coded entirely in Python which stores face data of students, capture attendance through video cameras in classes, marks attendance using face extraction and matching and finally display it to teachers in GUI.",
+			"shortInfo": "Complete educational system for University",
 			"link":"https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
@@ -346,6 +346,15 @@
 			"tags": ["guesture", "sign_language"],
 			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
+		},
+		{
+			"sn":9, "projectTitle": "Hello World",
+			"periodStart": "Oct 2018",
+			"periodEnd": "Present",
+			"toolsUsed": ["GitHub"],
+			"tags": ["open_source", "hacktoberfest"],
+			"shortInfo": "Hactoberfest repository for public contribution ",
+			"link":"https://github.com/Omkar-Ajnadkar/Hello-World"
 		}
 	],
 	"summary": "Hi, I’m Omkar. I am full-stack web developer, android developer and a data science enthusiast who is diving 'deep' in the field of ML and DL. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
