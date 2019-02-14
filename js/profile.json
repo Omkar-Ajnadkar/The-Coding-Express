@@ -19,7 +19,7 @@
 			"periodStart": "August 2016",
 			"periodEnd": "Present",
 			"course": "B.Tech Computer Science and Engineering",
-			"score": "9.2 CGPA",
+			"score": "9.07 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
 			"board": "Autonomous Institute",
 			"courses": [
@@ -260,14 +260,21 @@
 	],
 	"works": [
 		{
-			"sn":0,"link":"http://thebomway.com","workPosition": "Backend Web Development Intern",
+			"sn":0,"link":"http://info.footloose.io","workPosition": "ML and Python Development Intern",
+			"periodStart": "Oct 2018",
+			"periodEnd": "Present",
+			"organisation": "The Footloose",
+			"experience": "Working on creating robotic systems for use in various industries as well as household use."
+		},
+		{
+			"sn":1,"link":"http://thebomway.com","workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "July 2018",
 			"organisation": "The Bomway",
 			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
 		},
 		{
-			"sn":1,"link":"","workPosition": "Android Development Intern",
+			"sn":2,"link":"","workPosition": "Android Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "June 2018",
 			"organisation": "EISystems",
@@ -276,7 +283,16 @@
 	],
 	"projects":[
 		{
-			"sn":1, "projectTitle": "Automatic Class Attendance System",
+			"sn":1, "projectTitle": "Sarcasm Detection in Social Media Text",
+			"periodStart": "July 2018",
+			"periodEnd": "Current",
+			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
+			"tags": ["image-processing", "attendance-system", "image-extraction"],
+			"shortInfo": "This is attempt to create better sentimental analysis model by solving the problem of sarcasm detection in social media like twitter.",
+			"link":""
+		},
+		{
+			"sn":3, "projectTitle": "Automatic Class Attendance System",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
@@ -285,7 +301,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Automatic-Attendance-System"
 		},
 		{
-			"sn":2, "projectTitle": "EduBox",
+			"sn":4, "projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
@@ -294,7 +310,7 @@
 			"link":"https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
-			"sn":3, "projectTitle": "Predicting Customer Churn in Banking",
+			"sn":5, "projectTitle": "Predicting Customer Churn in Banking",
 			"periodStart": "July 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
@@ -303,7 +319,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
-			"sn":4, "projectTitle": "Predicting Tags on StackOverflow",
+			"sn":6, "projectTitle": "Predicting Tags on StackOverflow",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
@@ -312,7 +328,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
-			"sn":5, "projectTitle": "IIIT Kalyani College Website",
+			"sn":7, "projectTitle": "IIIT Kalyani College Website",
 			"periodStart": "Dec 2017",
 			"periodEnd": "Present",
 			"toolsUsed": ["Django", "SQLite", "CPanel", "HTML", "CSS", "JavaScript"],
@@ -321,7 +337,7 @@
 			"link":"http://iiitkalyani.ac.in"
 		},
 		{
-			"sn":6, "projectTitle": "College Fest Website",
+			"sn":8, "projectTitle": "College Fest Website",
 			"periodStart": "Jan 2018",
 			"periodEnd": "Present",
 			"toolsUsed": ["HTML", "CSS", "JavaScript"],
@@ -330,7 +346,7 @@
 			"link":"https://omkar-ajnadkar.github.io/MILAN/"
 		},
 		{
-			"sn":7, "projectTitle": "Secure E-Voting System",
+			"sn":9, "projectTitle": "Secure E-Voting System",
 			"periodStart": "Apr 2018",
 			"periodEnd": "Apr 2018",
 			"toolsUsed": ["Flask", "SQLite", "Heroku", "Cryptography", "JavaScript"],
@@ -339,18 +355,18 @@
 			"link":"http://anku255.pythonanywhere.com"
 		},
 		{
-			"sn":8, "projectTitle": "Sign Language and Static-Gesture Recognition",
+			"sn":2, "projectTitle": "Sign Language and Static-Gesture Recognition",
 			"periodStart": "Aug 2018",
-			"periodEnd": "Present",
+			"periodEnd": "Oct 2018",
 			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
 			"tags": ["guesture", "sign_language"],
 			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		},
 		{
-			"sn":9, "projectTitle": "Hello World",
+			"sn":10, "projectTitle": "Hello World",
 			"periodStart": "Oct 2018",
-			"periodEnd": "Present",
+			"periodEnd": "Oct 2018",
 			"toolsUsed": ["GitHub"],
 			"tags": ["open_source", "hacktoberfest"],
 			"shortInfo": "Hactoberfest repository for public contribution ",
