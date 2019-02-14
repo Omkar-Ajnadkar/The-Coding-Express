@@ -263,7 +263,7 @@
 			"sn":0,"link":"http://info.footloose.io","workPosition": "ML and Python Development Intern",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Present",
-			"organisation": "The Footloose",
+			"organisation": "Footloose",
 			"experience": "Working on creating robotic systems for use in various industries as well as household use."
 		},
 		{
@@ -287,7 +287,7 @@
 			"periodStart": "July 2018",
 			"periodEnd": "Current",
 			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
-			"tags": ["image-processing", "attendance-system", "image-extraction"],
+			"tags": ["sarcasm", "sentiment", "text-processing"],
 			"shortInfo": "This is attempt to create better sentimental analysis model by solving the problem of sarcasm detection in social media like twitter.",
 			"link":""
 		},
