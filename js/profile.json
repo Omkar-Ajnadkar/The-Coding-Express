@@ -266,7 +266,7 @@
 			"periodStart": "May 2019",
 			"periodEnd": "Present",
 			"organisation": "IIT-BHU",
-			"experience": "Working on computer vision related applications."
+			"experience": "Working on computer vision related applications using deep learning."
 		},
 		{
 			"sn":1,
@@ -275,7 +275,7 @@
 			"periodStart": "Oct 2018",
 			"periodEnd": "Dec 2018",
 			"organisation": "Footloose",
-			"experience": "WorkED on creating robotic systems for use in various industries as well as household use."
+			"experience": "Worked on creating robotic systems for use in various industries as well as household use."
 		},
 		{
 			"sn":2,
@@ -299,8 +299,38 @@
 	"projects":[
 		{
 			"sn": 1,
+			"projectTitle": "Brain Image Segmentation and Tumor Detection",
+			"periodStart": "Jan 2019",
+			"periodEnd": "April 2019",
+			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
+			"tags": ["medical", "segmentation", "class-detection"],
+			"shortInfo": "Runner-up at Smart India Hackathon - 2019, Worked on Following Medical Datasets: BraTS 2018, MrBrains18. Used Modified VGG16, Modified UNetCNN as models and created interface GUI using Python PyQt with the ability to visualize the results along with accuracy in real-time. Also the website is made using Django that works the same as GUI but with easy and better visualization. Able to segment parts of the brain in the 4 D dataset with average dice score of 0.84.Able to find the tumor in the dataset with average dice score of 0.96",
+			"link": "https://github.com/Omkar-Ajnadkar/Brain-Image-Segmentation"
+		},
+		{
+			"sn": 2,
+			"projectTitle": "FamilyWhere - A Deep Learning based solution for finding children and people lost in public gatherings",
+			"periodStart": "Jan 2019",
+			"periodEnd": "Jan 2019",
+			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
+			"tags": ["person-finder", "one-shot"],
+			"shortInfo": "Developed at Hack36 - 2019, 1. When anyone realizes that their children or loved ones are lost in the crowd, he/ she will upload a single photo of the who lost along with contact information of self. 2. The model will store the image into the database with proper encodings.3. Whenever any other person will find that child or a person, he will just click a photo in the app and most probably 3 matches of the child will be shown along with contact numbers. USP: 1. Easy to use interface with simple 2 step user actions, 2. User just needs to upload one image of the child for face recognition instead of few hundreds required by other deep learning based approaches. 3. Great accuracy of the model to identify the child or a person correctly ",
+			"link": "https://github.com/Omkar-Ajnadkar/FamilyWhere"
+		},
+		{
+			"sn": 3,
+			"projectTitle": "RealU - Unbiased Untampered News and Media Experience",
+			"periodStart": "Mar 2019",
+			"periodEnd": "April 2019",
+			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
+			"tags": ["news", "classfication", "language-processing"],
+			"shortInfo": "A deep learning based solution that helps you detect fake media and stay away from them. Along with news text, it also analyses the images related to news using Google's cloud APIs to give user best possible prediction about news being fake or tampered.",
+			"link": "https://github.com/Omkar-Ajnadkar/RealU"
+		},
+		{
+			"sn": 4,
 			"projectTitle": "News Background Linking",
-			"periodStart": "July 2018",
+			"periodStart": "Jan 2019",
 			"periodEnd": "Current",
 			"toolsUsed": [
 				"Python",
@@ -313,11 +343,11 @@
 				"sentiment",
 				"text-processing"
 			],
-			"shortInfo": "This is deep learning based solution to sugest similar news in the entire dataset which can be used in news recommendation approach.",
+			"shortInfo": "This is a deep learning based solution to suggest similar news in the entire dataset which can be used in news recommendation approach.",
 			"link": ""
 		},
 		{
-			"sn":2, "projectTitle": "Sarcasm Detection in Social Media Text",
+			"sn":5, "projectTitle": "Sarcasm Detection in Social Media Text",
 			"periodStart": "July 2018",
 			"periodEnd": "Current",
 			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
@@ -326,7 +356,17 @@
 			"link":""
 		},
 		{
-			"sn":4, "projectTitle": "Automatic Class Attendance System",
+			"sn": 6,
+			"projectTitle": "Sign Language and Static-Gesture Recognition",
+			"periodStart": "Aug 2018",
+			"periodEnd": "Oct 2018",
+			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
+			"tags": ["guesture", "sign_language"],
+			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
+			"link": "https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
+		},
+		{
+			"sn":7, "projectTitle": "Automatic Class Attendance System",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
@@ -335,7 +375,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Automatic-Attendance-System"
 		},
 		{
-			"sn":5, "projectTitle": "EduBox",
+			"sn":8, "projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
@@ -344,7 +384,7 @@
 			"link":"https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
-			"sn":6, "projectTitle": "Predicting Customer Churn in Banking",
+			"sn":9, "projectTitle": "Predicting Customer Churn in Banking",
 			"periodStart": "July 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
@@ -353,7 +393,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
-			"sn":7, "projectTitle": "Predicting Tags on StackOverflow",
+			"sn":10, "projectTitle": "Predicting Tags on StackOverflow",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
@@ -362,7 +402,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
-			"sn":8, "projectTitle": "IIIT Kalyani College Website",
+			"sn":11, "projectTitle": "IIIT Kalyani College Website",
 			"periodStart": "Dec 2017",
 			"periodEnd": "Dec 2018",
 			"toolsUsed": ["Django", "SQLite", "CPanel", "HTML", "CSS", "JavaScript"],
@@ -371,7 +411,7 @@
 			"link":"http://iiitkalyani.ac.in"
 		},
 		{
-			"sn":9, "projectTitle": "College Fest Website",
+			"sn":12, "projectTitle": "College Fest Website",
 			"periodStart": "Jan 2018",
 			"periodEnd": "Feb 2018",
 			"toolsUsed": ["HTML", "CSS", "JavaScript"],
@@ -380,7 +420,7 @@
 			"link":"https://omkar-ajnadkar.github.io/MILAN/"
 		},
 		{
-			"sn":10, "projectTitle": "Secure E-Voting System",
+			"sn":13, "projectTitle": "Secure E-Voting System",
 			"periodStart": "Apr 2018",
 			"periodEnd": "Apr 2018",
 			"toolsUsed": ["Flask", "SQLite", "Heroku", "Cryptography", "JavaScript"],
@@ -389,16 +429,7 @@
 			"link":"http://anku255.pythonanywhere.com"
 		},
 		{
-			"sn":2, "projectTitle": "Sign Language and Static-Gesture Recognition",
-			"periodStart": "Aug 2018",
-			"periodEnd": "Oct 2018",
-			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
-			"tags": ["guesture", "sign_language"],
-			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
-			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
-		},
-		{
-			"sn":11, "projectTitle": "Hello World",
+			"sn":14, "projectTitle": "Hello World",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Oct 2018",
 			"toolsUsed": ["GitHub"],
