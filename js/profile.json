@@ -11,7 +11,7 @@
 			]
 		},
 		"email": "omkarajnadkar@gmail.com",
-		"mob": "+919836446980"
+		"mob": "+917977069465"
 	},
 	"educations": [
 		{
@@ -19,7 +19,7 @@
 			"periodStart": "August 2016",
 			"periodEnd": "Present",
 			"course": "B.Tech Computer Science and Engineering",
-			"score": "9.07 CGPA",
+			"score": "9.06 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
 			"board": "Autonomous Institute",
 			"courses": [
@@ -260,21 +260,36 @@
 	],
 	"works": [
 		{
-			"sn":0,"link":"http://info.footloose.io","workPosition": "ML and Python Development Intern",
-			"periodStart": "Oct 2018",
+			"sn": 0,
+			"link": "http://iitbhu.ac.in",
+			"workPosition": "Deep Learning Summer Research Intern",
+			"periodStart": "May 2019",
 			"periodEnd": "Present",
-			"organisation": "Footloose",
-			"experience": "Working on creating robotic systems for use in various industries as well as household use."
+			"organisation": "IIT-BHU",
+			"experience": "Working on computer vision related applications."
 		},
 		{
-			"sn":1,"link":"http://thebomway.com","workPosition": "Backend Web Development Intern",
+			"sn":1,
+			"link":"http://info.footloose.io",
+			"workPosition": "ML and Python Development Intern",
+			"periodStart": "Oct 2018",
+			"periodEnd": "Dec 2018",
+			"organisation": "Footloose",
+			"experience": "WorkED on creating robotic systems for use in various industries as well as household use."
+		},
+		{
+			"sn":2,
+			"link":"http://thebomway.com",
+			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "July 2018",
 			"organisation": "The Bomway",
 			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
 		},
 		{
-			"sn":2,"link":"","workPosition": "Android Development Intern",
+			"sn":3,
+			"link":"",
+			"workPosition": "Android Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "June 2018",
 			"organisation": "EISystems",
@@ -283,7 +298,26 @@
 	],
 	"projects":[
 		{
-			"sn":1, "projectTitle": "Sarcasm Detection in Social Media Text",
+			"sn": 1,
+			"projectTitle": "News Background Linking",
+			"periodStart": "July 2018",
+			"periodEnd": "Current",
+			"toolsUsed": [
+				"Python",
+				"NLP",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"news",
+				"sentiment",
+				"text-processing"
+			],
+			"shortInfo": "This is deep learning based solution to sugest similar news in the entire dataset which can be used in news recommendation approach.",
+			"link": ""
+		},
+		{
+			"sn":2, "projectTitle": "Sarcasm Detection in Social Media Text",
 			"periodStart": "July 2018",
 			"periodEnd": "Current",
 			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
@@ -292,7 +326,7 @@
 			"link":""
 		},
 		{
-			"sn":3, "projectTitle": "Automatic Class Attendance System",
+			"sn":4, "projectTitle": "Automatic Class Attendance System",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
@@ -301,7 +335,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Automatic-Attendance-System"
 		},
 		{
-			"sn":4, "projectTitle": "EduBox",
+			"sn":5, "projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
@@ -310,7 +344,7 @@
 			"link":"https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
-			"sn":5, "projectTitle": "Predicting Customer Churn in Banking",
+			"sn":6, "projectTitle": "Predicting Customer Churn in Banking",
 			"periodStart": "July 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
@@ -319,7 +353,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
-			"sn":6, "projectTitle": "Predicting Tags on StackOverflow",
+			"sn":7, "projectTitle": "Predicting Tags on StackOverflow",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
@@ -328,25 +362,25 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
-			"sn":7, "projectTitle": "IIIT Kalyani College Website",
+			"sn":8, "projectTitle": "IIIT Kalyani College Website",
 			"periodStart": "Dec 2017",
-			"periodEnd": "Present",
+			"periodEnd": "Dec 2018",
 			"toolsUsed": ["Django", "SQLite", "CPanel", "HTML", "CSS", "JavaScript"],
 			"tags": ["website", "backend"],
 			"shortInfo": "Built a completely new website of IIIT Kalyani, along with the web team, from scratch. Headed the backend team. Worked on the home page and navigation aspects, used front-end framework Bootstrap 4 for designing. The backend is done using Django framework in Python.",
 			"link":"http://iiitkalyani.ac.in"
 		},
 		{
-			"sn":8, "projectTitle": "College Fest Website",
+			"sn":9, "projectTitle": "College Fest Website",
 			"periodStart": "Jan 2018",
-			"periodEnd": "Present",
+			"periodEnd": "Feb 2018",
 			"toolsUsed": ["HTML", "CSS", "JavaScript"],
 			"tags": ["fest", "website"],
 			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
 			"link":"https://omkar-ajnadkar.github.io/MILAN/"
 		},
 		{
-			"sn":9, "projectTitle": "Secure E-Voting System",
+			"sn":10, "projectTitle": "Secure E-Voting System",
 			"periodStart": "Apr 2018",
 			"periodEnd": "Apr 2018",
 			"toolsUsed": ["Flask", "SQLite", "Heroku", "Cryptography", "JavaScript"],
@@ -364,7 +398,7 @@
 			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		},
 		{
-			"sn":10, "projectTitle": "Hello World",
+			"sn":11, "projectTitle": "Hello World",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Oct 2018",
 			"toolsUsed": ["GitHub"],
@@ -388,10 +422,10 @@
 			"sn":2
 		},
 		{
-			"name": "Hackerrank",
-			"icon": "hackerrank.svg",
-			"link": "https://www.hackerrank.com/blackbird98",
-			"sn":3
+			"name": "Telegram",
+			"icon": "telegram.svg",
+			"link": "https: //t.me/blackbird_98",
+			"sn": 3
 		},
 		{
 			"name": "Medium",
@@ -402,7 +436,7 @@
 		{
 			"name": "Blog",
 			"icon": "blog.svg",
-			"link": "https://omkar-ajnadkar.github.io/blog",
+			"link": "https://omkar-ajnadkar.github.io/blogs",
 			"sn":5
 		},	
 		{
@@ -453,7 +487,8 @@
 	],
 	"qoutes": [
 		"I am what I am. I have not deliberately built an image for myself.",
-		"Tabs are better than spaces."
+		"Tabs are better than spaces.",
+		"It's perfectlly OK to not have a plan."
 	],
-	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm studying B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I do Web development, Machine Learning and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
+	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm in final year doing B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I do Web development, Machine Learning and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
 }
