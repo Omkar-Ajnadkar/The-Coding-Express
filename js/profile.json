@@ -4,7 +4,7 @@
 		"fname": "Omkar",
 		"mname": "Mahesh",
 		"lname": "Ajnadkar",
-		"nick":"blackbird",
+		"nick":"blackbird71SR",
 		"address": {
 			"list": ["Kapil Vastu Society, Thakurwadi, Dombivli, District-Thane, Maharashtra, India 421202 ",
 				"IIIT Kalyani Boys HOstel, Kalyani, District-Nadia, West Bengal, India 741235"
@@ -264,9 +264,9 @@
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
-			"periodEnd": "Present",
+			"periodEnd": "July 2019",
 			"organisation": "IIT-BHU",
-			"experience": "Working on computer vision related applications using deep learning."
+			"experience": "Researched on computer vision related applications in the medical domain using deep learning, specifically on classification, identification, and segmentation."
 		},
 		{
 			"sn":1,
@@ -275,7 +275,7 @@
 			"periodStart": "Oct 2018",
 			"periodEnd": "Dec 2018",
 			"organisation": "Footloose",
-			"experience": "Worked on creating robotic systems for use in various industries as well as household use."
+			"experience": "Worked on the software side of creating robotic systems for use in various industries as well as household use using Machine Learning along with developing web solutions for the platform."
 		},
 		{
 			"sn":2,
@@ -293,7 +293,7 @@
 			"periodStart": "May 2018",
 			"periodEnd": "June 2018",
 			"organisation": "EISystems",
-			"experience": "Summer Internship for developing an Android application from scratch.Developed discussion forum for developers using Google's Firebase database and authentication"
+			"experience": "Summer Internship for developing an Android application from scratch. Developed discussion forum for developers using Google's Firebase database and authentication using Material Design Priciples."
 		}
 	],
 	"projects":[
@@ -305,7 +305,7 @@
 			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
 			"tags": ["medical", "segmentation", "class-detection"],
 			"shortInfo": "Runner-up at Smart India Hackathon - 2019, Worked on Following Medical Datasets: BraTS 2018, MrBrains18. Used Modified VGG16, Modified UNetCNN as models and created interface GUI using Python PyQt with the ability to visualize the results along with accuracy in real-time. Also the website is made using Django that works the same as GUI but with easy and better visualization. Able to segment parts of the brain in the 4 D dataset with average dice score of 0.84.Able to find the tumor in the dataset with average dice score of 0.96",
-			"link": "https://github.com/Omkar-Ajnadkar/Brain-Image-Segmentation"
+			"link": "https://github.com/blackbird71SR/Brain-Image-Segmentation"
 		},
 		{
 			"sn": 2,
@@ -315,7 +315,7 @@
 			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
 			"tags": ["person-finder", "one-shot"],
 			"shortInfo": "Developed at Hack36 - 2019, 1. When anyone realizes that their children or loved ones are lost in the crowd, he/ she will upload a single photo of the who lost along with contact information of self. 2. The model will store the image into the database with proper encodings.3. Whenever any other person will find that child or a person, he will just click a photo in the app and most probably 3 matches of the child will be shown along with contact numbers. USP: 1. Easy to use interface with simple 2 step user actions, 2. User just needs to upload one image of the child for face recognition instead of few hundreds required by other deep learning based approaches. 3. Great accuracy of the model to identify the child or a person correctly ",
-			"link": "https://github.com/Omkar-Ajnadkar/FamilyWhere"
+			"link": "https://github.com/blackbird71SR/FamilyWhere"
 		},
 		{
 			"sn": 3,
@@ -325,7 +325,7 @@
 			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
 			"tags": ["news", "classfication", "language-processing"],
 			"shortInfo": "A deep learning based solution that helps you detect fake media and stay away from them. Along with news text, it also analyses the images related to news using Google's cloud APIs to give user best possible prediction about news being fake or tampered.",
-			"link": "https://github.com/Omkar-Ajnadkar/RealU"
+			"link": "https://github.com/blackbird71SR/RealU"
 		},
 		{
 			"sn": 4,
@@ -363,7 +363,7 @@
 			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
 			"tags": ["guesture", "sign_language"],
 			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
-			"link": "https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
+			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		},
 		{
 			"sn":7, "projectTitle": "Automatic Class Attendance System",
@@ -372,7 +372,7 @@
 			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
 			"tags": ["image-processing", "attendance-system", "image-extraction"],
 			"shortInfo": "This is an Image-Processing based attendance system, coded entirely in Python which stores face data of students, capture attendance through video cameras in classes, marks attendance using face extraction and matching and finally display it to teachers in GUI.",
-			"link":"https://github.com/Omkar-Ajnadkar/Automatic-Attendance-System"
+			"link":"https://github.com/blackbird71SR/Automatic-Attendance-System"
 		},
 		{
 			"sn":8, "projectTitle": "EduBox",
@@ -390,7 +390,7 @@
 			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
 			"tags": ["classification", "dl", "ann"],
 			"shortInfo": "Predicted if the customer will leave the bank in near future with the help of artificial neural networks.",
-			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
+			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
 			"sn":10, "projectTitle": "Predicting Tags on StackOverflow",
@@ -399,7 +399,7 @@
 			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
 			"tags": ["nlp", "predictions"],
 			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link":"https://github.com/Omkar-Ajnadkar/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
+			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
 			"sn":11, "projectTitle": "IIIT Kalyani College Website",
@@ -417,7 +417,7 @@
 			"toolsUsed": ["HTML", "CSS", "JavaScript"],
 			"tags": ["fest", "website"],
 			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link":"https://omkar-ajnadkar.github.io/MILAN/"
+			"link":"https://blackbird71SR.github.io/MILAN/"
 		},
 		{
 			"sn":13, "projectTitle": "Secure E-Voting System",
@@ -435,15 +435,15 @@
 			"toolsUsed": ["GitHub"],
 			"tags": ["open_source", "hacktoberfest"],
 			"shortInfo": "Hactoberfest repository for public contribution ",
-			"link":"https://github.com/Omkar-Ajnadkar/Hello-World"
+			"link":"https://github.com/blackbird71SR/Hello-World"
 		}
 	],
-	"summary": "Hi, I’m Omkar. I am full-stack web developer and a data science enthusiast who is working and researching in the field of ML and DL.I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
+	"summary": "Hi, I’m Omkar. I am Full-Stack Web Developer who is curently more into Data Science. Working and Researching in the domain of Machine and Deep Learning. I'm looking for an Internship or Remote work where I can learn and grow(and help you grow) with my skills and make this world a better place.",
 	"profileLinks": [
 		{
 			"name": "Github",
 			"icon": "github.svg",
-			"link": "https://github.com/Omkar-Ajnadkar",
+			"link": "https://github.com/blackbird71SR",
 			"sn":1
 		},
 		{
@@ -455,7 +455,7 @@
 		{
 			"name": "Telegram",
 			"icon": "telegram.svg",
-			"link": "https: //t.me/blackbird_98",
+			"link": "https://t.me/blackbird_71SR",
 			"sn": 3
 		},
 		{
@@ -467,7 +467,7 @@
 		{
 			"name": "Blog",
 			"icon": "blog.svg",
-			"link": "https://omkar-ajnadkar.github.io/blogs",
+			"link": "https://blackbird71SR.github.io/blogs",
 			"sn":5
 		},	
 		{
@@ -479,7 +479,7 @@
 		{
 			"name": "Twitter",
 			"icon": "twitter.svg",
-			"link": "https://twitter.com/omkar1998oma",
+			"link": "https://twitter.com/blackbird_71SR",
 			"sn":7
 		},
 		{
@@ -519,7 +519,9 @@
 	"qoutes": [
 		"I am what I am. I have not deliberately built an image for myself.",
 		"Tabs are better than spaces.",
-		"It's perfectlly OK to not have a plan."
+		"It's perfectlly OK to not have a plan.",
+		"Time is a Real-World Phenomenon.Respect it.",
+		"Please don't kill your uniqueness."
 	],
-	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm in final year doing B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I do Web development, Machine Learning and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
+	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm in final year doing B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I am good at Full-Stack Web Development and Data Science domain including Machine Learning, NLP and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can Design, develop and Deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
 }
