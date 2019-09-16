@@ -261,6 +261,15 @@
 	"works": [
 		{
 			"sn": 0,
+			"link": "https://events.withgoogle.com/explore-ml-in/",
+			"workPosition": "Google Explore ML Facilitator",
+			"periodStart": "June 2019",
+			"periodEnd": "Present",
+			"organisation": "Google AI",
+			"experience": "Explore Machine Learning (ML) is a Google-sponsored program for university students. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus. Google AI Explore ML program is a training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."
+		},
+		{
+			"sn": 1,
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
@@ -269,7 +278,7 @@
 			"experience": "Researched on computer vision related applications in the medical domain using deep learning, specifically on classification, identification, and segmentation."
 		},
 		{
-			"sn":1,
+			"sn":2,
 			"link":"http://info.footloose.io",
 			"workPosition": "ML and Python Development Intern",
 			"periodStart": "Oct 2018",
@@ -278,7 +287,7 @@
 			"experience": "Worked on the software side of creating robotic systems for use in various industries as well as household use using Machine Learning along with developing web solutions for the platform."
 		},
 		{
-			"sn":2,
+			"sn":3,
 			"link":"http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
@@ -287,7 +296,7 @@
 			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
 		},
 		{
-			"sn":3,
+			"sn":4,
 			"link":"",
 			"workPosition": "Android Development Intern",
 			"periodStart": "May 2018",
@@ -523,5 +532,5 @@
 		"Time is a Real-World Phenomenon.Respect it.",
 		"Please don't kill your uniqueness."
 	],
-	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm in final year doing B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I am good at Full-Stack Web Development and Data Science domain including Machine Learning, NLP and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can Design, develop and Deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
+	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm in final year doing B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani. I am also a Google Explore ML Facilitator helping Google to train other students on campus in Machine Learning. I am good at Full-Stack Web Development and Data Science domain including Machine Learning, NLP and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can Design, develop and Deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
 }
