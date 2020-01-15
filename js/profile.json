@@ -261,15 +261,24 @@
 	"works": [
 		{
 			"sn": 0,
+			"link": "https://www.affineanalytics.com/",
+			"workPosition": "Data Science Intern",
+			"periodStart": "Jan 2020",
+			"periodEnd": "Present",
+			"organisation": "Affine Analytics",
+			"experience": "Learning and exploring the combination of data analytics and data science by business and research perspective."
+		},
+		{
+			"sn": 1,
 			"link": "https://events.withgoogle.com/explore-ml-in/",
 			"workPosition": "Google Explore ML Facilitator",
 			"periodStart": "June 2019",
-			"periodEnd": "Present",
+			"periodEnd": "Jan 2020",
 			"organisation": "Google AI",
 			"experience": "Explore Machine Learning (ML) is a Google-sponsored program for university students. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus. Google AI Explore ML program is a training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."
 		},
 		{
-			"sn": 1,
+			"sn": 2,
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
@@ -278,7 +287,7 @@
 			"experience": "Researched on computer vision related applications in the medical domain using deep learning, specifically on classification, identification, and segmentation."
 		},
 		{
-			"sn":2,
+			"sn":3,
 			"link":"http://info.footloose.io",
 			"workPosition": "ML and Python Development Intern",
 			"periodStart": "Oct 2018",
@@ -287,7 +296,7 @@
 			"experience": "Worked on the software side of creating robotic systems for use in various industries as well as household use using Machine Learning along with developing web solutions for the platform."
 		},
 		{
-			"sn":3,
+			"sn":4,
 			"link":"http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
@@ -296,7 +305,7 @@
 			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
 		},
 		{
-			"sn":4,
+			"sn":5,
 			"link":"",
 			"workPosition": "Android Development Intern",
 			"periodStart": "May 2018",
