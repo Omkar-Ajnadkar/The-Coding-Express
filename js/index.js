@@ -106,7 +106,7 @@ var profile;
 	swal(
 		{
 			title:"Hello World!",
-			text:"Hey...This is Omkar. Thanks for visiting my website...",
+			text:"Hey...This is Omkar. We are ready to launch 3..2..1..",
 			confirmButtonColor:"#1f1f1f"
 		}
 	);
