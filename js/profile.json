@@ -27,6 +27,12 @@
 				"courseName": "Database Design",
 				"courseScore": "",
 				"sn": 1
+			},
+			{
+				"courseCode": "CS6363",
+				"courseName": "Design and Analysis of Computer Algorithm",
+				"courseScore": "",
+				"sn": 2
 			}
 		]
 		},
