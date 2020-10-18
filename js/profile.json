@@ -22,7 +22,13 @@
 			"score": "",
 			"inst": "The University of Texas at Dallas",
 			"board": "",
-			"courses":[]
+			"courses": [{
+				"courseCode": "CS6360",
+				"courseName": "Database Design",
+				"courseScore": "",
+				"sn": 1
+			}
+		]
 		},
 		{
 
