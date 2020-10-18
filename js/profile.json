@@ -16,8 +16,17 @@
 	"educations": [
 		{
 
-			"periodStart": "August 2016",
+			"periodStart": "August 2020",
 			"periodEnd": "Present",
+			"course": "Master of Science in Computer Science",
+			"score": "",
+			"inst": "The University of Texas at Dallas",
+			"board": ""
+		},
+		{
+
+			"periodStart": "August 2016",
+			"periodEnd": "May 2020",
 			"course": "B.Tech Computer Science and Engineering",
 			"score": "9.06 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
@@ -327,6 +336,16 @@
 	"projects":[
 		{
 			"sn": 1,
+			"projectTitle": "Person Re-identification using Deep Learning",
+			"periodStart": "Jul 2019",
+			"periodEnd": "May 2020",
+			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
+			"tags": ["computer-vision", "person-detection"],
+			"shortInfo": "Developed Siamese network and clustering based approach to identify people across images as a part of bachelor thesis",
+			"link": ""
+		},
+		{
+			"sn": 2,
 			"projectTitle": "Brain Image Segmentation and Tumor Detection",
 			"periodStart": "Jan 2019",
 			"periodEnd": "April 2019",
@@ -336,7 +355,7 @@
 			"link": "https://github.com/blackbird71SR/Brain-Image-Segmentation"
 		},
 		{
-			"sn": 2,
+			"sn": 3,
 			"projectTitle": "FamilyWhere - A Deep Learning based solution for finding children and people lost in public gatherings",
 			"periodStart": "Jan 2019",
 			"periodEnd": "Jan 2019",
@@ -346,7 +365,7 @@
 			"link": "https://github.com/blackbird71SR/FamilyWhere"
 		},
 		{
-			"sn": 3,
+			"sn": 4,
 			"projectTitle": "RealU - Unbiased Untampered News and Media Experience",
 			"periodStart": "Mar 2019",
 			"periodEnd": "April 2019",
@@ -356,7 +375,7 @@
 			"link": "https://github.com/blackbird71SR/RealU"
 		},
 		{
-			"sn": 4,
+			"sn": 5,
 			"projectTitle": "News Background Linking",
 			"periodStart": "Jan 2019",
 			"periodEnd": "Current",
@@ -375,7 +394,7 @@
 			"link": ""
 		},
 		{
-			"sn":5, "projectTitle": "Sarcasm Detection in Social Media Text",
+			"sn":6, "projectTitle": "Sarcasm Detection in Social Media Text",
 			"periodStart": "July 2018",
 			"periodEnd": "Current",
 			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
@@ -384,7 +403,7 @@
 			"link":""
 		},
 		{
-			"sn": 6,
+			"sn": 7,
 			"projectTitle": "Sign Language and Static-Gesture Recognition",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Oct 2018",
@@ -394,7 +413,7 @@
 			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		},
 		{
-			"sn":7, "projectTitle": "Automatic Class Attendance System",
+			"sn":8, "projectTitle": "Automatic Class Attendance System",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
@@ -403,7 +422,7 @@
 			"link":"https://github.com/blackbird71SR/Automatic-Attendance-System"
 		},
 		{
-			"sn":8, "projectTitle": "EduBox",
+			"sn":9, "projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
@@ -412,7 +431,7 @@
 			"link":"https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
-			"sn":9, "projectTitle": "Predicting Customer Churn in Banking",
+			"sn":10, "projectTitle": "Predicting Customer Churn in Banking",
 			"periodStart": "July 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
@@ -421,7 +440,7 @@
 			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
-			"sn":10, "projectTitle": "Predicting Tags on StackOverflow",
+			"sn":11, "projectTitle": "Predicting Tags on StackOverflow",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Aug 2018",
 			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
@@ -430,7 +449,7 @@
 			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
-			"sn":11, "projectTitle": "IIIT Kalyani College Website",
+			"sn":12, "projectTitle": "IIIT Kalyani College Website",
 			"periodStart": "Dec 2017",
 			"periodEnd": "Dec 2018",
 			"toolsUsed": ["Django", "SQLite", "CPanel", "HTML", "CSS", "JavaScript"],
@@ -439,7 +458,7 @@
 			"link":"http://iiitkalyani.ac.in"
 		},
 		{
-			"sn":12, "projectTitle": "College Fest Website",
+			"sn":13, "projectTitle": "College Fest Website",
 			"periodStart": "Jan 2018",
 			"periodEnd": "Feb 2018",
 			"toolsUsed": ["HTML", "CSS", "JavaScript"],
@@ -448,7 +467,7 @@
 			"link":"https://blackbird71SR.github.io/MILAN/"
 		},
 		{
-			"sn":13, "projectTitle": "Secure E-Voting System",
+			"sn":14, "projectTitle": "Secure E-Voting System",
 			"periodStart": "Apr 2018",
 			"periodEnd": "Apr 2018",
 			"toolsUsed": ["Flask", "SQLite", "Heroku", "Cryptography", "JavaScript"],
@@ -457,7 +476,7 @@
 			"link":"http://anku255.pythonanywhere.com"
 		},
 		{
-			"sn":14, "projectTitle": "Hello World",
+			"sn":15, "projectTitle": "Hello World",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Oct 2018",
 			"toolsUsed": ["GitHub"],
