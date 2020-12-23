@@ -4,9 +4,10 @@
 		"fname": "Omkar",
 		"mname": "Mahesh",
 		"lname": "Ajnadkar",
-		"nick":"blackbird71SR",
+		"nick": "blackbird71SR",
 		"address": {
-			"list": ["Kapil Vastu Society, Thakurwadi, Dombivli, District-Thane, Maharashtra, India 421202 ",
+			"list": [
+				"Kapil Vastu Society, Thakurwadi, Dombivli, District-Thane, Maharashtra, India 421202 ",
 				"IIIT Kalyani Boys HOstel, Kalyani, District-Nadia, West Bengal, India 741235"
 			]
 		},
@@ -15,33 +16,38 @@
 	},
 	"educations": [
 		{
-
 			"periodStart": "August 2020",
 			"periodEnd": "Present",
 			"course": "Master of Science in Computer Science",
-			"score": "-",
+			"score": "3.78 GPA",
 			"inst": "The University of Texas at Dallas",
 			"board": "",
-			"courses": [{
-				"courseCode": "CS6360",
-				"courseName": "Database Design",
-				"courseScore": "",
-				"sn": 1
-			},
-			{
-				"courseCode": "CS6363",
-				"courseName": "Design and Analysis of Computer Algorithm",
-				"courseScore": "",
-				"sn": 2
-			}
-		]
+			"courses": [
+				{
+					"courseCode": "CS6360",
+					"courseName": "Database Design",
+					"courseScore": "A-",
+					"sn": 1
+				},
+				{
+					"courseCode": "CS6363",
+					"courseName": "Design and Analysis of Computer Algorithm",
+					"courseScore": "A-",
+					"sn": 2
+				},
+				{
+					"courseCode": "CS6314",
+					"courseName": "Web Programming Languages",
+					"courseScore": "A",
+					"sn": 3
+				}
+			]
 		},
 		{
-
 			"periodStart": "August 2016",
 			"periodEnd": "May 2020",
 			"course": "B.Tech Computer Science and Engineering",
-			"score": "9.06 CGPA",
+			"score": "9.17 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
 			"board": "Autonomous Institute",
 			"courses": [
@@ -49,49 +55,41 @@
 					"courseCode": "3IT202",
 					"courseName": "Data Structures",
 					"sn": 1
-
 				},
 				{
 					"courseCode": "3IT304",
 					"courseName": "Computer Algorithms",
 					"sn": 2
-
 				},
 				{
 					"courseCode": "3IT331",
 					"courseName": "Machine Learning",
 					"sn": 3
-
 				},
 				{
 					"courseCode": "3IT211",
 					"courseName": "Theory of Computation",
 					"sn": 4
-
 				},
 				{
 					"courseCode": "3IT201",
 					"courseName": "Discrete Mathemactics",
 					"sn": 5
-
 				},
 				{
 					"courseCode": "3IT303",
 					"courseName": "Operating System",
 					"sn": 6
-
 				},
 				{
 					"courseCode": "3IT341",
 					"courseName": "Mini-Project - I",
 					"sn": 7
-
 				},
 				{
 					"courseCode": "3IT322",
 					"courseName": "Unix Operating System",
 					"sn": 8
-
 				},
 				{
 					"courseCode": "3IT212",
@@ -102,54 +100,45 @@
 					"courseCode": "3MA204",
 					"courseName": "Linear Algebra",
 					"sn": 10
-
 				},
 				{
 					"courseCode": "3IT252",
 					"courseName": "Data Structures Lab",
 					"sn": 11
-
 				},
 				{
 					"courseCode": "3IT203",
 					"courseName": "Processor Architechture",
 					"sn": 12
-
-
 				},
 				{
 					"courseCode": "3IT281",
 					"courseName": "Mini Project - II",
 					"courseScore": "10/10",
 					"sn": 13
-
 				},
 				{
 					"courseCode": "3IT255",
 					"courseName": "Programming Lab - I (C++)",
 					"sn": 14
-
 				},
 				{
 					"courseCode": "3IT341",
 					"courseName": "Mini-Project - III",
 					"sn": 15
-
 				},
 				{
 					"courseCode": "3IT255",
 					"courseName": "Programming Lab - II (Python)",
 					"courseScore": "10/10",
 					"sn": 16
-
 				}
 			]
 		},
 		{
-
 			"periodStart": "April 2013",
 			"periodEnd": "May 2015",
-			"course": "HIgher Secondary School Examination",
+			"course": "Higher Secondary School Examination",
 			"score": "86.0%",
 			"inst": "Pace Junior Science College, Thane",
 			"board": "Maharshtra State Board",
@@ -181,14 +170,14 @@
 			]
 		},
 		{
-
 			"periodStart": "April 2012",
 			"periodEnd": "May 2013",
 			"course": "Secondary School Examination",
 			"score": "96.00%",
 			"inst": "Swami Vivekanand Vidyamandir, Dombivli",
 			"board": "Maharashtra State Board",
-			"courses": [{
+			"courses": [
+				{
 					"courseCode": "041",
 					"courseName": "Mathemactics",
 					"courseScore": "98/100",
@@ -269,10 +258,10 @@
 			"name": "C++",
 			"icon": "M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-35.5 32.5v-4h5v-5h5v5h5v4h-5v5h-5v-5h-5zm3.3-14c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5zm29.7 14h-5v5h-4v-5h-6v-4h6v-5h4v5h5v4z"
 		},
-		{	
+		{
 			"sn": 5,
 			"name": "Machine Learning",
-			"icon":"M37.588,50.233c-3.848,0-6.977,3.129-6.977,6.977c0,3.846,3.129,6.975,6.977,6.975s6.977-3.129,6.977-6.975   C44.564,53.362,41.436,50.233,37.588,50.233z M37.588,60.784c-1.973,0-3.576-1.604-3.576-3.574c0-1.973,1.604-3.578,3.576-3.578   s3.578,1.605,3.578,3.578C41.166,59.181,39.561,60.784,37.588,60.784z M49.744,43.212l-4.697,2.715c-0.455-0.301-0.928-0.574-1.418-0.818v-5.43h-12.08v5.432   c-0.443,0.221-0.873,0.465-1.289,0.734l-4.672-2.77L19.43,53.468l4.67,2.766c-0.029,0.338-0.043,0.662-0.043,0.977   c0,0.266,0.01,0.539,0.031,0.822l-4.699,2.713l6.041,10.463l4.703-2.717c0.453,0.301,0.928,0.572,1.416,0.816v5.43h12.08v-5.43   c0.441-0.221,0.871-0.467,1.289-0.734l4.67,2.768l6.158-10.393l-4.666-2.766c0.027-0.334,0.041-0.654,0.041-0.973   c0-0.27-0.01-0.541-0.029-0.822l4.697-2.713L49.744,43.212z M47.426,54.577l0.172,1.145c0.084,0.566,0.123,1.041,0.123,1.488   c0,0.48-0.045,0.99-0.143,1.605l-0.18,1.139l3.689,2.186l-2.693,4.543l-3.689-2.189l-0.916,0.713   c-0.758,0.59-1.594,1.068-2.484,1.42l-1.076,0.424v4.289h-5.281v-4.287l-1.074-0.426c-0.932-0.367-1.801-0.869-2.578-1.488   l-0.906-0.723l-3.713,2.146l-2.643-4.572l3.717-2.148l-0.17-1.143c-0.082-0.555-0.123-1.041-0.123-1.488   c0-0.49,0.045-1,0.141-1.607l0.18-1.141l-3.688-2.186l2.689-4.543l3.693,2.191l0.914-0.713c0.758-0.59,1.594-1.068,2.486-1.422   l1.074-0.424v-4.287h5.281v4.289l1.076,0.424c0.934,0.367,1.799,0.869,2.578,1.488l0.906,0.721l3.715-2.145l2.641,4.572   L47.426,54.577z M57.742,26.724c-3.148,0-5.707,2.559-5.707,5.707c0,3.15,2.559,5.711,5.707,5.711c3.146,0,5.709-2.561,5.709-5.711   C63.451,29.282,60.889,26.724,57.742,26.724z M57.742,34.741c-1.271,0-2.309-1.035-2.309-2.311c0-1.271,1.037-2.307,2.309-2.307   c1.273,0,2.309,1.035,2.309,2.307C60.051,33.706,59.016,34.741,57.742,34.741z M67.129,21.241l-3.711,2.141c-0.221-0.139-0.447-0.27-0.678-0.391v-4.285h-9.996v4.283   c-0.197,0.105-0.389,0.215-0.576,0.328l-3.686-2.182l-5.094,8.598l3.68,2.18c-0.01,0.176-0.014,0.348-0.014,0.518   c0,0.131,0.002,0.264,0.008,0.396l-3.705,2.139l4.998,8.658l3.711-2.145c0.221,0.139,0.445,0.27,0.678,0.391v4.285h9.996v-4.283   c0.195-0.104,0.387-0.213,0.574-0.328L67,43.728l5.096-8.6l-3.68-2.18c0.01-0.174,0.016-0.346,0.016-0.518   c0-0.131-0.004-0.264-0.008-0.398l3.703-2.137L67.129,21.241z M64.939,31.36c0.055,0.352,0.092,0.705,0.092,1.07   c0,0.354-0.033,0.729-0.102,1.145l-0.189,1.146l2.697,1.6l-1.629,2.748l-2.699-1.598l-0.914,0.717   c-0.533,0.418-1.133,0.762-1.781,1.018l-1.074,0.426v3.123h-3.197v-3.123l-1.072-0.426c-0.67-0.266-1.297-0.627-1.859-1.072   l-0.904-0.719L49.6,38.978l-1.598-2.766l2.719-1.568l-0.178-1.15c-0.053-0.348-0.09-0.699-0.09-1.063   c0-0.393,0.043-0.775,0.104-1.154l0.184-1.141l-2.693-1.594l1.629-2.748l2.695,1.598l0.914-0.717   c0.541-0.422,1.141-0.766,1.783-1.02l1.074-0.424v-3.125h3.197v3.123l1.072,0.424c0.674,0.27,1.299,0.631,1.857,1.074l0.904,0.719   l2.709-1.563l1.6,2.768l-2.713,1.564L64.939,31.36z"
+			"icon": "M37.588,50.233c-3.848,0-6.977,3.129-6.977,6.977c0,3.846,3.129,6.975,6.977,6.975s6.977-3.129,6.977-6.975   C44.564,53.362,41.436,50.233,37.588,50.233z M37.588,60.784c-1.973,0-3.576-1.604-3.576-3.574c0-1.973,1.604-3.578,3.576-3.578   s3.578,1.605,3.578,3.578C41.166,59.181,39.561,60.784,37.588,60.784z M49.744,43.212l-4.697,2.715c-0.455-0.301-0.928-0.574-1.418-0.818v-5.43h-12.08v5.432   c-0.443,0.221-0.873,0.465-1.289,0.734l-4.672-2.77L19.43,53.468l4.67,2.766c-0.029,0.338-0.043,0.662-0.043,0.977   c0,0.266,0.01,0.539,0.031,0.822l-4.699,2.713l6.041,10.463l4.703-2.717c0.453,0.301,0.928,0.572,1.416,0.816v5.43h12.08v-5.43   c0.441-0.221,0.871-0.467,1.289-0.734l4.67,2.768l6.158-10.393l-4.666-2.766c0.027-0.334,0.041-0.654,0.041-0.973   c0-0.27-0.01-0.541-0.029-0.822l4.697-2.713L49.744,43.212z M47.426,54.577l0.172,1.145c0.084,0.566,0.123,1.041,0.123,1.488   c0,0.48-0.045,0.99-0.143,1.605l-0.18,1.139l3.689,2.186l-2.693,4.543l-3.689-2.189l-0.916,0.713   c-0.758,0.59-1.594,1.068-2.484,1.42l-1.076,0.424v4.289h-5.281v-4.287l-1.074-0.426c-0.932-0.367-1.801-0.869-2.578-1.488   l-0.906-0.723l-3.713,2.146l-2.643-4.572l3.717-2.148l-0.17-1.143c-0.082-0.555-0.123-1.041-0.123-1.488   c0-0.49,0.045-1,0.141-1.607l0.18-1.141l-3.688-2.186l2.689-4.543l3.693,2.191l0.914-0.713c0.758-0.59,1.594-1.068,2.486-1.422   l1.074-0.424v-4.287h5.281v4.289l1.076,0.424c0.934,0.367,1.799,0.869,2.578,1.488l0.906,0.721l3.715-2.145l2.641,4.572   L47.426,54.577z M57.742,26.724c-3.148,0-5.707,2.559-5.707,5.707c0,3.15,2.559,5.711,5.707,5.711c3.146,0,5.709-2.561,5.709-5.711   C63.451,29.282,60.889,26.724,57.742,26.724z M57.742,34.741c-1.271,0-2.309-1.035-2.309-2.311c0-1.271,1.037-2.307,2.309-2.307   c1.273,0,2.309,1.035,2.309,2.307C60.051,33.706,59.016,34.741,57.742,34.741z M67.129,21.241l-3.711,2.141c-0.221-0.139-0.447-0.27-0.678-0.391v-4.285h-9.996v4.283   c-0.197,0.105-0.389,0.215-0.576,0.328l-3.686-2.182l-5.094,8.598l3.68,2.18c-0.01,0.176-0.014,0.348-0.014,0.518   c0,0.131,0.002,0.264,0.008,0.396l-3.705,2.139l4.998,8.658l3.711-2.145c0.221,0.139,0.445,0.27,0.678,0.391v4.285h9.996v-4.283   c0.195-0.104,0.387-0.213,0.574-0.328L67,43.728l5.096-8.6l-3.68-2.18c0.01-0.174,0.016-0.346,0.016-0.518   c0-0.131-0.004-0.264-0.008-0.398l3.703-2.137L67.129,21.241z M64.939,31.36c0.055,0.352,0.092,0.705,0.092,1.07   c0,0.354-0.033,0.729-0.102,1.145l-0.189,1.146l2.697,1.6l-1.629,2.748l-2.699-1.598l-0.914,0.717   c-0.533,0.418-1.133,0.762-1.781,1.018l-1.074,0.426v3.123h-3.197v-3.123l-1.072-0.426c-0.67-0.266-1.297-0.627-1.859-1.072   l-0.904-0.719L49.6,38.978l-1.598-2.766l2.719-1.568l-0.178-1.15c-0.053-0.348-0.09-0.699-0.09-1.063   c0-0.393,0.043-0.775,0.104-1.154l0.184-1.141l-2.693-1.594l1.629-2.748l2.695,1.598l0.914-0.717   c0.541-0.422,1.141-0.766,1.783-1.02l1.074-0.424v-3.125h3.197v3.123l1.072,0.424c0.674,0.27,1.299,0.631,1.857,1.074l0.904,0.719   l2.709-1.563l1.6,2.768l-2.713,1.564L64.939,31.36z"
 		},
 		{
 			"sn": 6,
@@ -319,8 +308,8 @@
 			"experience": "Researched on computer vision related applications in the medical domain using deep learning, specifically on classification, identification, and segmentation."
 		},
 		{
-			"sn":3,
-			"link":"http://info.footloose.io",
+			"sn": 3,
+			"link": "http://info.footloose.io",
 			"workPosition": "ML and Python Development Intern",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Dec 2018",
@@ -328,8 +317,8 @@
 			"experience": "Worked on the software side of creating robotic systems for use in various industries as well as household use using Machine Learning along with developing web solutions for the platform."
 		},
 		{
-			"sn":4,
-			"link":"http://thebomway.com",
+			"sn": 4,
+			"link": "http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "July 2018",
@@ -337,8 +326,8 @@
 			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
 		},
 		{
-			"sn":5,
-			"link":"",
+			"sn": 5,
+			"link": "",
 			"workPosition": "Android Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "June 2018",
@@ -346,14 +335,22 @@
 			"experience": "Summer Internship for developing an Android application from scratch. Developed discussion forum for developers using Google's Firebase database and authentication using Material Design Priciples."
 		}
 	],
-	"projects":[
+	"projects": [
 		{
 			"sn": 1,
 			"projectTitle": "Person Re-identification using Deep Learning",
 			"periodStart": "Jul 2019",
 			"periodEnd": "May 2020",
-			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
-			"tags": ["computer-vision", "person-detection"],
+			"toolsUsed": [
+				"Python",
+				"CNN",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"computer-vision",
+				"person-detection"
+			],
 			"shortInfo": "Developed Siamese network and clustering based approach to identify people across images as a part of bachelor thesis",
 			"link": ""
 		},
@@ -362,8 +359,17 @@
 			"projectTitle": "Brain Image Segmentation and Tumor Detection",
 			"periodStart": "Jan 2019",
 			"periodEnd": "April 2019",
-			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
-			"tags": ["medical", "segmentation", "class-detection"],
+			"toolsUsed": [
+				"Python",
+				"CNN",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"medical",
+				"segmentation",
+				"class-detection"
+			],
 			"shortInfo": "Runner-up at Smart India Hackathon - 2019, Worked on Following Medical Datasets: BraTS 2018, MrBrains18. Used Modified VGG16, Modified UNetCNN as models and created interface GUI using Python PyQt with the ability to visualize the results along with accuracy in real-time. Also the website is made using Django that works the same as GUI but with easy and better visualization. Able to segment parts of the brain in the 4 D dataset with average dice score of 0.84.Able to find the tumor in the dataset with average dice score of 0.96",
 			"link": "https://github.com/blackbird71SR/Brain-Image-Segmentation"
 		},
@@ -372,8 +378,16 @@
 			"projectTitle": "FamilyWhere - A Deep Learning based solution for finding children and people lost in public gatherings",
 			"periodStart": "Jan 2019",
 			"periodEnd": "Jan 2019",
-			"toolsUsed": ["Python", "CNN", "Deep Learning", "Keras"],
-			"tags": ["person-finder", "one-shot"],
+			"toolsUsed": [
+				"Python",
+				"CNN",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"person-finder",
+				"one-shot"
+			],
 			"shortInfo": "Developed at Hack36 - 2019, 1. When anyone realizes that their children or loved ones are lost in the crowd, he/ she will upload a single photo of the who lost along with contact information of self. 2. The model will store the image into the database with proper encodings.3. Whenever any other person will find that child or a person, he will just click a photo in the app and most probably 3 matches of the child will be shown along with contact numbers. USP: 1. Easy to use interface with simple 2 step user actions, 2. User just needs to upload one image of the child for face recognition instead of few hundreds required by other deep learning based approaches. 3. Great accuracy of the model to identify the child or a person correctly ",
 			"link": "https://github.com/blackbird71SR/FamilyWhere"
 		},
@@ -382,8 +396,17 @@
 			"projectTitle": "RealU - Unbiased Untampered News and Media Experience",
 			"periodStart": "Mar 2019",
 			"periodEnd": "April 2019",
-			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
-			"tags": ["news", "classfication", "language-processing"],
+			"toolsUsed": [
+				"Python",
+				"NLP",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"news",
+				"classfication",
+				"language-processing"
+			],
 			"shortInfo": "A deep learning based solution that helps you detect fake media and stay away from them. Along with news text, it also analyses the images related to news using Google's cloud APIs to give user best possible prediction about news being fake or tampered.",
 			"link": "https://github.com/blackbird71SR/RealU"
 		},
@@ -407,95 +430,189 @@
 			"link": ""
 		},
 		{
-			"sn":6, "projectTitle": "Sarcasm Detection in Social Media Text",
+			"sn": 6,
+			"projectTitle": "Sarcasm Detection in Social Media Text",
 			"periodStart": "July 2018",
 			"periodEnd": "Current",
-			"toolsUsed": ["Python", "NLP", "Deep Learning", "Keras"],
-			"tags": ["sarcasm", "sentiment", "text-processing"],
+			"toolsUsed": [
+				"Python",
+				"NLP",
+				"Deep Learning",
+				"Keras"
+			],
+			"tags": [
+				"sarcasm",
+				"sentiment",
+				"text-processing"
+			],
 			"shortInfo": "This is attempt to create better sentimental analysis model by solving the problem of sarcasm detection in social media like twitter.",
-			"link":""
+			"link": ""
 		},
 		{
 			"sn": 7,
 			"projectTitle": "Sign Language and Static-Gesture Recognition",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Oct 2018",
-			"toolsUsed": ["Keras", "Deep Learning", "CNN", "Colab", "Python"],
-			"tags": ["guesture", "sign_language"],
+			"toolsUsed": [
+				"Keras",
+				"Deep Learning",
+				"CNN",
+				"Colab",
+				"Python"
+			],
+			"tags": [
+				"guesture",
+				"sign_language"
+			],
 			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
 			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
 		},
 		{
-			"sn":8, "projectTitle": "Automatic Class Attendance System",
+			"sn": 8,
+			"projectTitle": "Automatic Class Attendance System",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
-			"toolsUsed": ["Python", "OpenCv", "PyQt4", "SQL"],
-			"tags": ["image-processing", "attendance-system", "image-extraction"],
+			"toolsUsed": [
+				"Python",
+				"OpenCv",
+				"PyQt4",
+				"SQL"
+			],
+			"tags": [
+				"image-processing",
+				"attendance-system",
+				"image-extraction"
+			],
 			"shortInfo": "This is an Image-Processing based attendance system, coded entirely in Python which stores face data of students, capture attendance through video cameras in classes, marks attendance using face extraction and matching and finally display it to teachers in GUI.",
-			"link":"https://github.com/blackbird71SR/Automatic-Attendance-System"
+			"link": "https://github.com/blackbird71SR/Automatic-Attendance-System"
 		},
 		{
-			"sn":9, "projectTitle": "EduBox",
+			"sn": 9,
+			"projectTitle": "EduBox",
 			"periodStart": "July 2017",
 			"periodEnd": "Nov 2017",
-			"toolsUsed": ["Flask", "Heroku", "MongoDB", "HTML", "CSS", "JavaScript"],
-			"tags": ["educational-system", "website"],
+			"toolsUsed": [
+				"Flask",
+				"Heroku",
+				"MongoDB",
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"tags": [
+				"educational-system",
+				"website"
+			],
 			"shortInfo": "Complete educational system for University",
-			"link":"https://edubox-iiitkalyani.herokuapp.com"
+			"link": "https://edubox-iiitkalyani.herokuapp.com"
 		},
 		{
-			"sn":10, "projectTitle": "Predicting Customer Churn in Banking",
+			"sn": 10,
+			"projectTitle": "Predicting Customer Churn in Banking",
 			"periodStart": "July 2018",
 			"periodEnd": "Aug 2018",
-			"toolsUsed": ["Neural Networks", "Keras", "Sklearn", "Deep Learning"],
-			"tags": ["classification", "dl", "ann"],
+			"toolsUsed": [
+				"Neural Networks",
+				"Keras",
+				"Sklearn",
+				"Deep Learning"
+			],
+			"tags": [
+				"classification",
+				"dl",
+				"ann"
+			],
 			"shortInfo": "Predicted if the customer will leave the bank in near future with the help of artificial neural networks.",
-			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
+			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
 		},
 		{
-			"sn":11, "projectTitle": "Predicting Tags on StackOverflow",
+			"sn": 11,
+			"projectTitle": "Predicting Tags on StackOverflow",
 			"periodStart": "Aug 2018",
 			"periodEnd": "Aug 2018",
-			"toolsUsed": ["NLP", "Bag of Words", "TF-IDF", "Sklearn"],
-			"tags": ["nlp", "predictions"],
+			"toolsUsed": [
+				"NLP",
+				"Bag of Words",
+				"TF-IDF",
+				"Sklearn"
+			],
+			"tags": [
+				"nlp",
+				"predictions"
+			],
 			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link":"https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
+			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
 		},
 		{
-			"sn":12, "projectTitle": "IIIT Kalyani College Website",
+			"sn": 12,
+			"projectTitle": "IIIT Kalyani College Website",
 			"periodStart": "Dec 2017",
 			"periodEnd": "Dec 2018",
-			"toolsUsed": ["Django", "SQLite", "CPanel", "HTML", "CSS", "JavaScript"],
-			"tags": ["website", "backend"],
+			"toolsUsed": [
+				"Django",
+				"SQLite",
+				"CPanel",
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"tags": [
+				"website",
+				"backend"
+			],
 			"shortInfo": "Built a completely new website of IIIT Kalyani, along with the web team, from scratch. Headed the backend team. Worked on the home page and navigation aspects, used front-end framework Bootstrap 4 for designing. The backend is done using Django framework in Python.",
-			"link":"http://iiitkalyani.ac.in"
+			"link": "http://iiitkalyani.ac.in"
 		},
 		{
-			"sn":13, "projectTitle": "College Fest Website",
+			"sn": 13,
+			"projectTitle": "College Fest Website",
 			"periodStart": "Jan 2018",
 			"periodEnd": "Feb 2018",
-			"toolsUsed": ["HTML", "CSS", "JavaScript"],
-			"tags": ["fest", "website"],
+			"toolsUsed": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"tags": [
+				"fest",
+				"website"
+			],
 			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link":"https://blackbird71SR.github.io/MILAN/"
+			"link": "https://blackbird71SR.github.io/MILAN/"
 		},
 		{
-			"sn":14, "projectTitle": "Secure E-Voting System",
+			"sn": 14,
+			"projectTitle": "Secure E-Voting System",
 			"periodStart": "Apr 2018",
 			"periodEnd": "Apr 2018",
-			"toolsUsed": ["Flask", "SQLite", "Heroku", "Cryptography", "JavaScript"],
-			"tags": ["evoting", "website"],
+			"toolsUsed": [
+				"Flask",
+				"SQLite",
+				"Heroku",
+				"Cryptography",
+				"JavaScript"
+			],
+			"tags": [
+				"evoting",
+				"website"
+			],
 			"shortInfo": "Created secure e-voting system for small scale elections.",
-			"link":"http://anku255.pythonanywhere.com"
+			"link": "http://anku255.pythonanywhere.com"
 		},
 		{
-			"sn":15, "projectTitle": "Hello World",
+			"sn": 15,
+			"projectTitle": "Hello World",
 			"periodStart": "Oct 2018",
 			"periodEnd": "Oct 2018",
-			"toolsUsed": ["GitHub"],
-			"tags": ["open_source", "hacktoberfest"],
+			"toolsUsed": [
+				"GitHub"
+			],
+			"tags": [
+				"open_source",
+				"hacktoberfest"
+			],
 			"shortInfo": "Hactoberfest repository for public contribution ",
-			"link":"https://github.com/blackbird71SR/Hello-World"
+			"link": "https://github.com/blackbird71SR/Hello-World"
 		}
 	],
 	"summary": "Hi, I’m Omkar. I am Full-Stack Web Developer who is curently more into Data Science. Working and Researching in the domain of Machine and Deep Learning. I'm looking for an Internship or Remote work where I can learn and grow(and help you grow) with my skills and make this world a better place.(Silicon Valley, anyone?)",
@@ -504,13 +621,13 @@
 			"name": "Github",
 			"icon": "github.svg",
 			"link": "https://github.com/blackbird71SR",
-			"sn":1
+			"sn": 1
 		},
 		{
 			"name": "LinkedIn",
 			"icon": "linkedin.svg",
 			"link": "https://www.linkedin.com/in/omkar-ajnadkar",
-			"sn":2
+			"sn": 2
 		},
 		{
 			"name": "Telegram",
@@ -522,58 +639,58 @@
 			"name": "Medium",
 			"icon": "medium.svg",
 			"link": "https://medium.com/@blackbird98",
-			"sn":4
+			"sn": 4
 		},
 		{
 			"name": "Blog",
 			"icon": "blog.svg",
 			"link": "https://blackbird71SR.github.io/blogs",
-			"sn":5
-		},	
+			"sn": 5
+		},
 		{
 			"name": "Quora",
 			"icon": "quora.svg",
-			"link":"https://www.quora.com/profile/Omkar-Ajnadkar" ,
-			"sn":6
-		},	
+			"link": "https://www.quora.com/profile/Omkar-Ajnadkar",
+			"sn": 6
+		},
 		{
 			"name": "Twitter",
 			"icon": "twitter.svg",
 			"link": "https://twitter.com/blackbird_71SR",
-			"sn":7
+			"sn": 7
 		},
 		{
 			"name": "Reddit",
 			"icon": "twitter.svg",
 			"link": "https://www.reddit.com/user/blackbird9820",
-			"sn":8
+			"sn": 8
 		}
 	],
-	"likes":[
+	"likes": [
 		{
-			"name":"Programming",
-			"icon":"programming.svg",
-			"sn":1
+			"name": "Programming",
+			"icon": "programming.svg",
+			"sn": 1
 		},
 		{
-			"name":"Reading",
-			"icon":"book.svg",
-			"sn":3
+			"name": "Reading",
+			"icon": "book.svg",
+			"sn": 3
 		},
 		{
-			"name":"Cycling",
-			"icon":"cycling.svg",
-			"sn":5
+			"name": "Cycling",
+			"icon": "cycling.svg",
+			"sn": 5
 		},
 		{
-			"name":"Cricket",
-			"icon":"cricket.svg",
-			"sn":2
+			"name": "Cricket",
+			"icon": "cricket.svg",
+			"sn": 2
 		},
 		{
-			"name":"Football",
-			"icon":"football.svg",
-			"sn":4
+			"name": "Football",
+			"icon": "football.svg",
+			"sn": 4
 		}
 	],
 	"qoutes": [
@@ -584,5 +701,5 @@
 		"Please don't kill your uniqueness.",
 		"7Ronaldo7"
 	],
-	"helloText":"<p>Thanks for visiting my website.</p><p>Currently I'm persuing Masters in Computer Science at The University of Texas at Dallas with specialization in the area of machine learning. Before this, I completed my B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani, India. I was a Google Explore ML Facilitator helping Google to train other students on campus in Machine Learning. I am good at Full-Stack Web Development and Data Science domain including Machine Learning, NLP and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can Design, develop and Deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p><p>Apart from this I am huge ️Ronaldo and Federer fan. My favorite cricketer is Dravid. I also like old bollywwod music. If you have anything in common, we are friends already!</p>"
+	"helloText": "<p>Thanks for visiting my website.</p><p>Currently I'm persuing Masters in Computer Science at The University of Texas at Dallas with specialization in the area of machine learning. Before this, I completed my B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani, India. I was a Google Explore ML Facilitator helping Google to train other students on campus in Machine Learning. I am good at Full-Stack Web Development and Data Science domain including Machine Learning, NLP and Deep Learning. I overwhelmingly like Python :)</p><p>How can I help you ?</br>I can Design, develop and Deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p><p>Apart from this I am huge ️Ronaldo and Federer fan. My favorite cricketer is Dravid. I also like old bollywwod music. If you have anything in common, we are friends already!</p>"
 }
