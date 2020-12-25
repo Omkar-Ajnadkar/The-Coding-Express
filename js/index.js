@@ -1,21 +1,21 @@
-function loadSkills(skills){
-		var i=0,j;
-		var skillsInnerHTML='<br/><br/><h2 class="sectionTitle"> Skills </h2>';
-		while(i<skills.length){
+// function loadSkills(skills){
+// 		var i=0,j;
+// 		var skillsInnerHTML='<br/><br/><h2 class="sectionTitle"> Skills </h2>';
+// 		while(i<skills.length){
 
-			var row = '<div class="row">';
-			for(j=i;j<i+6&&j<skills.length;j++){
-				var skill = '<div class="col m2"><svg viewBox="0 0 128 128"><path d="'+skills[j].icon+'"></path></svg>'+skills[j].name+'</div>';
-				row+=skill;
+// 			var row = '<div class="row">';
+// 			for(j=i;j<i+6&&j<skills.length;j++){
+// 				var skill = '<div class="col m2"><svg viewBox="0 0 128 128"><path d="'+skills[j].icon+'"></path></svg>'+skills[j].name+'</div>';
+// 				row+=skill;
 				
-			}
-			row+='</div>';
-			skillsInnerHTML+=row;
+// 			}
+// 			row+='</div>';
+// 			skillsInnerHTML+=row;
 			
-			i=j;
-		}
-		$('#skills').html(skillsInnerHTML);
-}
+// 			i=j;
+// 		}
+// 		$('#skills').html(skillsInnerHTML);
+// }
 
 function loadProjects(projects){
 	projects.sort(function(a,b){
@@ -24,11 +24,12 @@ function loadProjects(projects){
 	var i=0,j;
 	var projectsInnerHTML='<br/><br/><h2 class="sectionTitle"> Projects </h2>';
 	for(i=0;i<projects.length;i++){					
-		project = ' <div class="row project"><div class="col m6 s12"><div class="row"><span class="title">'+projects[i].projectTitle+'</span><hr></div><div class="row"><span>'+projects[i].periodStart+'-'+projects[i].periodEnd+'</span></div>';
-		toolsUsed = '<div class="row">Tools Used:&nbsp';
+		project = ' <div class="row project"><div class="col m6 s12"><div class="row"><span class="title">'+projects[i].projectTitle+'</span></div><div class="row"><span class="period">'+projects[i].periodStart+'-'+projects[i].periodEnd+'</span></div>';
+		toolsUsed = '<div class="row tools">';
 		for(j=0;j<projects[i].toolsUsed.length;j++){
-			toolsUsed+='<span>'+projects[i].toolsUsed[j]+'</span>&nbsp';
+			toolsUsed+='<span>'+projects[i].toolsUsed[j]+'</span>,&nbsp;';
 		}
+		toolsUsed = toolsUsed.substring(0, toolsUsed.length - 7)
 		toolsUsed+='</div>';
 		project+=toolsUsed;
 		tags = '<div class=row">'
@@ -48,7 +49,7 @@ function loadPublications(publications){
 	var i=0,j;
 	var publicationsInnerHTML='<br/><br/><h2 class="sectionTitle"> Publications </h2>';
 	for(i=0;i<publications.length;i++){					
-		publication = ' <div class="row publication"><div class="col m6 s12"><div class="row"><span class="title">'+publications[i].publicationTitle+'</span><hr></div><div class="row"><span class="subtitle">'+ publications[i].publisher + ' - ' + publications[i].publishedDate +'</span></div><div class="row"><span class="subtitle">'+ publications[i].conference +'</span><br/><hr></div>';
+		publication = ' <div class="row publication"><div class="col m6 s12"><div class="row"><span class="title">'+publications[i].publicationTitle+'</span></div><div class="row"><span class="subtitle period">'+ publications[i].publisher + ' - ' + publications[i].publishedDate +'</span></div><div class="row"><span class="subtitle period">'+ publications[i].conference +'</span><br/></div>';
 		tags = '<div class=row">'
 		for(j=0;j<publications[i].tags.length;j++){
 			tags+='<span class="tag">#'+publications[i].tags[j]+'<br/></span>';
@@ -68,7 +69,7 @@ function loadWorks(works){
 	var i;
 	var worksInnerHTML = '<br/><br/><h2 class="sectionTitle"> Experience </h2>';
 	for(i=0;i<works.length;i++){
-		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'<hr></div><div class="row">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row"><a href="'+works[i].link+'">'+works[i].organisation+'</a></div></div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
+		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'</div><div class="row period">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row companyName"><a href="'+works[i].link+'">'+works[i].organisation+'</a></div></div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
 	}
 	$('#experience').html(worksInnerHTML);
 }
@@ -77,7 +78,7 @@ function loadEducations(educations){
 	var i=0,j;
 	var educationsInnerHTML = '<br/><br/><h2 class="sectionTitle"> Education </h2>';
 	for(i=0;i<educations.length;i++){
-		education = '<div class="row education"><div class="col m6 s12">					<div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
+		education = '<div class="row education"><div class="row title">'+ educations[i].course +'</div><div class="col m6 s12"><div class="row period">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row companyName">'+educations[i].inst+'</div><div class="row period">'+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
 		var courses = educations[i].courses;
 		courses.sort(function(a,b){
 			return a.sn-b.sn;
@@ -149,7 +150,7 @@ $.get("js/profile.json",
 		loadLikes(profile.likes);
 		//$('#helloText').html(profile.helloText);
 		loadLinks(profile.profileLinks);
-		loadSkills(profile.skills);
+		//loadSkills(profile.skills);
 		loadProjects(profile.projects);
 		loadPublications(profile.publications)
 		loadWorks(profile.works);
@@ -158,7 +159,7 @@ $.get("js/profile.json",
 });
 
 function onBodyLoad(){
-	console.log('body loaded');
+	//console.log('body loaded');
 	$('#Says').css('display','block');
 }
 

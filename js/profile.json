@@ -50,7 +50,7 @@
 			"course": "B.Tech Computer Science and Engineering",
 			"score": "9.17 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
-			"board": "Autonomous Institute",
+			"board": "",
 			"courses": [
 				{
 					"courseCode": "3IT202",
@@ -288,7 +288,7 @@
 			"periodStart": "Jan 2020",
 			"periodEnd": "July 2020",
 			"organisation": "Affine Analytics",
-			"experience": " Learned and explored the combination of data analytics and Machine Learning by business and research perspective.Primarily, worked on using various EDA techniques, Time Series and Machine Learning models for the problem of 'Sales Quota Prediction'."
+			"experience": "<ul><li>- Assisted in implementing end-to-end solution for the problem of  'Sales Quota Prediction' for a US based client.</li><li>- Worked on EDA techniques, Time Series and Machine Learning models to predict quota for different geographic levels.</li><li>- Transformed data cleaning pipeline along with python based report generation to reduce the development time by 50%.</li></ul>"
 		},
 		{
 			"sn": 1,
@@ -306,34 +306,16 @@
 			"periodStart": "May 2019",
 			"periodEnd": "July 2019",
 			"organisation": "IIT-BHU",
-			"experience": "Researched on computer vision related applications in the medical domain using deep learning, specifically on classification, identification, and segmentation."
+			"experience": "<ul><li>- Worked on classification, identification, and segmentation problem for breast cancer detection.</li><li>- Used generative adversarial networks(GANs) based techniques to solve the problem of class imbalance.</li><li>- Classified and Segmented images using end-to-end CNN and U-Net based model with 92% accuracy.</li></ul>"
 		},
 		{
 			"sn": 3,
-			"link": "http://info.footloose.io",
-			"workPosition": "ML and Python Development Intern",
-			"periodStart": "Oct 2018",
-			"periodEnd": "Dec 2018",
-			"organisation": "Footloose",
-			"experience": "Worked on the software side of creating robotic systems for use in various industries as well as household use using Machine Learning along with developing web solutions for the platform."
-		},
-		{
-			"sn": 4,
 			"link": "http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
 			"periodEnd": "July 2018",
 			"organisation": "The Bomway",
-			"experience": "Designed complete admin panel for adding and monitoring content, users and arts. Also designed complete shopping cart from scratch using Flask framework in Python with integration of payment, delivery and interface systems."
-		},
-		{
-			"sn": 5,
-			"link": "",
-			"workPosition": "Android Development Intern",
-			"periodStart": "May 2018",
-			"periodEnd": "June 2018",
-			"organisation": "EISystems",
-			"experience": "Summer Internship for developing an Android application from scratch. Developed discussion forum for developers using Google's Firebase database and authentication using Material Design Priciples."
+			"experience": "<ul><li>- Designed and deployed a complete admin panel for adding and monitoring content, users, and arts.</li><li>- Developed a shopping cart from scratch using the Flask with the payment, delivery and interface system integration.</li><li>- Integrated adding and monitoring events and blog posts on social medias increasing user retention by over 60%.</li></ul>"
 		}
 	],
 	"projects": [

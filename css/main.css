@@ -1,16 +1,17 @@
 #name{
-	font-family: 'Raleway', sans-serif;
+	font-family:'Eczar', serif;
 }
 
 .title{
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.20rem;
+	font-family:'Eczar', serif;
+	font-size: 1.4rem;
 	color: red;
 }
 
 #subtitle{
 	font-size:  2rem;
 	color: red;
+	font-family:'Eczar', serif;
 }
 
 .subtitle{
@@ -177,10 +178,11 @@ object{
 
 #skills{
 	text-align: center;
-	font-size: 10px;
+	font-family:'Eczar', serif;
+	font-size: 1.5rem;
 }
 
-#projects{
+/* #projects{
 	text-align: center;
 }
 
@@ -194,7 +196,7 @@ object{
 
 #experience{
 	text-align: center;
-}
+} */
 
 #believe{
 	height: 10em;
@@ -254,7 +256,7 @@ a{
 body{
 	background-color: #e3e3e3;
 	color: black;
-	font-family: 'Roboto', sans-serif;
+	font-family:'Eczar', serif;
 }
 nav ul li {
 	font-family: 'Raleway', sans-serif;
@@ -264,3 +266,26 @@ nav ul li {
 nav ul li:hover {
 	background-color: white;
  }
+
+.period{
+	font-family:'Eczar', serif;
+}
+
+.companyName{
+	font-family: 'Eczar', serif;
+	font-size: 1.3rem;
+}
+
+.tools{
+	font-family:'Eczar', serif;
+}
+
+.tag{
+	font-family:'Eczar', serif;
+	font-style: italic;
+}
+
+.sectionTitle{
+	font-family:'Eczar', serif;
+	text-align: center;
+}
