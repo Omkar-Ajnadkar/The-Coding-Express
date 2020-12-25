@@ -1,6 +1,6 @@
 function loadSkills(skills){
 		var i=0,j;
-		var skillsInnerHTML='';
+		var skillsInnerHTML='<br/><br/><h2 class="sectionTitle"> Skills </h2>';
 		while(i<skills.length){
 
 			var row = '<div class="row">';
@@ -22,7 +22,7 @@ function loadProjects(projects){
 		return a.sn-b.sn;
 	});
 	var i=0,j;
-	var projectsInnerHTML='';
+	var projectsInnerHTML='<br/><br/><h2 class="sectionTitle"> Projects </h2>';
 	for(i=0;i<projects.length;i++){					
 		project = ' <div class="row project"><div class="col m6 s12"><div class="row"><span class="title">'+projects[i].projectTitle+'</span><hr></div><div class="row"><span>'+projects[i].periodStart+'-'+projects[i].periodEnd+'</span></div>';
 		toolsUsed = '<div class="row">Tools Used:&nbsp';
@@ -41,12 +41,32 @@ function loadProjects(projects){
 	$('#projects').html(projectsInnerHTML);
 }
 
+function loadPublications(publications){
+	publications.sort(function(a,b){
+		return a.sn-b.sn;
+	});
+	var i=0,j;
+	var publicationsInnerHTML='<br/><br/><h2 class="sectionTitle"> Publications </h2>';
+	for(i=0;i<publications.length;i++){					
+		publication = ' <div class="row publication"><div class="col m6 s12"><div class="row"><span class="title">'+publications[i].publicationTitle+'</span><hr></div><div class="row"><span class="subtitle">'+ publications[i].publisher + ' - ' + publications[i].publishedDate +'</span></div><div class="row"><span class="subtitle">'+ publications[i].conference +'</span><br/><hr></div>';
+		tags = '<div class=row">'
+		for(j=0;j<publications[i].tags.length;j++){
+			tags+='<span class="tag">#'+publications[i].tags[j]+'<br/></span>';
+		}
+		tags+='<a href="'+publications[i].link+'" target="_blank"><i class="material-icons right">language</i></a></div>';
+		publication+=tags;
+		publication+='</div><div class="col m6 s12 details">'+publications[i].shortInfo+'</div></div><br/>';
+		publicationsInnerHTML+=publication;
+	}
+	$('#publications').html(publicationsInnerHTML);
+}
+
 function loadWorks(works){
 	works.sort(function(a,b){
 		return a.sn-b.sn;
 	});
 	var i;
-	var worksInnerHTML = '';
+	var worksInnerHTML = '<br/><br/><h2 class="sectionTitle"> Experience </h2>';
 	for(i=0;i<works.length;i++){
 		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'<hr></div><div class="row">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row"><a href="'+works[i].link+'">'+works[i].organisation+'</a></div></div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
 	}
@@ -55,7 +75,7 @@ function loadWorks(works){
 
 function loadEducations(educations){
 	var i=0,j;
-	var educationsInnerHTML = '';
+	var educationsInnerHTML = '<br/><br/><h2 class="sectionTitle"> Education </h2>';
 	for(i=0;i<educations.length;i++){
 		education = '<div class="row education"><div class="col m6 s12">					<div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
 		var courses = educations[i].courses;
@@ -80,11 +100,11 @@ function loadLinks(profileLinks){
 	});
 	var profileLinksInnerHTML = '';
 	while(i<profileLinks.length){
-		profileLinksInnerHTML+='<div class="row">'
+		profileLinksInnerHTML+=''
 		for(j=i;j<profileLinks.length&&j<i+8;j++){
-			profileLinksInnerHTML+='<div class="col s2 links"><a href="'+profileLinks[j].link+'" target="_blank" >'+profileLinks[j].name+'</a></div>';
+			profileLinksInnerHTML+='<div class="col s4 m4 l4 links center-align"><a href="'+profileLinks[j].link+'" target="_blank" >'+profileLinks[j].icon+'</a></div>';
 		}
-		profileLinksInnerHTML+='</div>';
+		profileLinksInnerHTML+='';
 		i=j;
 	}
 	$('#links').html(profileLinksInnerHTML);
@@ -102,23 +122,24 @@ function loadLikes(likes){
 	$('#likes').html(likesInnerHTML);
 }
 
-var profile;
-	swal(
-		{
-			title:"Hello World!",
-			text:"Hey...This is Omkar. We are ready to launch 3..2..1..",
-			confirmButtonColor:"#1f1f1f"
-		}
-	);
+// var profile;
+// 	swal(
+// 		{
+// 			title:"Hello World!",
+// 			text:"Hey...This is Omkar. We are ready to launch 3..2..1..",
+// 			confirmButtonColor:"#1f1f1f"
+// 		}
+// 	);
 $.get("js/profile.json", 
 	function(data, status){
 		profile = data;
 		var pInfo = profile.personalInfo;
 		$('title').html(pInfo.nick+' | Portfolio');
-		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
+		$('#name').html("Hi, I'm " + pInfo.fname+'<br/>');
+		$('#subtitle').html("Student, Tinkerer, Developer");
 		$('#image img').attr('src','img/'+pInfo.myimg);
-		$('#contact').html('Call me:'+pInfo.mob+'</br> Mail me:'+pInfo.email);
-		$('#summary p').html(profile.summary);
+		$('#contact').html('<a href="tel:4696493928">' + pInfo.mob+'</a></br><a href="mailto:omkarajnadkar@gmail.com">'+pInfo.email+'</a><br/>'+pInfo.currentLocation);
+		$('#summary p').html(profile.summaryAlt);
 		Typed.new('#believe span', {
 			strings: profile.qoutes,
 			typeSpeed: 0,
@@ -126,13 +147,14 @@ $.get("js/profile.json",
 			loop:true
 		});
 		loadLikes(profile.likes);
-		$('#helloText').html(profile.helloText);
+		//$('#helloText').html(profile.helloText);
 		loadLinks(profile.profileLinks);
 		loadSkills(profile.skills);
 		loadProjects(profile.projects);
+		loadPublications(profile.publications)
 		loadWorks(profile.works);
 		loadEducations(profile.educations);
-		console.log(profile);
+		//console.log(profile);
 });
 
 function onBodyLoad(){

@@ -1,17 +1,47 @@
 #name{
-	font-size:  1.5rem;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .title{
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.25rem;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.20rem;
+	color: red;
+}
+
+#subtitle{
+	font-size:  2rem;
+	color: red;
+}
+
+.subtitle{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+}
+
+.material-icons{
+	color: blue;
+}
+
+.summaryImp{
+	color:orange;
+	font-weight: bold
+}
+.summaryEdu{
+	font-weight: bold;
+}
+
+.summaryQ{
+	font-weight: bold;
+}
+
+.summaryA{
 }
 
 .links{
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.25rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
 }
 
 #name sub{
@@ -21,10 +51,18 @@
 
 #hello p,#summary p{
 	text-align: justify;
+	font-family: 'Roboto', sans-serif;
 }
 
 .row {
 	margin-bottom:0px;
+}
+
+#links{
+	color: black;
+	text-align: center;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
 }
 
 #links img{	
@@ -50,6 +88,8 @@
 
 #pageb .tabs{
 	background: none;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -70,6 +110,7 @@
 
 .tag{
 	font-style: italic;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .ps.ps--active-x > .ps__scrollbar-x-rail, .ps.ps--active-y > .ps__scrollbar-y-rail{
@@ -82,16 +123,12 @@
 
 .tabs-content.carousel .carousel-item{
 	height:600px;
-	overflow-y: scroll;
+	overflow-y: scroll;	
 }
-
 
 .tabs .tab a{
 	opacity: 1;
 }
-
-
-
 
 #skills .m2{
 	width: 14.666%;
@@ -134,11 +171,29 @@ object{
 
 #contact{
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 #skills{
 	text-align: center;
 	font-size: 10px;
+}
+
+#projects{
+	text-align: center;
+}
+
+#education{
+	text-align: center;
+}
+
+#publications{
+	text-align: center;
+}
+
+#experience{
+	text-align: center;
 }
 
 #believe{
@@ -151,11 +206,14 @@ object{
 
 
 #image img{
-	width: 39.5%;
-	filter: grayscale(1);
-	border: solid white 3px;
-	margin-left: 30.25%;
-	margin-right: 30.25%;
+	width: 50%;
+	height: 50%;
+	filter: grayscale(0);
+	/* margin-left: 30.25%;
+	margin-right: 30.25%; */
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
 }
 #links svg path{
 	fill: white;
@@ -165,33 +223,44 @@ object{
     margin-top: 5%;
     border-top: solid white 1px;
 }
-.col.m6.s12.details{
+.details{
 	border-left: solid white 2px;
-
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
-	color: white;
+	color: black;
 }
 .tabs .tab a.active {
-	color: white;
+	color: black;
 	opacity: 1;
+	font-weight: bold;
 }
 
 .tabs .tab a{
-	color: white;
+	color: black;
+	/* font-size: 90%;
+	font-family: Arial, Helvetica, sans-serif; */
 }
 
 .tabs .tab a:hover{
-	color: white;
+	color: black;
 }
 
 .tabs .indicator{
-	background-color: white;
+	background-color: black;
 }
 
 body{
-	background-color: #1f1f1f;
-	color: white;
+	background-color: #e3e3e3;
+	color: black;
 	font-family: 'Roboto', sans-serif;
 }
+nav ul li {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+ }
+
+nav ul li:hover {
+	background-color: white;
+ }

@@ -25,58 +25,57 @@
 		<link rel="stylesheet" type="text/css" href="css/devicon.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />		<script src="js/jquery.min.js"></script>
 		<script src="js/materialize.min.js"></script>
 		<script src='js/perfect-scrollbar.jquery.min.js'></script>
 		<script src="js/sweetalert.min.js"></script>
 		<script src="js/typed.min.js"></script>	
 	</head>
 	<body onload="onBodyLoad()">
-
-		<div class="row">
-			<div id="pagea" class="page col m3 s12">
-				<div class="row"><h1 id="name" class="center-align"></h1></div>
-				<div id="image" class="row"><img class="circle" src=""></div>
-				<div id="contact" class="row">
-					
-				</div>
-				<div id="summary" class="row"><div class="col m12"><p></p></div></div>
-				<div id="links" class="row"></div>
-			</div>
-
-			<div id="pageb" class="page col m9 s12">
-				<ul id="tabs" class="tabs">
-					<li class="tab col s2"><a href="#hello">Hello</a></li>
-					<li class="tab col s2"><a href="#skills">Skills</a></li>
-					<li class="tab col s2"><a href="#projects">Projects</a></li>
-					<li class="tab col s2"><a href="#publications">Publications</a></li>
-					<li class="tab col s2"><a href="#experience">Experience</a></li>
-					<li class="tab col s2"><a href="#education">Education</a></li>
-					
+		<div class="navbar-fixed">
+			<nav style="background-color:#e3e3e3; box-shadow: none;">
+			  <div class="nav-wrapper">
+				<ul class="right">
+					<li><a style="padding: 0px 6px;color: black;" href="#hello">Hello!</a></li>
+				  	<li><a style="padding: 0px 6px;color: black;" href="#skills">Skills</a></li>
+					<li><a style="padding: 0px 6px;color: black;" href="#projects">Projects</a></li>
+					<li><a style="padding: 0px 6px;color: black;" href="#publications">Publications</a></li>
+					<li><a style="padding: 0px 6px;color: black;" href="#experience">Experience</a></li>
+					<li><a style="padding: 0px 6px;color: black;" href="#education">Education</a></li>
 				</ul>
-				<div id="hello" class="info col m12 s12">
-
+			  </div>
+			</nav>
+		  </div>
+		<div class="row">
+			<div id="hello" class="page col m12">
+				<br/>
+				<br/>
+				<div class="info col m12 s12">
 					<div class="row">
-						<div id="helloText" class="col m6 s12 "></div>
-						<div class="col m6 s12">
-							<div id="believe" class="row">
-								<h4>I believe</h4>
-								<span></span>
-							</div>
-							<div id="likes" class="row"></div>
+						<h1 id="name" class="center-align"></h1>
+						<h2 id="subtitle" class="center-align"></h2>
+					</div>
+					<div class="row">
+						<div class="col m4 s12">
+							<div id="image" class="row"><img class="circle" src="./img/omkar.jpeg"></div>
+							<div id="contact" class="row">	</div>
+							<br/>
+							<div id="links" class="row"></div>
 						</div>
-					</div>		
-
-
+						<div class="col m8 s12">
+							<div id="summary" class="row"><div class="col m12"><p></p></div></div>
+						</div>
 					</div>
 				</div>
-				<div id="skills" class="info col m12 s12"></div>
-				<div id="projects" class="info col m12 s12 "></div>
-				<div id="publications" class="info col m12 s12 "></div>
-				<div id="experience" class="info col m12 s12"></div>
-				<div id="education" class="info col m12 s12"></div>
-		
 			</div>
+			<br/>
+			<br/>
+			<br/>
+			<div id="skills" class="info col m12 s12"></div>
+			<div id="projects" class="info col m12 s12 "></div>
+			<div id="publications" class="info col m12 s12 "></div>
+			<div id="experience" class="info col m12 s12"></div>
+			<div id="education" class="info col m12 s12"></div>
 		</div>
 	</body>
 	<script src="js/index.js"></script>

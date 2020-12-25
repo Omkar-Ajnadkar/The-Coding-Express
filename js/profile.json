@@ -5,6 +5,7 @@
 		"mname": "Mahesh",
 		"lname": "Ajnadkar",
 		"nick": "blackbird71SR",
+		"currentLocation": "Dallas, TX, USA",
 		"address": {
 			"list": [
 				"Kapil Vastu Society, Thakurwadi, Dombivli, District-Thane, Maharashtra, India 421202 ",
@@ -615,55 +616,94 @@
 			"link": "https://github.com/blackbird71SR/Hello-World"
 		}
 	],
+	"publications": [
+		{
+			"sn": 1,
+			"publicationTitle": "Sarcasm Detection of Media Text Using Deep Neural Networks",
+			"conference": "7th International Conference on Advanced Computing, Networking, and Informatics (ICACNI 2019)",
+			"publisher": "Springer, Singapore",
+			"publishedDate": "Nov 2020",
+			"tags": [
+				"natural-languge-processing",
+				"attention-mechanism",
+				"text-classification",
+				"CNN",
+				"RNN"
+			],
+			"shortInfo": "Sarcasm detection in media text is a binary classification task where text can be either written straightly or sarcastically (with irony) where the intended meaning is the opposite of what is seemingly expressed. Performing sarcasm detection can be very useful in improving the performance of sentimental analysis where existing models fail to identify sarcasm at all. We examine the use of deep neural networks in this paper to detect the sarcasm in social media text(specifically Twitter data) as well as news headlines and compare the results. Results show that deep neural networks with the inclusion of word embeddings, bidirectional LSTM’s and convolutional networks achieve better accuracy of around 88 percent for sarcasm detection.",
+			"link": "https://link.springer.com/chapter/10.1007%2F978-981-15-8610-1_6"
+		},
+		{
+			"sn": 2,
+			"publicationTitle": "News Background Linking Using Document Similarity Techniques",
+			"conference": "7th International Conference on Advanced Computing, Networking, and Informatics (ICACNI 2019)",
+			"publisher": "Springer, Singapore",
+			"publishedDate": "Nov 2020",
+			"tags": [
+				"natural-languge-processing",
+				"background-linking",
+				"document-similarity"
+			],
+			"shortInfo": "News readers still look forward to well-established news sources for a more accurate and detailed analysis of the news or articles. In this paper, we present a model that can retrieve other news articles that provide essential context and background information related to the news article that is being looked into. The abstract topics have been recognized using Latent Dirichlet Allocation. A similarity matrix has been created after the extraction of topics using two methods, cosine similarity and Jensen–Shannon divergence. This paper describes the implementation and gives a brief description of both the similarity methods. It also gives a comparative study of both methods.",
+			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
+		}
+	],
 	"summary": "Hi, I’m Omkar. I am Full-Stack Web Developer who is curently more into Data Science. Working and Researching in the domain of Machine and Deep Learning. I'm looking for an Internship or Remote work where I can learn and grow(and help you grow) with my skills and make this world a better place.(Silicon Valley, anyone?)",
+	"summaryAlt": "<p>I am Computer Science Masters student at <span class='summaryEdu'>The University of Texas at Dallas</span> in <span class='summaryImp'> Machine and Deep learning </span>. Before this I did my Bachelors in Computer Science from <span class='summaryEdu'>Indian Institute of Information Technology</span>. <br/><br/>I have worked in the domain of  <span class='summaryImp'>Data Science</span>, Machine Learning and  <span class='summaryImp'> Full Stack Web Development</span> in various startups. I also like to research in the domain of <span class='summaryImp'>Computer Vision</span> and  <span class='summaryImp'>Natural Language Processing</span> and have published papers. I was a <span class='summaryImp'>Google Explore ML Facilitator</span> helping Google to train students on campus in Machine Learning. Apart from this you can found me working on various side projects and hackathons.</p><p><span class='summaryQ'>How can I help you ?</span><br/><span class='summaryA'>I can <span class='summaryImp'>Design, Develop and Deliver</span> technological solutions to your problems.<br/>We can Discuss your next <span class='summaryImp'>Project or Hackathon</span> idea.</span></p><p><span class='summaryQ'>Do we have something in common ?</span></br><span class='summaryA'>I am huge ️Ronaldo and Federer fan. My favorite cricketer is Dravid. I also like old Bollywood Music. If you have anything in common, we are friends already! So let's have a talk about it and grow together.<span></p><p> <span class='summaryQ'>We don't have anything in common ?</span></br>Oh then that's great, please introduce me something that I'm missing.</p>",
 	"profileLinks": [
 		{
 			"name": "Github",
-			"icon": "github.svg",
+			"icon": "<i class='fa fa-github' aria-hidden='true'></i>",
 			"link": "https://github.com/blackbird71SR",
 			"sn": 1
 		},
 		{
 			"name": "LinkedIn",
-			"icon": "linkedin.svg",
+			"icon": "<i class='fa fa-linkedin' aria-hidden='true'></i>",
 			"link": "https://www.linkedin.com/in/omkar-ajnadkar",
 			"sn": 2
 		},
 		{
 			"name": "Telegram",
-			"icon": "telegram.svg",
+			"icon": "<i class='fa fa-telegram' aria-hidden='true'></i>",
 			"link": "https://t.me/blackbird_71SR",
 			"sn": 3
 		},
 		{
-			"name": "Medium",
-			"icon": "medium.svg",
-			"link": "https://medium.com/@blackbird98",
-			"sn": 4
-		},
-		{
 			"name": "Blog",
-			"icon": "blog.svg",
+			"icon": "<i class='fa fa-rss' aria-hidden='true'></i>",
 			"link": "https://blackbird71SR.github.io/blogs",
 			"sn": 5
 		},
 		{
 			"name": "Quora",
-			"icon": "quora.svg",
+			"icon": "<i class='fa fa-quora' aria-hidden='true'></i>",
 			"link": "https://www.quora.com/profile/Omkar-Ajnadkar",
 			"sn": 6
 		},
 		{
 			"name": "Twitter",
-			"icon": "twitter.svg",
+			"icon": "<i class='fa fa-twitter' aria-hidden='true'></i>",
 			"link": "https://twitter.com/blackbird_71SR",
 			"sn": 7
 		},
 		{
 			"name": "Reddit",
-			"icon": "twitter.svg",
+			"icon": "<i class='fa fa-reddit' aria-hidden='true'></i>",
 			"link": "https://www.reddit.com/user/blackbird9820",
 			"sn": 8
+		},
+		{
+			"name": "Angellist",
+			"icon": "<i class='fa fa-angellist' aria-hidden='true'></i>",
+			"link": "https://angel.co/u/blackbird71sr",
+			"sn": 9
+		},
+		{
+			"name": "Google Scholar",
+			"icon": "<i class='fa fa-graduation-cap' aria-hidden='true'></i>",
+			"link": "https://scholar.google.com/citations?user=WmAo3W4AAAAJ&hl=en",
+			"sn": 10
 		}
 	],
 	"likes": [
