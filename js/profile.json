@@ -9,7 +9,7 @@
 		"address": {
 			"list": [
 				"Kapil Vastu Society, Thakurwadi, Dombivli, District-Thane, Maharashtra, India 421202 ",
-				"IIIT Kalyani Boys HOstel, Kalyani, District-Nadia, West Bengal, India 741235"
+				"IIIT Kalyani Boys Hostel, Kalyani, District-Nadia, West Bengal, India 741235"
 			]
 		},
 		"email": "omkarajnadkar@gmail.com",
@@ -20,7 +20,7 @@
 			"periodStart": "August 2020",
 			"periodEnd": "Present",
 			"course": "Master of Science in Computer Science",
-			"score": "3.78 GPA",
+			"score": "3.67 GPA",
 			"inst": "The University of Texas at Dallas",
 			"board": "",
 			"courses": [
@@ -41,6 +41,30 @@
 					"courseName": "Web Programming Languages",
 					"courseScore": "A",
 					"sn": 3
+				},
+				{
+					"courseCode": "CS6301",
+					"courseName": "Convolutional Neural Networks",
+					"courseScore": "A",
+					"sn": 4
+				},
+				{
+					"courseCode": "CS6320",
+					"courseName": "Natural Language Processing",
+					"courseScore": "B",
+					"sn": 5
+				},
+				{
+					"courseCode": "CS6314",
+					"courseName": "Big Data Management",
+					"courseScore": "B+",
+					"sn": 6
+				},
+				{
+					"courseCode": "CS6314",
+					"courseName": "Machine Learning",
+					"courseScore": "A",
+					"sn": 6
 				}
 			]
 		},
@@ -283,6 +307,15 @@
 	"works": [
 		{
 			"sn": 0,
+			"link": "https://artscilab.atec.io",
+			"workPosition": "Data Analyst",
+			"periodStart": "June 2021",
+			"periodEnd": "Present",
+			"organisation": "ArtSciLab",
+			"experience": "<ul><li>- Using NLP and data visualization techniques to extract hidden insights and user profile patterns from the virtual meetings and conversations</li><li>- Analyzing Reddit data for risk prediction using topic modelling and user behavior</li></ul>"
+		},
+		{
+			"sn": 1,
 			"link": "https://www.affineanalytics.com/",
 			"workPosition": "Data Science Intern",
 			"periodStart": "Jan 2020",
@@ -291,7 +324,7 @@
 			"experience": "<ul><li>- Assisted in implementing end-to-end solution for the problem of  'Sales Quota Prediction' for a US based client.</li><li>- Worked on EDA techniques, Time Series and Machine Learning models to predict quota for different geographic levels.</li><li>- Transformed data cleaning pipeline along with python based report generation to reduce the development time by 50%.</li></ul>"
 		},
 		{
-			"sn": 1,
+			"sn": 2,
 			"link": "https://events.withgoogle.com/explore-ml-in/",
 			"workPosition": "Google Explore ML Facilitator",
 			"periodStart": "June 2019",
@@ -300,7 +333,7 @@
 			"experience": "Explore Machine Learning (ML) is a Google-sponsored program for university students. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus. Google AI Explore ML program is a training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."
 		},
 		{
-			"sn": 2,
+			"sn": 3,
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
@@ -309,7 +342,7 @@
 			"experience": "<ul><li>- Worked on classification, identification, and segmentation problem for breast cancer detection.</li><li>- Used generative adversarial networks(GANs) based techniques to solve the problem of class imbalance.</li><li>- Classified and Segmented images using end-to-end CNN and U-Net based model with 92% accuracy.</li></ul>"
 		},
 		{
-			"sn": 3,
+			"sn": 4,
 			"link": "http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
