@@ -216,6 +216,20 @@ object{
     margin-right: auto;
 	display: block;
 }
+
+.hackathonImg{
+	/* height: 50%; */
+	width: 100px; 
+	height: 100px;
+	filter: grayscale(1);
+	/* margin-left: 30.25%;
+	margin-right: 30.25%; */
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+
 #links svg path{
 	fill: white;
 }
@@ -287,4 +301,12 @@ nav ul li:hover {
 .sectionTitle{
 	font-family:'Eczar', serif;
 	text-align: center;
+}
+
+.unselectable{
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
