@@ -20,143 +20,146 @@
 			"periodStart": "August 2020",
 			"periodEnd": "Present",
 			"course": "Master of Science in Computer Science",
-			"score": "3.67 GPA",
+			"score": "3.76 GPA",
 			"inst": "The University of Texas at Dallas",
+			"link": "https://www.utdallas.edu",
 			"board": "",
 			"courses": [
 				{
 					"courseCode": "CS6360",
 					"courseName": "Database Design",
-					"courseScore": "A-",
+					"courseScore": "",
 					"sn": 1
 				},
 				{
 					"courseCode": "CS6363",
-					"courseName": "Design and Analysis of Computer Algorithm",
-					"courseScore": "A-",
+					"courseName": "Design and Analysis of Algorithms",
+					"courseScore": "",
 					"sn": 2
 				},
 				{
 					"courseCode": "CS6314",
 					"courseName": "Web Programming Languages",
-					"courseScore": "A",
+					"courseScore": "",
 					"sn": 3
 				},
 				{
 					"courseCode": "CS6301",
 					"courseName": "Convolutional Neural Networks",
-					"courseScore": "A",
+					"courseScore": "",
 					"sn": 4
 				},
 				{
 					"courseCode": "CS6320",
 					"courseName": "Natural Language Processing",
-					"courseScore": "B",
+					"courseScore": "",
 					"sn": 5
 				},
 				{
-					"courseCode": "CS6314",
-					"courseName": "Big Data Management",
-					"courseScore": "B+",
+					"courseCode": "CS6350",
+					"courseName": "Big Data Management and Analytics",
+					"courseScore": "",
 					"sn": 6
 				},
 				{
-					"courseCode": "CS6314",
+					"courseCode": "CS6375",
 					"courseName": "Machine Learning",
-					"courseScore": "A",
-					"sn": 6
+					"courseScore": "",
+					"sn": 7
+				},
+				{
+					"courseCode": "CS6343",
+					"courseName": "Cloud Computing",
+					"courseScore": "",
+					"sn": 8
+				},
+				{
+					"courseCode": "CS6344",
+					"courseName": "Data Representation",
+					"courseScore": "",
+					"sn": 9
+				},
+				{
+					"courseCode": "CS6364",
+					"courseName": "Artificial Intelligence",
+					"courseScore": "",
+					"sn": 10
 				}
 			]
 		},
 		{
 			"periodStart": "August 2016",
 			"periodEnd": "May 2020",
-			"course": "B.Tech Computer Science and Engineering",
+			"course": "Bachelor of Technology in Computer Science and Engineering",
 			"score": "9.17 CGPA",
 			"inst": "Indian Institute of Information Technology, Kalyani",
+			"link": "http://iiitkalyani.ac.in",
 			"board": "",
 			"courses": [
 				{
-					"courseCode": "3IT202",
-					"courseName": "Data Structures",
+					"courseCode": "CS-503",
+					"courseName": "Machine Learning",
 					"sn": 1
 				},
 				{
-					"courseCode": "3IT304",
-					"courseName": "Computer Algorithms",
+					"courseCode": "CS-622",
+					"courseName": "Natural Language Processing",
 					"sn": 2
 				},
 				{
-					"courseCode": "3IT331",
-					"courseName": "Machine Learning",
+					"courseCode": "CS-702",
+					"courseName": "Artificial Intelligence",
 					"sn": 3
 				},
 				{
-					"courseCode": "3IT211",
-					"courseName": "Theory of Computation",
+					"courseCode": "CS-732",
+					"courseName": "Data Analytics & Optimization Techniques",
 					"sn": 4
 				},
 				{
-					"courseCode": "3IT201",
-					"courseName": "Discrete Mathemactics",
+					"courseCode": "CS-602",
+					"courseName": "Database Management Systems",
 					"sn": 5
 				},
 				{
-					"courseCode": "3IT303",
-					"courseName": "Operating System",
+					"courseCode": "CS-302",
+					"courseName": "Data Structures and Algorithms",
 					"sn": 6
 				},
 				{
-					"courseCode": "3IT341",
-					"courseName": "Mini-Project - I",
+					"courseCode": "CS-301",
+					"courseName": "Discrete Mathematics",
 					"sn": 7
 				},
 				{
-					"courseCode": "3IT322",
-					"courseName": "Unix Operating System",
+					"courseCode": "CS-412",
+					"courseName": "Python and Numerical Analysis",
 					"sn": 8
 				},
 				{
-					"courseCode": "3IT212",
-					"courseName": "Computer Organization and Architechture",
+					"courseCode": "CS-601",
+					"courseName": "Compiler Design",
 					"sn": 9
 				},
 				{
-					"courseCode": "3MA204",
-					"courseName": "Linear Algebra",
+					"courseCode": "CS-603",
+					"courseName": "Computer Networks",
 					"sn": 10
 				},
 				{
-					"courseCode": "3IT252",
-					"courseName": "Data Structures Lab",
+					"courseCode": "CS-401",
+					"courseName": "Computer Organization and Architecture", 
 					"sn": 11
 				},
 				{
-					"courseCode": "3IT203",
-					"courseName": "Processor Architechture",
+					"courseCode": "CS-502",
+					"courseName": "Operating Systems",
 					"sn": 12
 				},
 				{
-					"courseCode": "3IT281",
-					"courseName": "Mini Project - II",
-					"courseScore": "10/10",
-					"sn": 13
-				},
-				{
-					"courseCode": "3IT255",
-					"courseName": "Programming Lab - I (C++)",
-					"sn": 14
-				},
-				{
-					"courseCode": "3IT341",
-					"courseName": "Mini-Project - III",
-					"sn": 15
-				},
-				{
-					"courseCode": "3IT255",
-					"courseName": "Programming Lab - II (Python)",
-					"courseScore": "10/10",
-					"sn": 16
+					"courseCode": "CS-703",
+					"courseName": "Software Engineering",
+					"sn": 12
 				}
 			]
 		},
@@ -166,32 +169,9 @@
 			"course": "Higher Secondary School Examination",
 			"score": "86.0%",
 			"inst": "Pace Junior Science College, Thane",
+			"link": "https://iitianspace.com",
 			"board": "Maharshtra State Board",
 			"courses": [
-				{
-					"courseCode": "041",
-					"courseName": "Mathemactics",
-					"courseScore": "87/100",
-					"sn": 1
-				},
-				{
-					"courseCode": "042",
-					"courseName": "Physics",
-					"courseScore": "91/100",
-					"sn": 2
-				},
-				{
-					"courseCode": "043",
-					"courseName": "Chemistry",
-					"courseScore": "75/100",
-					"sn": 3
-				},
-				{
-					"courseCode": "083",
-					"courseName": "Computer Science",
-					"courseScore": "94/100",
-					"sn": 4
-				}
 			]
 		},
 		{
@@ -200,20 +180,9 @@
 			"course": "Secondary School Examination",
 			"score": "96.00%",
 			"inst": "Swami Vivekanand Vidyamandir, Dombivli",
+			"link": "",
 			"board": "Maharashtra State Board",
 			"courses": [
-				{
-					"courseCode": "041",
-					"courseName": "Mathemactics",
-					"courseScore": "98/100",
-					"sn": 1
-				},
-				{
-					"courseCode": "086",
-					"courseName": "Science",
-					"courseScore": "99/100",
-					"sn": 2
-				}
 			]
 		}
 	],

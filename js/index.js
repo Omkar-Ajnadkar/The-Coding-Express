@@ -69,7 +69,7 @@ function loadWorks(works){
 	var i;
 	var worksInnerHTML = '<br/><br/><h2 class="sectionTitle"> Experience </h2>';
 	for(i=0;i<works.length;i++){
-		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'</div><div class="row period">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row companyName"><a href="'+works[i].link+'">'+works[i].organisation+'</a></div></div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
+		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'</div><div class="row period">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row companyName">'+works[i].organisation+'</div>' + '<a href="'+works[i].link+'" target="_blank"><i class="material-icons right">language</i></a>' + '</div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
 	}
 	$('#experience').html(worksInnerHTML);
 }
@@ -78,14 +78,14 @@ function loadEducations(educations){
 	var i=0,j;
 	var educationsInnerHTML = '<br/><br/><h2 class="sectionTitle"> Education </h2>';
 	for(i=0;i<educations.length;i++){
-		education = '<div class="row education"><div class="row title">'+ educations[i].course +'</div><div class="col m6 s12"><div class="row period">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row companyName">'+educations[i].inst+'</div><div class="row period">'+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
+		education = '<div class="row education"><div class="row title">'+ educations[i].course +'</div><div class="col m6 s12"><div class="row period">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row companyName">'+educations[i].inst+'</div><div class="row period">'+educations[i].score+'</div>'+ '<a href="'+educations[i].link+'" target="_blank"><i class="material-icons right">language</i></a></div>' +'<div class="col m6 s12 details"><ul><li><div>';
 		var courses = educations[i].courses;
 		courses.sort(function(a,b){
 			return a.sn-b.sn;
 		});
 		var coursesInnerHTML = '';
 		for(j=0;j<courses.length;j++){
-				coursesInnerHTML+='<div class="row"><div class="col m2 s2">'+courses[j].courseCode+'</div><div class="col m8 s8">'+courses[j].courseName+'</div></div>';
+				coursesInnerHTML+='<div class="row"><div class="col m4 s3">'+courses[j].courseCode+'</div><div class="col m8 s9">'+courses[j].courseName+'</div></div>';
 		}
 		education+=coursesInnerHTML;
 		education +='</div></li></ul></div></div>';
