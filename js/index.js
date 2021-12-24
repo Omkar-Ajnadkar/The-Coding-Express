@@ -34,7 +34,7 @@ function loadProjects(projects){
 		project+=toolsUsed;
 		tags = '<div class=row">'
 		for(j=0;j<projects[i].tags.length;j++)tags+='<span class="tag">#'+projects[i].tags[j]+'</span>&nbsp';
-		tags+='<a href="'+projects[i].link+'" target="_blank"><i class="material-icons right">language</i></a></div>';
+		tags+='<a href="'+projects[i].link+'" target="_blank" rel="noopener noreferrer"><i class="material-icons right">language</i></a></div>';
 		project+=tags;
 		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div></div>';
 		projectsInnerHTML+=project;
@@ -54,7 +54,7 @@ function loadPublications(publications){
 		for(j=0;j<publications[i].tags.length;j++){
 			tags+='<span class="tag">#'+publications[i].tags[j]+'<br/></span>';
 		}
-		tags+='<a href="'+publications[i].link+'" target="_blank"><i class="material-icons right">language</i></a></div>';
+		tags+='<a href="'+publications[i].link+'" target="_blank" rel="noopener noreferrer"><i class="material-icons right">language</i></a></div>';
 		publication+=tags;
 		publication+='</div><div class="col m6 s12 details">'+publications[i].shortInfo+'</div></div><br/>';
 		publicationsInnerHTML+=publication;
@@ -69,7 +69,7 @@ function loadWorks(works){
 	var i;
 	var worksInnerHTML = '<br/><br/><h2 class="sectionTitle"> Experience </h2>';
 	for(i=0;i<works.length;i++){
-		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'</div><div class="row period">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row companyName">'+works[i].organisation+'</div>' + '<a href="'+works[i].link+'" target="_blank"><i class="material-icons right">language</i></a>' + '</div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
+		worksInnerHTML+='<div class="row work"><div class="col m6 s12"><div class="row title">'+works[i].workPosition+'</div><div class="row period">'+ works[i].periodStart+ '-' + works[i].periodEnd +'</div><div class="row companyName">'+works[i].organisation+'</div>' + '<a href="'+works[i].link+'" target="_blank" rel="noopener noreferrer"><i class="material-icons right">language</i></a>' + '</div><div class="col m6 s12 details"><div class="row">'+works[i].experience+'</div></div></div>';
 	}
 	$('#experience').html(worksInnerHTML);
 }
@@ -78,7 +78,7 @@ function loadEducations(educations){
 	var i=0,j;
 	var educationsInnerHTML = '<br/><br/><h2 class="sectionTitle"> Education </h2>';
 	for(i=0;i<educations.length;i++){
-		education = '<div class="row education"><div class="row title">'+ educations[i].course +'</div><div class="col m6 s12"><div class="row period">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row companyName">'+educations[i].inst+'</div><div class="row period">'+educations[i].score+'</div>'+ '<a href="'+educations[i].link+'" target="_blank"><i class="material-icons right">language</i></a></div>' +'<div class="col m6 s12 details"><ul><li><div>';
+		education = '<div class="row education"><div class="row title">'+ educations[i].course +'</div><div class="col m6 s12"><div class="row period">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row companyName">'+educations[i].inst+'</div><div class="row period">'+educations[i].score+'</div>'+ '<a href="'+educations[i].link+'" target="_blank" rel="noopener noreferrer"><i class="material-icons right">language</i></a></div>' +'<div class="col m6 s12 details"><ul><li><div>';
 		var courses = educations[i].courses;
 		courses.sort(function(a,b){
 			return a.sn-b.sn;
@@ -103,7 +103,7 @@ function loadLinks(profileLinks){
 	while(i<profileLinks.length){
 		profileLinksInnerHTML+=''
 		for(j=i;j<profileLinks.length&&j<i+8;j++){
-			profileLinksInnerHTML+='<div class="col s4 m4 l4 links center-align"><a href="'+profileLinks[j].link+'" target="_blank" aria-label="Social Media Link">'+profileLinks[j].icon+'</a></div>';
+			profileLinksInnerHTML+='<div class="col s4 m4 l4 links center-align"><a href="'+profileLinks[j].link+'" target="_blank" rel="noopener noreferrer" aria-label="Social Media Link">'+profileLinks[j].icon+'</a></div>';
 		}
 		profileLinksInnerHTML+='';
 		i=j;
@@ -135,11 +135,11 @@ $.get("js/profile.json",
 	function(data, status){
 		profile = data;
 		var pInfo = profile.personalInfo;
-		$('title').html(pInfo.nick+' | Portfolio');
+		$('title').html('Omkar Ajnadkar | blackbird71SR');
 		$('#name').html("Hi, I'm " + pInfo.fname+'<br/>');
 		$('#subtitle').html("Student, Tinkerer, Developer");
 		$('#image img').attr('src','img/'+pInfo.myimg);
-		$('#contact').html('<a href="tel:4696493928">' + pInfo.mob+'</a></br><a href="mailto:omkarajnadkar@gmail.com">'+pInfo.email+'</a><br/>'+pInfo.currentLocation);
+		$('#contact').html('<a href="tel:4696493928" rel="noopener noreferrer">' + pInfo.mob+'</a></br><a rel="noopener noreferrer" href="mailto:omkarajnadkar@gmail.com">'+pInfo.email+'</a><br/>'+pInfo.currentLocation);
 		$('#summary p').html(profile.summaryAlt);
 		Typed.new('#believe span', {
 			strings: profile.qoutes,
@@ -158,23 +158,23 @@ $.get("js/profile.json",
 		//console.log(profile);
 });
 
-function onBodyLoad(){
-	//console.log('body loaded');
-	$('#Says').css('display','block');
-}
+// function onBodyLoad(){
+// 	//console.log('body loaded');
+// 	$('#Says').css('display','block');
+// }
 
-$(document).ready(function(){
-	$('.collapsible').collapsible({
-	  'accordion' : true
-	});
-	$('#tabs').tabs({ 'swipeable': true });
-	$('.info').perfectScrollbar();
-	onWindowResize();
-});
+// $(document).ready(function(){
+// 	$('.collapsible').collapsible({
+// 	  'accordion' : true
+// 	});
+// 	$('#tabs').tabs({ 'swipeable': true });
+// 	$('.info').perfectScrollbar();
+// 	onWindowResize();
+// });
 		
-$(window).resize(onWindowResize);	
+// $(window).resize(onWindowResize);	
 
-function onWindowResize(){
-	$('#skills div.m2').css('height',$('#skills div.m2').css('width'));
-	$('#image img').css('height',$('#image img').css('width'));
-}
+// function onWindowResize(){
+// 	$('#skills div.m2').css('height',$('#skills div.m2').css('width'));
+// 	$('#image img').css('height',$('#image img').css('width'));
+// }
