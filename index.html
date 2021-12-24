@@ -2,6 +2,11 @@
 <html lang="en">
 	<head>
 		<title>Omkar Ajnadkar | blackbird71SR</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Personal Website of Omkar Ajnadkar">
+		<meta name="theme-color" content="#e3e3e3"/>
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110531073-2"></script>
 		<script>
@@ -11,9 +16,16 @@
 
 		gtag('config', 'UA-110531073-2');
 		</script>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Personal Website of Omkar Ajnadkar">
-		<meta name="theme-color" content="#e3e3e3"/>
+
+		<script>
+			// Check that service workers are supported
+			if ('serviceWorker' in navigator) {
+				// Use the window load event to keep the page load performant
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/service-worker.js');
+				});
+			}
+		</script>
 
 		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
