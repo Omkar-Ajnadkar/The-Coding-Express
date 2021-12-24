@@ -180,7 +180,7 @@
 			"course": "Secondary School Examination",
 			"score": "96.00%",
 			"inst": "Swami Vivekanand Vidyamandir, Dombivli",
-			"link": "",
+			"link": "https://www.google.com/search?q=Swami+Vivekanand+Vidya+Mandir+%28Rana+Pratap",
 			"board": "Maharashtra State Board",
 			"courses": [
 			]
@@ -337,7 +337,7 @@
 				"person-detection"
 			],
 			"shortInfo": "Developed Siamese network and clustering based approach to identify people across images as a part of bachelor thesis",
-			"link": ""
+			"link": "https://www.linkedin.com/in/omkar-ajnadkar"
 		},
 		{
 			"sn": 2,
@@ -412,7 +412,7 @@
 				"text-processing"
 			],
 			"shortInfo": "This is a deep learning based solution to suggest similar news in the entire dataset which can be used in news recommendation approach.",
-			"link": ""
+			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
 		},
 		{
 			"sn": 6,
@@ -431,7 +431,7 @@
 				"text-processing"
 			],
 			"shortInfo": "This is attempt to create better sentimental analysis model by solving the problem of sarcasm detection in social media like twitter.",
-			"link": ""
+			"link": "https://link.springer.com/chapter/10.1007%2F978-981-15-8610-1_6"
 		},
 		{
 			"sn": 7,

@@ -78,6 +78,10 @@
 	border-radius: 50%;
 }
 
+#links .fa{
+	font-size: xx-large;
+}
+
 #links .s2{
 	width: 40%;
 	margin: 1%;
