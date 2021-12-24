@@ -103,7 +103,7 @@ function loadLinks(profileLinks){
 	while(i<profileLinks.length){
 		profileLinksInnerHTML+=''
 		for(j=i;j<profileLinks.length&&j<i+8;j++){
-			profileLinksInnerHTML+='<div class="col s4 m4 l4 links center-align"><a href="'+profileLinks[j].link+'" target="_blank" >'+profileLinks[j].icon+'</a></div>';
+			profileLinksInnerHTML+='<div class="col s4 m4 l4 links center-align"><a href="'+profileLinks[j].link+'" target="_blank" aria-label="Social Media Link">'+profileLinks[j].icon+'</a></div>';
 		}
 		profileLinksInnerHTML+='';
 		i=j;

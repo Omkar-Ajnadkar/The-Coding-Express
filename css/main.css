@@ -5,12 +5,12 @@
 .title{
 	font-family:'Eczar', serif;
 	font-size: 1.4rem;
-	color: red;
+	color: #b93329;
 }
 
 #subtitle{
 	font-size:  2rem;
-	color: red;
+	color: #b93329;
 	font-family:'Eczar', serif;
 }
 
@@ -20,11 +20,11 @@
 }
 
 .material-icons{
-	color: blue;
+	color: #0067b1;
 }
 
 .summaryImp{
-	color:orange;
+	color:#0067b1;
 	font-weight: bold
 }
 .summaryEdu{
@@ -50,9 +50,14 @@
 	text-transform: lowercase;
 }
 
-#hello p,#summary p{
+#hello p,#summary p, #experience .details, #education .details, #projects .details, #publications .details{
 	text-align: justify;
 	font-family: 'Roboto', sans-serif;
+	font-size: large;
+}
+
+#experience .details li{
+	margin-bottom: 10px;
 }
 
 .row {
