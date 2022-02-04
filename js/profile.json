@@ -285,6 +285,24 @@
 		},
 		{
 			"sn": 1,
+			"link": "https://cs.utdallas.edu/",
+			"workPosition": "Software Development Engineer",
+			"periodStart": "May 2021",
+			"periodEnd": "Aug 2021",
+			"organisation": "The University of Texas at Dallas",
+			"experience": "Debugged, improved and upgraded Java and Spring based 'TA Assignment System' to the latest tech-stack for to be used by CS department at The University of Texas at Dallas."
+		},
+		{
+			"sn": 2,
+			"link": "https://cs.utdallas.edu/",
+			"workPosition": "Computer Science Grader",
+			"periodStart": "Feb 2021",
+			"periodEnd": "May 2021",
+			"organisation": "The University of Texas at Dallas",
+			"experience": "Assisted Prof. James Willson with grading CS 3305 (Discrete Mathematics for Computing) class for Spring-2021 semester in Computer Science department at The University of Texas at Dallas"
+		},
+		{
+			"sn": 3,
 			"link": "https://www.affineanalytics.com/",
 			"workPosition": "Data Science Intern",
 			"periodStart": "Jan 2020",
@@ -293,7 +311,7 @@
 			"experience": "<ul><li>- Assisted in implementing end-to-end solution for the problem of  'Sales Quota Prediction' for a US based client.</li><li>- Worked on EDA techniques, Time Series and Machine Learning models to predict quota for different geographic levels.</li><li>- Transformed data cleaning pipeline along with python based report generation to reduce the development time by 50%.</li></ul>"
 		},
 		{
-			"sn": 2,
+			"sn": 4,
 			"link": "https://events.withgoogle.com/explore-ml-in/",
 			"workPosition": "Google Explore ML Facilitator",
 			"periodStart": "June 2019",
@@ -302,7 +320,7 @@
 			"experience": "Explore Machine Learning (ML) is a Google-sponsored program for university students. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus. Google AI Explore ML program is a training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."
 		},
 		{
-			"sn": 3,
+			"sn": 5,
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
@@ -311,7 +329,7 @@
 			"experience": "<ul><li>- Worked on classification, identification, and segmentation problem for breast cancer detection.</li><li>- Used generative adversarial networks(GANs) based techniques to solve the problem of class imbalance.</li><li>- Classified and Segmented images using end-to-end CNN and U-Net based model with 92% accuracy.</li></ul>"
 		},
 		{
-			"sn": 4,
+			"sn": 6,
 			"link": "http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
