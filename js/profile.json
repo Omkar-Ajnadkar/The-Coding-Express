@@ -617,7 +617,7 @@
 	],
 	"publications": [
 		{
-			"sn": 1,
+			"sn": 3,
 			"publicationTitle": "Sarcasm Detection of Media Text Using Deep Neural Networks",
 			"conference": "7th International Conference on Advanced Computing, Networking, and Informatics (ICACNI 2019)",
 			"publisher": "Springer, Singapore",
@@ -637,26 +637,26 @@
 			"publicationTitle": "News Background Linking Using Document Similarity Techniques",
 			"conference": "7th International Conference on Advanced Computing, Networking, and Informatics (ICACNI 2019)",
 			"publisher": "Springer, Singapore",
+			"publishedDate": "November 2020",
+			"tags": [
+				"natural-languge-processing",
+				"background-linking",
+				"document-similarity"
+			],
+			"shortInfo": "News readers still look forward to well-established news sources for a more accurate and detailed analysis of the news or articles. In this paper, we present a model that can retrieve other news articles that provide essential context and background information related to the news article that is being looked into. The abstract topics have been recognized using Latent Dirichlet Allocation. A similarity matrix has been created after the extraction of topics using two methods, cosine similarity and Jensen–Shannon divergence. This paper describes the implementation and gives a brief description of both the similarity methods. It also gives a comparative study of both methods.",
+			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
+		},
+		{
+			"sn": 1,
+			"publicationTitle": "STONKS - Analyzing Financial Discussions on Reddit",
+			"conference": "The University of Texas at Dallas",
+			"publisher": "ArtSciLab",
 			"publishedDate": "March 2022",
 			"tags": [
 				"natural-languge-processing",
 				"topic-modelling",
 				"stock-movement-prediction",
 				"data-visualization"
-			],
-			"shortInfo": "News readers still look forward to well-established news sources for a more accurate and detailed analysis of the news or articles. In this paper, we present a model that can retrieve other news articles that provide essential context and background information related to the news article that is being looked into. The abstract topics have been recognized using Latent Dirichlet Allocation. A similarity matrix has been created after the extraction of topics using two methods, cosine similarity and Jensen–Shannon divergence. This paper describes the implementation and gives a brief description of both the similarity methods. It also gives a comparative study of both methods.",
-			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
-		},
-		{
-			"sn": 3,
-			"publicationTitle": "STONKS - Analyzing Financial Discussions on Reddit",
-			"conference": "The University of Texas at Dallas",
-			"publisher": "ArtSciLab",
-			"publishedDate": "March 2020",
-			"tags": [
-				"natural-languge-processing",
-				"background-linking",
-				"document-similarity"
 			],
 			"shortInfo": "<p>Social media has become an important part of digital web life, the effect it has on financial decisions  is  also  increasing.  The  social media  conversations  on  websites  like  Twitter, Reddit and Facebook are having an ever-increasing effect on stock prices as well as the way in which companies make decisions. This has made it important to analyze this data to  make  accurate  predictions  of  stock  prices  in  future.  In  this  paper,  we  try  to  analyze financial discussions among users of Reddit by extracting hidden patterns, themes and user characters to predict future actions and consequences on the market.</p><p> We explore techniques  based  on  natural language  processingto  pass  conversations through  data  pipeline along  with extracting  stock  tickers,  manual  as  well  as  automatic theme extraction and word clouds. We also discuss common text processing techniques which can also be applied to other problems involving text analysis along with correlation model focusing on sentiment analysis as a predictor of stock movement.</p>",
 			"link": "https://utdallas.box.com/s/5ggly0wkwa1stwimar67xgefxg3e9owz"
