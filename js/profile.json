@@ -278,7 +278,7 @@
 			"periodStart": "June 2021",
 			"periodEnd": "Present",
 			"organisation": "ArtSciLab",
-			"experience": "<ul><li>- Using NLP and data visualization techniques to extract hidden insights and user profile patterns from the virtual meetings and conversations</li><li>- Analyzing Reddit data for risk prediction using topic modelling and user behavior</li><li>- Managing and improving various web projects along with servers & database infrastructure of the ArtSciLab</li><li>- Working with WordPress backend, Next.js frontend and Digital Ocean Server</li></ul>"
+			"experience": "<ul><li>- Using NLP and data visualization techniques to extract hidden insights and user profile patterns from the virtual meetings and conversations</li><li>- Analyzing Reddit data for financial risk prediction using topic modelling, sentiment analysis and user behavior</li><li>- Managing and improving various web projects along with server & database infrastructure of the ArtSciLab with WordPress backend, Next.js frontend and Digital Ocean Server</li></ul>"
 		},
 		{
 			"sn": 1,
@@ -650,7 +650,7 @@
 			"sn": 1,
 			"publicationTitle": "STONKS - Analyzing Financial Discussions on Reddit",
 			"conference": "The University of Texas at Dallas",
-			"publisher": "ArtSciLab",
+			"publisher": "ArtSciLab Whitepaper",
 			"publishedDate": "March 2022",
 			"tags": [
 				"natural-languge-processing",
