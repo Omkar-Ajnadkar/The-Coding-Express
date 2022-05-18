@@ -15,9 +15,9 @@
 	"educations": [
 		{
 			"periodStart": "August 2020",
-			"periodEnd": "Present",
+			"periodEnd": "May 2022",
 			"course": "Master of Science in Computer Science",
-			"score": "3.76 GPA",
+			"score": "3.758 GPA",
 			"inst": "The University of Texas at Dallas",
 			"link": "https://www.utdallas.edu",
 			"board": "",
@@ -35,52 +35,58 @@
 					"sn": 2
 				},
 				{
+					"courseCode": "CS6359",
+					"courseName": "Object Oriented Analysis and Design",
+					"courseScore": "",
+					"sn": 3
+				},
+				{
+					"courseCode": "CS6364",
+					"courseName": "Artificial Intelligence",
+					"courseScore": "",
+					"sn": 4
+				},
+				{
+					"courseCode": "CS6375",
+					"courseName": "Machine Learning",
+					"courseScore": "",
+					"sn": 5
+				},
+				{
+					"courseCode": "CS6344",
+					"courseName": "Data Representation",
+					"courseScore": "",
+					"sn": 6
+				},
+				{
+					"courseCode": "CS6320",
+					"courseName": "Natural Language Processing",
+					"courseScore": "",
+					"sn": 7
+				},
+				{
+					"courseCode": "CS6301",
+					"courseName": "Convolutional Neural Networks",
+					"courseScore": "",
+					"sn": 8
+				},
+				{
 					"courseCode": "CS6314",
 					"courseName": "Web Programming Languages",
 					"courseScore": "",
 					"sn": 3
 				},
 				{
-					"courseCode": "CS6301",
-					"courseName": "Convolutional Neural Networks",
-					"courseScore": "",
-					"sn": 4
-				},
-				{
-					"courseCode": "CS6320",
-					"courseName": "Natural Language Processing",
-					"courseScore": "",
-					"sn": 5
-				},
-				{
 					"courseCode": "CS6350",
 					"courseName": "Big Data Management and Analytics",
 					"courseScore": "",
-					"sn": 6
-				},
-				{
-					"courseCode": "CS6375",
-					"courseName": "Machine Learning",
-					"courseScore": "",
-					"sn": 7
+					"sn": 10
 				},
 				{
 					"courseCode": "CS6343",
 					"courseName": "Cloud Computing",
 					"courseScore": "",
-					"sn": 8
-				},
-				{
-					"courseCode": "CS6344",
-					"courseName": "Data Representation",
-					"courseScore": "",
-					"sn": 9
-				},
-				{
-					"courseCode": "CS6364",
-					"courseName": "Artificial Intelligence",
-					"courseScore": "",
-					"sn": 10
+					"sn": 11
 				}
 			]
 		},
@@ -274,14 +280,23 @@
 		{
 			"sn": 0,
 			"link": "https://artscilab.atec.io",
-			"workPosition": "Data Analyst & Web Developer",
+			"workPosition": "Data Analyst",
 			"periodStart": "June 2021",
-			"periodEnd": "Present",
+			"periodEnd": "May 2022",
 			"organisation": "ArtSciLab",
-			"experience": "<ul><li>- Using NLP and data visualization techniques to extract hidden insights and user profile patterns from the virtual meetings and conversations</li><li>- Analyzing Reddit data for financial risk prediction using topic modelling, sentiment analysis and user behavior</li><li>- Managing and improving various web projects along with server & database infrastructure of the ArtSciLab with WordPress backend, Next.js frontend and Digital Ocean Server</li></ul>"
+			"experience": "<ul><li>- Performed Natural Language Processing and Data Visualization based analysis of virtual Microsoft Teams meetings and conversations to extract hidden insights and sentiments of the participants.</li><li>- Analyzed Reddit data for risk prediction using Natural Language Processing, Intensity Analysis, Topic Modelling and published peer-reviewed White Paper <a href='https://drive.google.com/file/d/1C9DZ4QzVGYbQ2zyWs6qCPVj__VmRJJ7X' class='summaryImp'>'STONKS - Analyzing Financial Discussions on Reddit'</a>.</li></ul>"
 		},
 		{
 			"sn": 1,
+			"link": "https://artscilab.atec.io",
+			"workPosition": "Web Developer",
+			"periodStart": "June 2021",
+			"periodEnd": "May 2022",
+			"organisation": "ArtSciLab",
+			"experience": "<ul><li>- Managed, redesigned and improved web projects along with servers, database infrastructure and access control of the ArtSciLab.</li><li>- Updated the web documentations and streamlined the update pipeline for better control and efficient updates of the new features.</li><li>- Tech Stack: Backend and CMS - WordPress, Frontend - Next.js (React), Hosting - Digital Ocean, Analytics - Google Analytics, Version Control - GitHub</li></ul>"
+		},
+		{
+			"sn": 2,
 			"link": "https://cs.utdallas.edu/",
 			"workPosition": "Software Development Engineer",
 			"periodStart": "May 2021",
@@ -290,7 +305,7 @@
 			"experience": "Debugged, improved and upgraded Java and Spring based 'TA Assignment System' to the latest tech-stack for to be used by CS department at The University of Texas at Dallas."
 		},
 		{
-			"sn": 2,
+			"sn": 3,
 			"link": "https://cs.utdallas.edu/",
 			"workPosition": "Computer Science Grader",
 			"periodStart": "Feb 2021",
@@ -299,7 +314,7 @@
 			"experience": "Assisted Prof. James Willson with grading CS 3305 (Discrete Mathematics for Computing) class for Spring-2021 semester in Computer Science department at The University of Texas at Dallas"
 		},
 		{
-			"sn": 3,
+			"sn": 4,
 			"link": "https://www.affineanalytics.com/",
 			"workPosition": "Data Science Intern",
 			"periodStart": "Jan 2020",
@@ -308,7 +323,7 @@
 			"experience": "<ul><li>- Assisted in implementing end-to-end solution for the problem of  'Sales Quota Prediction' for a US based client.</li><li>- Worked on EDA techniques, Time Series and Machine Learning models to predict quota for different geographic levels.</li><li>- Transformed data cleaning pipeline along with python based report generation to reduce the development time by 50%.</li></ul>"
 		},
 		{
-			"sn": 4,
+			"sn": 5,
 			"link": "https://events.withgoogle.com/explore-ml-in/",
 			"workPosition": "Google Explore ML Facilitator",
 			"periodStart": "June 2019",
@@ -317,7 +332,7 @@
 			"experience": "Explore Machine Learning (ML) is a Google-sponsored program for university students. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus. Google AI Explore ML program is a training experience for student facilitators to get familiar with the programs’ content, meet one another and connect to Googlers."
 		},
 		{
-			"sn": 5,
+			"sn": 6,
 			"link": "http://iitbhu.ac.in",
 			"workPosition": "Deep Learning Summer Research Intern",
 			"periodStart": "May 2019",
@@ -326,7 +341,7 @@
 			"experience": "<ul><li>- Worked on classification, identification, and segmentation problem for breast cancer detection.</li><li>- Used generative adversarial networks(GANs) based techniques to solve the problem of class imbalance.</li><li>- Classified and Segmented images using end-to-end CNN and U-Net based model with 92% accuracy.</li></ul>"
 		},
 		{
-			"sn": 6,
+			"sn": 7,
 			"link": "http://thebomway.com",
 			"workPosition": "Backend Web Development Intern",
 			"periodStart": "May 2018",
@@ -337,140 +352,233 @@
 	],
 	"projects": [
 		{
+			"sn": 0,
+			"projectTitle": "💲STONKS : Analyzing Financial Discussions on Reddit",
+			"periodStart": "Jun 2021",
+			"periodEnd": "May 2022",
+			"toolsUsed": [
+				"Python",
+				"Jupyter Notebook",
+				"NLTK",
+				"Pandas",
+				"Matplotlib",
+				"PRAW",
+				"Yahoo Finance",
+				"Gensim"
+			],
+			"tags": [
+				"natural-languge-processing",
+				"topic-modelling",
+				"stock-movement-prediction",
+				"data-visualization"
+			],
+			"shortInfo": "<p>Social media has become an important part of digital web life, the effect it has on financial decisions  is  also  increasing.  The  social media  conversations  on  websites  like  Twitter, Reddit and Facebook are having an ever-increasing effect on stock prices as well as the way in which companies make decisions. This has made it important to analyze this data to  make  accurate  predictions  of  stock  prices  in  future.  In  this  paper,  we  try  to  analyze financial discussions among users of Reddit by extracting hidden patterns, themes and user characters to predict future actions and consequences on the market.</p><p> We explore techniques  based  on  natural language  processingto  pass  conversations through  data  pipeline along  with extracting  stock  tickers,  manual  as  well  as  automatic theme extraction and word clouds. We also discuss common text processing techniques which can also be applied to other problems involving text analysis along with correlation model focusing on sentiment analysis as a predictor of stock movement.</p>",
+			"link": "https://drive.google.com/file/d/1C9DZ4QzVGYbQ2zyWs6qCPVj__VmRJJ7X"
+		},
+		{
 			"sn": 1,
-			"projectTitle": "Person Re-identification using Deep Learning",
+			"projectTitle": "🤝This is what our meetings say about us!",
+			"periodStart": "Jun 2021",
+			"periodEnd": "May 2022",
+			"toolsUsed": [
+				"Python",
+				"Jupyter Notebook",
+				"NLTK",
+				"Pandas",
+				"Matplotlib",
+				"Microsoft Teams"
+			],
+			"tags": [
+				"natural-languge-processing",
+				"sentiment-analysis",
+				"data-visualization"
+			],
+			"shortInfo": "<p>The pandemic moved us to virtual world and video meetings changed the way to interact with each other. The O.A.S.E.S (Our Art Science Experimental Seminars), previously called Watering Hole's conducted by ArtSciLab also moved to hybrid format and it was great opportunity to analyze the meetings using recordings from a data perspective. This white paper summarizes the step-by-step procedure to visualize these seminars right from collecting data to creating visualizations.<p><p>We explore techniques based on natural language processing to pass conversations through data pipeline along with creating word cloud visualizations and analyzing sentiment of the text. We also discuss the ways to extend this idea to create time-varying word clouds and video recordings of the meetings.</p>",
+			"link": "https://drive.google.com/file/d/18A7S5Iep8H_SeeEKimkylaVxf6Ea0z1x"
+		},
+		{
+			"sn": 2,
+			"projectTitle": "💦Real-Time Water Flow Operation Optimization",
+			"periodStart": "Nov 2021",
+			"periodEnd": "Nov 2021",
+			"toolsUsed": [
+				"React",
+				"Web Sockets",
+				"Highcharts",
+				"Pandas"
+			],
+			"tags": [
+				"optimiization-algorithms",
+				"real-time-data-visualization",
+				"hackathon"
+			],
+			"shortInfo": "<p>As a part of HackUTD 2022 sponsored challenge by EOG Resources, problem involved fetching total water, dividing into multiple operations and increment revenue as much as possible.<p><p>EOG wells are constantly producing water and we worked on finding ways to reduce expenditures, as well as reuse and recycle water whenever possible. The challenge was to develop an application which can process a steady stream of real-time sensor data to both optimize and visualize the distribution of water for company's upstream operations.</p>",
+			"link": "https://devpost.com/software/eog-resources-challenge"
+		},
+		{
+			"sn": 3,
+			"projectTitle": "🏠Roomies - Find Roomies Tinder Style",
+			"periodStart": "Feb 2021",
+			"periodEnd": "Feb 2021",
+			"toolsUsed": [
+				"JavaScript",
+				"React",
+				"Node.js",
+				"Express",
+				"CockroachDB",
+				"Redux",
+				"JSON Web Tokens",
+				"becryptjs",
+				"VS Code",
+				"Heroku",
+				"GitHub"
+			],
+			"tags": [
+				"recommendation-system",
+				"full-stack-application",
+				"hackathon"
+			],
+			"shortInfo": "<p>It's not easy to find perfect room and roommates when you go 1000 miles away from your home for international study. Roomies is a platform to help you automatically find roommates according to habits and preferences in a easy to use tinder-like style!<p><p>Developed as a part of HackUTD 2021 submission, the user is asked questions about Gender, Age group, Country, University, Starting semester, Course, Food preferences, Smoking and Drinking habits, Cooking experience and expectations is similar areas from their roommates. Then matching algorithm is used to calculate scores and top results are recommended to the user.</p>",
+			"link": "https://devpost.com/software/roomies-hefdcb"
+		},
+		{
+			"sn": 4,
+			"projectTitle": "🧑Person Re-identification using Deep Learning",
 			"periodStart": "Jul 2019",
 			"periodEnd": "May 2020",
 			"toolsUsed": [
 				"Python",
-				"CNN",
+				"CNNs",
+				"GANs",
 				"Deep Learning",
 				"Keras"
 			],
 			"tags": [
 				"computer-vision",
-				"person-detection"
+				"person-re-identification"
 			],
-			"shortInfo": "Developed Siamese network and clustering based approach to identify people across images as a part of bachelor thesis",
+			"shortInfo": "<p>Person Re-identification (Re-ID) is a fundamental subject in the field of computer vision tech-nologies due to its application and research significance. The purpose of this task is to spot an individual in other cameras. This work explores conventional Re-ID approaches and then focuses on the latest developments, including methods and techniques using deep learning. In this work, we propose an efficient approach in which we first eliminate dissimilar images using k-mediods clustering. A silhouette part-based feature extraction scheme is adopted in each level of hierarchy to preserve the relative locations of the different body structures and make the appearance descriptors more discriminating in nature.</p>",
 			"link": "https://www.linkedin.com/in/omkar-ajnadkar"
 		},
 		{
-			"sn": 2,
-			"projectTitle": "Brain Image Segmentation and Tumor Detection",
+			"sn": 5,
+			"projectTitle": "📰 News Recommendations using Background Linking",
 			"periodStart": "Jan 2019",
-			"periodEnd": "April 2019",
+			"periodEnd": "Dec 2019",
 			"toolsUsed": [
 				"Python",
-				"CNN",
+				"NLP",
 				"Deep Learning",
 				"Keras"
 			],
 			"tags": [
-				"medical",
-				"segmentation",
-				"class-detection"
+				"news-recommendation",
+				"text-processing",
+				"cosine-similarity"
 			],
-			"shortInfo": "Runner-up at Smart India Hackathon - 2019, Worked on Following Medical Datasets: BraTS 2018, MrBrains18. Used Modified VGG16, Modified UNetCNN as models and created interface GUI using Python PyQt with the ability to visualize the results along with accuracy in real-time. Also the website is made using Django that works the same as GUI but with easy and better visualization. Able to segment parts of the brain in the 4 D dataset with average dice score of 0.84.Able to find the tumor in the dataset with average dice score of 0.96",
-			"link": "https://github.com/blackbird71SR/Brain-Image-Segmentation"
+			"shortInfo": "<p>Developed Cosine similarity and Jensen–Shannon divergence based news recommendation approach on 'TREC News Dataset' using background information linking, Mentored by Prof. Tirthankar Dasgupta (TCS).</p><p>News readers still look forward to well-established news sources for a more accurate and detailed analysis of the news or articles. In this paper, we present a model that can retrieve other news articles that provide essential context and background information related to the news article that is being looked into. The abstract topics have been recognized using Latent Dirichlet Allocation. A similarity matrix has been created after the extraction of topics using two methods, cosine similarity and Jensen–Shannon divergence. This paper describes the implementation and gives a brief description of both the similarity methods. It also gives a comparative study of both methods.</p>",
+			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
 		},
 		{
-			"sn": 3,
-			"projectTitle": "FamilyWhere - A Deep Learning based solution for finding children and people lost in public gatherings",
+			"sn": 6,
+			"projectTitle": "💬 Sarcasm Detection of Media Text Using Deep Neural Networks",
+			"periodStart": "Jul 2018",
+			"periodEnd": "May 2019",
+			"toolsUsed": [
+				"Python",
+				"Deep Learning",
+				"CNNs",
+				"RNNs"
+			],
+			"tags": [
+				"sarcasm-detection",
+				"NLP",
+				"text-classification"
+			],
+			"shortInfo": "<p>Sarcasm detection in media text is a binary classification task where text can be either written straightly or sarcastically (with irony) where the intended meaning is the opposite of what is seemingly expressed. Performing sarcasm detection can be very useful in improving the performance of sentimental analysis where existing models fail to identify sarcasm at all. We examine the use of deep neural networks in this paper to detect the sarcasm in social media text(specifically Twitter data) as well as news headlines and compare the results. Results show that deep neural networks with the inclusion of word embeddings, bidirectional LSTM’s and convolutional networks achieve better accuracy of around 88 percent for sarcasm detection.</p>",
+			"link": "https://link.springer.com/chapter/10.1007%2F978-981-15-8610-1_6"
+		},
+		{
+			"sn": 7,
+			"projectTitle": "🗞️ RealU - Unbiased Untampered News and Media Experience",
+			"periodStart": "Mar 2019",
+			"periodEnd": "Apr 2019",
+			"toolsUsed": [
+				"Python",
+				"NLP",
+				"Deep Learning",
+				"Keras",
+				"Google Cloud Platform"
+			],
+			"tags": [
+				"fake-news-detection",
+				"text-processing",
+				"hackathon"
+			],
+			"shortInfo": "<p>Developed as a part of Hack In The North 2019 submission, RealU is a deep learning based solution that helps you detect fake media and stay away from them. Along with news text, it also analyses the images related to news using Google's cloud APIs to give user best possible prediction about news being fake or tampered.</p>",
+			"link": "https://devfolio.co/projects/realu"
+		},
+		{
+			"sn": 8,
+			"projectTitle": "🧠 Brain Image Segmentation and Tumor Detection",
+			"periodStart": "Jan 2019",
+			"periodEnd": "Apr 2019",
+			"toolsUsed": [
+				"Python",
+				"CNN",
+				"Deep Learning",
+				"UNet",
+				"Django"
+			],
+			"tags": [
+				"tumo-detection",
+				"image-segmentation",
+				"image-classification"
+			],
+			"shortInfo": "<p>Finalist at Smart India Hackathon - 2019<p><p>Worked on BraTS 2018 and MrBrains18 medical datasets. Used Modified VGG16, Modified UNetCNN as models and created interface GUI using Python PyQt with the ability to visualize the results along with accuracy in real-time. Also the website is made using Django that works the same as GUI but with easy and better visualization. Able to segment parts of the brain in the 4 D dataset with average dice score of 0.84. Able to find the tumor in the dataset with average dice score of 0.96</p>",
+			"link": "https://github.com/blackbird71SR/Brain-Segmentation-and-Tumor-Detection"
+		},
+		{
+			"sn": 9,
+			"projectTitle": "👪 FamilyWhere - A Deep Learning based solution for finding children and people lost in public gatherings",
 			"periodStart": "Jan 2019",
 			"periodEnd": "Jan 2019",
 			"toolsUsed": [
 				"Python",
-				"CNN",
+				"Flask",
 				"Deep Learning",
 				"Keras"
 			],
 			"tags": [
 				"person-finder",
-				"one-shot"
+				"one-shot-learning"
 			],
-			"shortInfo": "Developed at Hack36 - 2019, 1. When anyone realizes that their children or loved ones are lost in the crowd, he/ she will upload a single photo of the who lost along with contact information of self. 2. The model will store the image into the database with proper encodings.3. Whenever any other person will find that child or a person, he will just click a photo in the app and most probably 3 matches of the child will be shown along with contact numbers. USP: 1. Easy to use interface with simple 2 step user actions, 2. User just needs to upload one image of the child for face recognition instead of few hundreds required by other deep learning based approaches. 3. Great accuracy of the model to identify the child or a person correctly ",
+			"shortInfo": "<p>Developed at Hack36 - 2019</p><p><ol><li>When anyone realizes that their children or loved ones are lost in the crowd, he/ she will upload a single photo of the who lost along with contact information of self.</li><li> The model will store the image into the database with proper encodings.</li> <li>Whenever any other person will find that child or a person, he will just click a photo in the app and most probably 3 matches of the child will be shown along with contact numbers.</li></ol></p><p> USP: <ol><li>Easy to use interface with simple 2 step user actions.</li><li>User just needs to upload one image of the child for face recognition instead of few hundreds required by other deep learning based approaches.</li><li>Great accuracy of the model to identify the child or a person correctly.</li></ol></p>",
 			"link": "https://github.com/blackbird71SR/FamilyWhere"
 		},
 		{
-			"sn": 4,
-			"projectTitle": "RealU - Unbiased Untampered News and Media Experience",
-			"periodStart": "Mar 2019",
-			"periodEnd": "April 2019",
-			"toolsUsed": [
-				"Python",
-				"NLP",
-				"Deep Learning",
-				"Keras"
-			],
-			"tags": [
-				"news",
-				"classfication",
-				"language-processing"
-			],
-			"shortInfo": "A deep learning based solution that helps you detect fake media and stay away from them. Along with news text, it also analyses the images related to news using Google's cloud APIs to give user best possible prediction about news being fake or tampered.",
-			"link": "https://github.com/blackbird71SR/RealU"
-		},
-		{
-			"sn": 5,
-			"projectTitle": "News Background Linking",
+			"sn": 10,
+			"projectTitle": "🔳 RGBD Object Detection",
 			"periodStart": "Jan 2019",
-			"periodEnd": "Current",
+			"periodEnd": "Jan 2019",
 			"toolsUsed": [
 				"Python",
-				"NLP",
 				"Deep Learning",
-				"Keras"
+				"Fast-RCNN",
+				"YOLOv3"
 			],
 			"tags": [
-				"news",
-				"sentiment",
-				"text-processing"
+				"occlusion-detection",
+				"object-detection",
+				"hackathon"
 			],
-			"shortInfo": "This is a deep learning based solution to suggest similar news in the entire dataset which can be used in news recommendation approach.",
-			"link": "https://link.springer.com/chapter/10.1007/978-981-15-8610-1_10"
+			"shortInfo": "<p>Designed as part of iHack 2019, IIT Bombay it's a Fast-RCNN and YOLOv3 based object detection model for RGBD images. The model is able to detect occlusions in the RGBD images and also detect objects in the images and videos.</p><p>This solution helps in solving problems like better representation of crowded images in real-life situations like crowd controlling and traffic control, use of depth information for simultaneous image detection in noisy images and better side view prediction probability.</p>",
+			"link": "https://devfolio.co/projects/object-detection-using-depth-and-color-images"
 		},
 		{
-			"sn": 6,
-			"projectTitle": "Sarcasm Detection in Social Media Text",
-			"periodStart": "July 2018",
-			"periodEnd": "Current",
-			"toolsUsed": [
-				"Python",
-				"NLP",
-				"Deep Learning",
-				"Keras"
-			],
-			"tags": [
-				"sarcasm",
-				"sentiment",
-				"text-processing"
-			],
-			"shortInfo": "This is attempt to create better sentimental analysis model by solving the problem of sarcasm detection in social media like twitter.",
-			"link": "https://link.springer.com/chapter/10.1007%2F978-981-15-8610-1_6"
-		},
-		{
-			"sn": 7,
-			"projectTitle": "Sign Language and Static-Gesture Recognition",
-			"periodStart": "Aug 2018",
-			"periodEnd": "Oct 2018",
-			"toolsUsed": [
-				"Keras",
-				"Deep Learning",
-				"CNN",
-				"Colab",
-				"Python"
-			],
-			"tags": [
-				"guesture",
-				"sign_language"
-			],
-			"shortInfo": "Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.",
-			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Sign%20Language%20and%20Static-Gesture%20Recognition"
-		},
-		{
-			"sn": 8,
-			"projectTitle": "Automatic Class Attendance System",
-			"periodStart": "July 2017",
+			"sn": 11,
+			"projectTitle": "👨‍🎓 Automatic Class Attendance System",
+			"periodStart": "Jul 2017",
 			"periodEnd": "Nov 2017",
 			"toolsUsed": [
 				"Python",
@@ -483,136 +591,28 @@
 				"attendance-system",
 				"image-extraction"
 			],
-			"shortInfo": "This is an Image-Processing based attendance system, coded entirely in Python which stores face data of students, capture attendance through video cameras in classes, marks attendance using face extraction and matching and finally display it to teachers in GUI.",
+			"shortInfo": "<p>This is an Image-Processing based attendance system, coded entirely in Python. </p><p>The project is divided into 3 parts:<ol><li>Registration: We collect data and images of the students.</li><li>Attendance Marking: We record a video, while the class is in session. Then, we extract some frames from the video and extract faces from it. Finally, we match the extracted faces to those registered and mark the attendance.</li><li>Displaying Attendance: Basic DBMS queries and displaying the result in a properly formatted way.</li></ol><p>",
 			"link": "https://github.com/blackbird71SR/Automatic-Attendance-System"
 		},
 		{
-			"sn": 9,
-			"projectTitle": "EduBox",
-			"periodStart": "July 2017",
-			"periodEnd": "Nov 2017",
-			"toolsUsed": [
-				"Flask",
-				"Heroku",
-				"MongoDB",
-				"HTML",
-				"CSS",
-				"JavaScript"
-			],
-			"tags": [
-				"educational-system",
-				"website"
-			],
-			"shortInfo": "Complete educational system for University",
-			"link": "https://edubox-iiitkalyani.herokuapp.com"
-		},
-		{
-			"sn": 10,
-			"projectTitle": "Predicting Customer Churn in Banking",
-			"periodStart": "July 2018",
-			"periodEnd": "Aug 2018",
-			"toolsUsed": [
-				"Neural Networks",
-				"Keras",
-				"Sklearn",
-				"Deep Learning"
-			],
-			"tags": [
-				"classification",
-				"dl",
-				"ann"
-			],
-			"shortInfo": "Predicted if the customer will leave the bank in near future with the help of artificial neural networks.",
-			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predicting%20Customer%20Churn%20In%20Banking"
-		},
-		{
-			"sn": 11,
-			"projectTitle": "Predicting Tags on StackOverflow",
-			"periodStart": "Aug 2018",
-			"periodEnd": "Aug 2018",
-			"toolsUsed": [
-				"NLP",
-				"Bag of Words",
-				"TF-IDF",
-				"Sklearn"
-			],
-			"tags": [
-				"nlp",
-				"predictions"
-			],
-			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link": "https://github.com/blackbird71SR/Neural-Network-Projects/tree/master/Predict%20tags%20on%20StackOverflow"
-		},
-		{
 			"sn": 12,
-			"projectTitle": "IIIT Kalyani College Website",
-			"periodStart": "Dec 2017",
+			"projectTitle": "⏩Small Deep Learning Projects",
+			"periodStart": "Aug 2018",
 			"periodEnd": "Dec 2018",
 			"toolsUsed": [
-				"Django",
-				"SQLite",
-				"CPanel",
-				"HTML",
-				"CSS",
-				"JavaScript"
+				"Keras",
+				"Deep Learning",
+				"CNN",
+				"Colab",
+				"Python"
 			],
 			"tags": [
-				"website",
-				"backend"
+				"sign-language-recognition",
+				"customer-churn-prediction",
+				"tag-prediction"
 			],
-			"shortInfo": "Built a completely new website of IIIT Kalyani, along with the web team, from scratch. Headed the backend team. Worked on the home page and navigation aspects, used front-end framework Bootstrap 4 for designing. The backend is done using Django framework in Python.",
-			"link": "http://iiitkalyani.ac.in"
-		},
-		{
-			"sn": 13,
-			"projectTitle": "College Fest Website",
-			"periodStart": "Jan 2018",
-			"periodEnd": "Feb 2018",
-			"toolsUsed": [
-				"HTML",
-				"CSS",
-				"JavaScript"
-			],
-			"tags": [
-				"fest",
-				"website"
-			],
-			"shortInfo": "Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.",
-			"link": "https://blackbird71SR.github.io/MILAN/"
-		},
-		{
-			"sn": 14,
-			"projectTitle": "Secure E-Voting System",
-			"periodStart": "Apr 2018",
-			"periodEnd": "Apr 2018",
-			"toolsUsed": [
-				"Flask",
-				"SQLite",
-				"Heroku",
-				"Cryptography",
-				"JavaScript"
-			],
-			"tags": [
-				"evoting",
-				"website"
-			],
-			"shortInfo": "Created secure e-voting system for small scale elections.",
-			"link": "http://anku255.pythonanywhere.com"
-		},
-		{
-			"sn": 15,
-			"projectTitle": "Hello World",
-			"periodStart": "Oct 2018",
-			"periodEnd": "Oct 2018",
-			"toolsUsed": [
-				"GitHub"
-			],
-			"tags": [
-				"open_source",
-				"hacktoberfest"
-			],
-			"shortInfo": "Hactoberfest repository for public contribution ",
-			"link": "https://github.com/blackbird71SR/Hello-World"
+			"shortInfo": "<p>🤘<strong>Sign Language and Static-Gesture Recognition</strong><br/>Predicted the English letter corresponding to given action in sign language by training the CNN model with Keras with the accuracy of 88%.</p><p>🏦<strong>Predicting Customer Churn In Banking</strong><br/>Predicted if the customer will leave the bank in near future with the help of artificial neural networks.</p><p>#️⃣<strong>Predicting Tags on Stack Overflow</strong><br/>Predicted the possible tags for given stack overflow query using ‘Bag of words’ and ‘TF-IDF’ model.</p>",
+			"link": "https://github.com/blackbird71SR/Small-Deep-Learning-Projects"
 		}
 	],
 	"publications": [
@@ -659,7 +659,7 @@
 				"data-visualization"
 			],
 			"shortInfo": "<p>Social media has become an important part of digital web life, the effect it has on financial decisions  is  also  increasing.  The  social media  conversations  on  websites  like  Twitter, Reddit and Facebook are having an ever-increasing effect on stock prices as well as the way in which companies make decisions. This has made it important to analyze this data to  make  accurate  predictions  of  stock  prices  in  future.  In  this  paper,  we  try  to  analyze financial discussions among users of Reddit by extracting hidden patterns, themes and user characters to predict future actions and consequences on the market.</p><p> We explore techniques  based  on  natural language  processingto  pass  conversations through  data  pipeline along  with extracting  stock  tickers,  manual  as  well  as  automatic theme extraction and word clouds. We also discuss common text processing techniques which can also be applied to other problems involving text analysis along with correlation model focusing on sentiment analysis as a predictor of stock movement.</p>",
-			"link": "https://utdallas.box.com/s/5ggly0wkwa1stwimar67xgefxg3e9owz"
+			"link": "https://drive.google.com/file/d/1C9DZ4QzVGYbQ2zyWs6qCPVj__VmRJJ7X"
 		}
 	],
 	"summary": "Hi, I’m Omkar. I am Full-Stack Web Developer who is curently more into Data Science. Working and Researching in the domain of Machine and Deep Learning. I'm looking for an Internship or Remote work where I can learn and grow(and help you grow) with my skills and make this world a better place.(Silicon Valley, anyone?)",
