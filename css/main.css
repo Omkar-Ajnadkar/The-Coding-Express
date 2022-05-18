@@ -1,9 +1,11 @@
 #name{
 	font-family:'Eczar', serif;
+	font-display: swap;
 }
 
 .title{
 	font-family:'Eczar', serif;
+	font-display: swap;
 	font-size: 1.4rem;
 	color: #b93329;
 }
@@ -12,10 +14,12 @@
 	font-size:  2rem;
 	color: #b93329;
 	font-family:'Eczar', serif;
+	font-display: swap;
 }
 
 .subtitle{
 	font-family: 'Raleway', sans-serif;
+	font-display: swap;
 	font-size: 1rem;
 }
 
@@ -40,6 +44,7 @@
 
 .links{
 	font-family: 'Roboto', sans-serif;
+	font-display: swap;
 	font-size: 1.5rem;
 	color: black;
 	text-align: center;
@@ -53,6 +58,7 @@
 #hello p,#summary p, #experience .details, #education .details, #projects .details, #publications .details{
 	text-align: justify;
 	font-family: 'Roboto', sans-serif;
+	font-display: swap;
 	font-size: large;
 }
 
@@ -122,6 +128,7 @@
 .tag{
 	font-style: italic;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-display: swap;
 }
 
 .ps.ps--active-x > .ps__scrollbar-x-rail, .ps.ps--active-y > .ps__scrollbar-y-rail{
@@ -183,12 +190,14 @@ object{
 #contact{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	font-display: swap;
 	font-weight: bold;
 }
 
 #skills{
 	text-align: center;
 	font-family:'Eczar', serif;
+	font-display: swap;
 	font-size: 1.5rem;
 }
 
@@ -280,10 +289,12 @@ body{
 	background-color: #e3e3e3;
 	color: black;
 	font-family:'Eczar', serif;
+	font-display: swap;
 	line-height: 1.2
 }
 nav ul li {
 	font-family: 'Raleway', sans-serif;
+	font-display: swap;
 	font-weight: bold;
  }
 
@@ -293,24 +304,29 @@ nav ul li:hover {
 
 .period{
 	font-family:'Eczar', serif;
+	font-display: swap;
 }
 
 .companyName{
 	font-family: 'Eczar', serif;
+	font-display: swap;
 	font-size: 1.3rem;
 }
 
 .tools{
 	font-family:'Eczar', serif;
+	font-display: swap;
 }
 
 .tag{
 	font-family:'Eczar', serif;
+	font-display: swap;
 	font-style: italic;
 }
 
 .sectionTitle{
 	font-family:'Eczar', serif;
+	font-display: swap;
 	text-align: center;
 }
 
