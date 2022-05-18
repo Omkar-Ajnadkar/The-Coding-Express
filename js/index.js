@@ -211,6 +211,7 @@ function loadLikes(likes) {
 // 			confirmButtonColor:"#1f1f1f"
 // 		}
 // 	);
+
 $.get('js/profile.json', function (data, status) {
   profile = data;
   var pInfo = profile.personalInfo;

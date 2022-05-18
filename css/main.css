@@ -67,8 +67,8 @@
 #links{
 	color: black;
 	text-align: center;
-	margin-left: 8.33%;
-	margin-right: 8.33%;
+	/* margin-left: 8.33%;
+	margin-right: 8.33%; */
 }
 
 #links img{	
@@ -79,7 +79,8 @@
 }
 
 #links .fa{
-	font-size: xx-large;
+	font-size: xxx-large;
+	margin: 10px;
 }
 
 #links .s2{
