@@ -3,6 +3,7 @@ import './globals.css'
 export default function RootLayout({
   children,
 }: {
+  // eslint-disable-next-line no-undef
   children: React.ReactNode
 }) {
   return (
