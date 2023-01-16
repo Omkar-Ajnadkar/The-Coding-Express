@@ -1,8 +1,9 @@
+import Header from '../components/Header'
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-red-500'>Hello World!</h1>
+      <Header/>
     </main>
   )
 }
