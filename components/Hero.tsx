@@ -15,7 +15,7 @@ const Hero = () => {
     }
   )
   return (
-    <section id="hero" className="snap-center">
+    <section id="hero" className="snap-start">
       <div className="h-screen flex flex-col space-y-8 iterms-center justify-center text-center overflow-hidden">
         <BackgroundCircles/>
         <Image
