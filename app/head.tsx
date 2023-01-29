@@ -1,4 +1,4 @@
-export default function Head() {
+export default function Head () {
   return (
     <>
       <title>Omkar Ajnadkar | blackbird71SR</title>
