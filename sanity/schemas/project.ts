@@ -47,7 +47,7 @@ export default defineType({
         {
           type: 'reference',
           to: {
-            type: 'skill',
+            type: 'technology',
           },
         }
       ]
