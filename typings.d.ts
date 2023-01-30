@@ -48,7 +48,7 @@ export interface Experience extends SanityBody {
   dateStarted: date
   dateEnded: date
   isCurrentlyWorking: boolean
-  description: string
+  description: text[]
   technologies: Technology[]
 }
 
@@ -66,6 +66,14 @@ export interface Project extends SanityBody {
   projectLink: string
   dateStarted: date
   dateEnded: date
-  description: string
+  description: text[]
   technologies: Technology[]
+}
+
+export interface Data {
+  profile: Profile
+  socials: Social[]
+  experience: Experience[]
+  skills: Skill[]
+  projects: Project[]
 }

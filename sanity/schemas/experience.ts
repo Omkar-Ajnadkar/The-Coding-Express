@@ -68,7 +68,7 @@ export default defineType({
       type: 'array',
       of: [
         {
-          type: 'string',
+          type: 'text',
         }
       ]
     })
