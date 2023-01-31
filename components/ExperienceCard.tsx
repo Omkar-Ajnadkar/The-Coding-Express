@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { type Experience } from '@/typings'
-import { urlFor } from '@/sanity'
+import { urlFor } from '@/lib/sanity'
 import moment from 'moment'
 
 interface Props {

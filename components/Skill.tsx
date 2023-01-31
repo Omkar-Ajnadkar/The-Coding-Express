@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { type Skill } from '@/typings'
-import { urlFor } from '@/sanity'
+import { urlFor } from '@/lib/sanity'
 
 interface Props {
   directionLeft?: boolean

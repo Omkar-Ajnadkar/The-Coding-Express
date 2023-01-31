@@ -1,6 +1,6 @@
 'use client'
 
-import { urlFor } from '@/sanity'
+import { urlFor } from '@/lib/sanity'
 import { type Profile } from '@/typings'
 import Image from 'next/image'
 import { type ReactNode } from 'react'
