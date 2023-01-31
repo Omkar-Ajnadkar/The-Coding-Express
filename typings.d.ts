@@ -31,7 +31,7 @@ export interface Profile extends SanityBody {
   name: string
   role: string
   heroImage: Image
-  backgroundInfo: string
+  backgroundInfo: text[]
   profileImage: Image
   phoneNumber: string
   email: string
