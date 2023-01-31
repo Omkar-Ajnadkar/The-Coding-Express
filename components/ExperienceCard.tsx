@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }: Props) => {
           <p className='mt-1 text-2xl font-bold'>{experience.company}</p>
         </a>
         <div className='my-2 flex space-x-2'>
-          {experience.technologies.map(technology => (
+          {experience.technologies?.map(technology => (
             <img
               key={technology._id}
               className='h-10 w-10 rounded-full'
