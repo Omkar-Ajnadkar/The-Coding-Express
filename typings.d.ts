@@ -23,7 +23,7 @@ export interface Technology extends SanityBody {
 export interface Social extends SanityBody {
   _type: 'social'
   title: string
-  url: string
+  link: string
 }
 
 export interface Profile extends SanityBody {
