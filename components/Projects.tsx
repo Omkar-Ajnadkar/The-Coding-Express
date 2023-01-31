@@ -1,10 +1,17 @@
 'use client'
 
-import React from 'react'
+import React, { type ReactNode } from 'react'
 import { motion } from 'framer-motion'
+import { type Project } from '@/typings'
+import moment from 'moment'
 
-const Projects = () => {
-  const projects = [1, 2, 3]
+interface Props {
+  children?: ReactNode
+  projects?: Project[]
+}
+
+const Projects = ({ projects = [] }: Props) => {
+  // const projects = [1, 2, 3]
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -13,26 +20,38 @@ const Projects = () => {
       className='relative z-0 mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-left md:flex-row'>
       <h3 className='absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500'>Projects</h3>
       <div className='relative z-20 flex w-full snap-x snap-mandatory overflow-x-scroll overflow-y-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
-        {projects.map((project) => (
-          <div className='flex h-screen w-screen shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44' key={project}>
-            <motion.img
+        {projects.map((project: Project) => (
+          <div className='flex h-screen w-screen shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44' key={project._id}>
+            {/* <motion.img
               initial={{ y: -300, opacity: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
               src="https://static.vecteezy.com/system/resources/previews/000/176/200/original/vector-abstract-company-logo-template-design-illustration.jpg"
-              width={400}
-              height={400}
-              alt="" />
-            <div className='max-w-6xl space-y-10 px-0 md:px-10'>
+              width={300}
+              height={300}
+              alt="" /> */}
+            <div className='max-w-6xl space-y-10 px-0 lg:px-10'>
               <h4 className='text-center text-4xl font-semibold'>
                 <span className='underline decoration-[#F7AB0A]'>
-                  Project Title
+                  {project.title}
                 </span>
               </h4>
-              <p className='text-center text-lg md:text-left'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <div className='flex flex-col items-center justify-center'>
+                <a href={project.projectLink} target='_blank'>
+                  <button className="projectButton">View Project</button>
+                </a>
+              </div>
+              <p className='text-center text-xl uppercase text-gray-300'>
+                {(moment(project.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(project.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
+              <>
+              {project.description.map((item, index) => (
+                 <p className='text-center lg:text-2xl' key={index}>
+                  {item}
+                </p>
+              ))}
+              </>
             </div>
           </div>
         ))}

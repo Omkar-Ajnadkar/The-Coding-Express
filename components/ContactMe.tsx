@@ -1,8 +1,9 @@
 'use client'
 
-import React from 'react'
+import React, { type ReactNode } from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import { useForm, type SubmitHandler } from 'react-hook-form'
+import { type Profile } from '@/typings'
 
 interface Inputs {
   name: string
@@ -11,10 +12,15 @@ interface Inputs {
   message: string
 }
 
-const ContactMe = () => {
+interface Props {
+  children?: ReactNode
+  profile?: Profile
+}
+
+const ContactMe = ({ profile }: Props) => {
   const { register, handleSubmit } = useForm<Inputs>()
   const onSubmit: SubmitHandler<Inputs> = formData => {
-    window.open(`mailto:x@y.com?subject=${formData.subject}&body=Hi, ${formData.name} here. ${formData.message}`, '_blank')
+    window.open(`mailto:${(profile != null) ? profile.email : ''}?subject=${formData.subject}&body=Hi, ${formData.name} here. ${formData.message}`, '_blank')
   }
 
   return (
@@ -28,15 +34,15 @@ const ContactMe = () => {
         <div className='space-y-10'>
           <div className='flex items-center justify-center space-x-5'>
             <PhoneIcon className='h-7 w-7 animate-pulse text-[#F7AB0A]'/>
-            <p className='text-2xl'>+11234567890</p>
+            <p className='text-2xl'>{profile?.phoneNumber}</p>
           </div>
           <div className='flex items-center justify-center space-x-5'>
             <EnvelopeIcon className='h-7 w-7 animate-pulse text-[#F7AB0A]'/>
-            <p className='text-2xl'>x@y.com</p>
+            <p className='text-2xl'>{profile?.email}</p>
           </div>
           <div className='flex items-center justify-center space-x-5'>
             <MapPinIcon className='h-7 w-7 animate-pulse text-[#F7AB0A]'/>
-            <p className='text-2xl'>Address</p>
+            <p className='text-2xl'>{profile?.address}</p>
           </div>
         </div>
         <form onSubmit={handleSubmit(onSubmit)} className='mx-auto flex w-fit flex-col space-y-2'>
