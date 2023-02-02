@@ -73,7 +73,7 @@ export interface Project extends SanityBody {
 export interface Data {
   profile: Profile
   socials: Social[]
-  experience: Experience[]
+  experiences: Experience[]
   skills: Skill[]
   projects: Project[]
 }
