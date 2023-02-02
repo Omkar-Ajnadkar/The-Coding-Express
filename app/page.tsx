@@ -1,74 +1,37 @@
-/* eslint-disable @typescript-eslint/restrict-template-expressions */
-'use client'
+import { type Social, type Skill, type Profile, type Experience, type Project, type Data } from '../typings'
 
-import useSWR from 'swr'
-import { type Social, type Skill, type Profile, type Experience, type Project } from '../typings'
+import { groq } from 'next-sanity'
+import { sanityClient } from '@/lib/sanity'
 
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import WorkExperience from '../components/WorkExperience'
-import Skills from '../components/Skills'
-import Projects from '../components/Projects'
-import ContactMe from '../components/ContactMe'
-import Footer from '../components/Footer'
+import Main from '@/components/Main'
 
-const fetcher = async () => {
-  let res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getProfile`)
-  let resData = await res.json()
-  const profile: Profile = resData.profile
+const fetcherNew = async () => {
+  const profileQuery = groq`*[_type == "profile"][0]`
+  const profile: Profile = await sanityClient.fetch(profileQuery)
 
-  res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getSocials`)
-  resData = await res.json()
-  const socials: Social[] = resData.socials
+  const socialsQuery = groq`*[_type == "social"]`
+  const socials: Social[] = await sanityClient.fetch(socialsQuery)
 
-  res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getExperiences`)
-  resData = await res.json()
-  const experiences: Experience[] = resData.experiences
+  const skillsQuery = groq`*[_type == "skill"]`
+  const skills: Skill[] = await sanityClient.fetch(skillsQuery)
 
-  res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getSkills`)
-  resData = await res.json()
-  const skills: Skill[] = resData.skills
+  const projectsQuery = groq`*[_type == "project"]{...,technologies[]->}`
+  const projects: Project[] = await sanityClient.fetch(projectsQuery)
 
-  res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getProjects`)
-  resData = await res.json()
-  const projects: Project[] = resData.projects
+  const experiencesQuery = groq`*[_type == "experience"]{...,technologies[]->}`
+  const experiences: Experience[] = await sanityClient.fetch(experiencesQuery)
 
-  const data = {
-    profile,
-    socials,
-    experiences,
-    skills,
-    projects
-  }
+  const data = { profile, socials, experiences, skills, projects }
+
   return data
 }
 
-export default function Home () {
-  const { data } = useSWR('data', fetcher)
+export default async function Home () {
+  const data: Data = await fetcherNew()
 
   return (
     <main className="z-0 h-screen snap-y snap-mandatory overflow-y-scroll bg-[rgb(36,36,36)] text-white overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
-      <Header socials={data?.socials}/>
-      <section id="hero" className="snap-start">
-        <Hero profile={data?.profile}/>
-      </section>
-      <section id='about' className="snap-center">
-        <About profile={data?.profile}/>
-      </section>
-      <section id='experience' className='snap-center'>
-        <WorkExperience experiences={data?.experiences}/>
-      </section>
-      <section id='skills' className='snap-start'>
-        <Skills skills={data?.skills}/>
-      </section>
-      <section id='projects' className='snap-start'>
-        <Projects projects={data?.projects}/>
-      </section>
-      <section id="contact" className='snap-start'>
-        <ContactMe profile={data?.profile}/>
-      </section>
-      <Footer/>
+      <Main data={data}/>
     </main>
   )
 }
