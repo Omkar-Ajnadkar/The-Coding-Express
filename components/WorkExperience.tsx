@@ -1,7 +1,5 @@
-'use client'
-
 import React, { type ReactNode } from 'react'
-import { motion } from 'framer-motion'
+import motion from '../app/libraries/motion'
 import ExperienceCard from './ExperienceCard'
 import { type Experience } from '@/typings'
 

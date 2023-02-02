@@ -1,6 +1,4 @@
-'use client'
-
-import { motion } from 'framer-motion'
+import motion from '../app/libraries/motion'
 
 const BackgroundCircles = () => {
   return (
