@@ -10,6 +10,7 @@ import Projects from '../components/Projects'
 import ContactMe from '../components/ContactMe'
 import Footer from '../components/Footer'
 import { type Data } from '@/typings'
+import Educations from './Education'
 
 interface Props {
   data: Data
@@ -30,6 +31,9 @@ const Main = ({ data }: Props) => {
       </section>
       <section id='skills' className='snap-start'>
         <Skills skills={data?.skills}/>
+      </section>
+      <section id='educations' className='snap-start'>
+        <Educations educations={data?.educations}/>
       </section>
       <section id='projects' className='snap-start'>
         <Projects projects={data?.projects}/>

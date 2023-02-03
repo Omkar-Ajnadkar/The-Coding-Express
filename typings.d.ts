@@ -59,6 +59,18 @@ export interface Skill extends SanityBody {
   progress: number
 }
 
+export interface Education extends SanityBody {
+  _type: 'education'
+  title: string
+  university: string
+  image: Image
+  educationLink: string
+  gpa: string
+  dateStarted: date
+  dateEnded: date
+  description: any
+}
+
 export interface Project extends SanityBody {
   _type: 'project'
   title: string
@@ -75,5 +87,6 @@ export interface Data {
   socials: Social[]
   experiences: Experience[]
   skills: Skill[]
+  educations: Education[]
   projects: Project[]
 }
