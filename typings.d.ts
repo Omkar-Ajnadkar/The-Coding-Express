@@ -82,11 +82,23 @@ export interface Project extends SanityBody {
   technologies: Technology[]
 }
 
+export interface Publication extends SanityBody {
+  _type: 'publication'
+  title: string
+  conference: string
+  publication: string
+  citations: number
+  publicationLink: string
+  datePublished: date
+  description: text[]
+}
+
 export interface Data {
   profile: Profile
   socials: Social[]
   experiences: Experience[]
   skills: Skill[]
+  publications: Publication[]
   educations: Education[]
   projects: Project[]
 }
