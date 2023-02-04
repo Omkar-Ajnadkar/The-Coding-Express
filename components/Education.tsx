@@ -17,6 +17,12 @@ const Educations = ({ educations = [] }: Props) => {
     if (keyA > keyB) return -1
     return 0
   })
+  const components = {
+    list: {
+      bullet: ({ children }: any) => <ul className='list-disc'>{children}</ul>,
+      number: ({ children }: any) => <ol>{children}</ol>
+    }
+  }
   console.log(educations)
 
   return (
@@ -54,7 +60,7 @@ const Educations = ({ educations = [] }: Props) => {
                 {(moment(education.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(education.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
               <>
-                <PortableText value={education.description}/>
+                <PortableText value={education.description} components={components}/>
               </>
             </div>
           </div>
