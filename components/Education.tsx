@@ -23,7 +23,6 @@ const Educations = ({ educations = [] }: Props) => {
       number: ({ children }: any) => <ol>{children}</ol>
     }
   }
-  console.log(educations)
 
   return (
     <motion.div
