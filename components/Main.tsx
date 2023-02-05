@@ -36,7 +36,7 @@ const Main = ({ data }: Props) => {
       <section id='publications' className='snap-start'>
         <Publications publications={data?.publications}/>
       </section>
-      <section id='educations' className='snap-start'>
+      <section id='educations' className='snap-center'>
         <Educations educations={data?.educations}/>
       </section>
       <section id='projects' className='snap-start'>
