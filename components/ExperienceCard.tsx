@@ -26,7 +26,7 @@ const ExperienceCard = ({ experience }: Props) => {
         alt={experience.company}
       />
       <div>
-        <h4 className='text-4xl font-light'>{experience.jobTitle}</h4>
+        <h4 className='text-4xl font-light underline decoration-[#F7AB0A]'>{experience.jobTitle}</h4>
         <a href={experience.companyLink} target='_blank'>
           <p className='mt-1 text-2xl font-bold'>{experience.company}</p>
         </a>
