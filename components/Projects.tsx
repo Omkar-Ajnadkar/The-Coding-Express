@@ -26,15 +26,6 @@ const Projects = ({ projects = [] }: Props) => {
       <div className='relative z-20 flex w-full snap-x snap-mandatory overflow-x-scroll overflow-y-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         {projects.map((project: Project) => (
           <div className='flex h-screen w-screen shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44' key={project._id}>
-            {/* <motion.img
-              initial={{ y: -300, opacity: 0 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.2 }}
-              viewport={{ once: true }}
-              src="https://static.vecteezy.com/system/resources/previews/000/176/200/original/vector-abstract-company-logo-template-design-illustration.jpg"
-              width={300}
-              height={300}
-              alt="" /> */}
             <div className='max-w-6xl space-y-10 px-0 lg:px-10'>
               <h4 className='text-center text-4xl font-semibold'>
                 <span className='underline decoration-[#F7AB0A]'>
