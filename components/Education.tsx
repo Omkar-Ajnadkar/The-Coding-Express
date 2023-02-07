@@ -29,26 +29,24 @@ const Educations = ({ educations = [] }: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='relative mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden px-10 text-left md:flex-row'>
+      className='relative mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden px-10 text-center md:flex-row'>
       <h3 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500">Education</h3>
       <div className='flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll p-10  scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         {educations.map(education => (
           <article
             key={education._id}
             className='flex w-[500px] shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]'>
-            <div>
               <h4 className='text-4xl font-light underline decoration-[#F7AB0A]'>{education.title}</h4>
               <a href={education.educationLink} target='_blank'>
                 <p className='mt-1 text-2xl font-bold'>{education.university}</p>
               </a>
-              <p className='py-5 uppercase text-gray-300'>
+              <p className='py-5 uppercase text-gray-300 lg:text-2xl'>
                 {education.gpa}  <br/>
                 {(moment(education.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(education.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
-              <>
+              <span className='text-left lg:text-xl'>
                 <PortableText value={education.description} components={components}/>
-              </>
-            </div>
+              </span>
           </article>
         ))}
       </div>
