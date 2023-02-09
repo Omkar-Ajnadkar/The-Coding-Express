@@ -36,9 +36,9 @@ const Educations = ({ educations = [] }: Props) => {
           <article
             key={education._id}
             className='flex w-[500px] shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]'>
-              <h4 className='text-4xl font-light underline decoration-[#F7AB0A]'>{education.title}</h4>
+              <h4 className='text-3xl font-light underline decoration-[#F7AB0A]'>{education.title}</h4>
               <a href={education.educationLink} target='_blank'>
-                <p className='mt-1 text-2xl font-bold'>{education.university}</p>
+                <p className='mt-1 text-2xl'>{education.university}</p>
               </a>
               <p className='py-5 uppercase text-gray-300 lg:text-2xl'>
                 {education.gpa}  <br/>
