@@ -44,6 +44,7 @@ export interface Experience extends SanityBody {
   jobTitle: string
   companyImage: Image
   company: string
+  location: string
   companyLink: string
   dateStarted: date
   dateEnded: date
