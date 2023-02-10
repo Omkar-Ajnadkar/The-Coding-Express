@@ -34,7 +34,7 @@ const Projects = ({ projects = [] }: Props) => {
                    <button className="projectButton">View Project</button>
                  </a>
               </div>
-              <p className='py-5 uppercase text-gray-300 lg:text-2xl'>
+              <p className='py-5 text-gray-300 lg:text-lg'>
               {(moment(project.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(project.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
               <>

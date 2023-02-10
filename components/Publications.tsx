@@ -35,9 +35,9 @@ const Projects = ({ publications = [] }: Props) => {
                    <button className="projectButton">View Publication</button>
                  </a>
               </div>
-              <p className='py-5 uppercase text-gray-300 lg:text-2xl'>
+              <p className='py-5 text-gray-300 lg:text-lg'>
                 {publication.conference ? publication.conference + ' - ' + publication.publication : publication.publication} <br/>
-                <span className='uppercase'>{(moment(publication.datePublished, 'YYYY-MM-DD')).format('MMM YYYY')}</span>
+                {(moment(publication.datePublished, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
               <>
                {publication.description.map((item, index) => (

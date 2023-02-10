@@ -40,11 +40,11 @@ const Educations = ({ educations = [] }: Props) => {
               <a href={education.educationLink} target='_blank'>
                 <p className='mt-1 text-2xl'>{education.university}</p>
               </a>
-              <p className='py-5 uppercase text-gray-300 lg:text-2xl'>
+              <p className='py-5 text-gray-300 lg:text-lg'>
                 {education.gpa}  <br/>
                 {(moment(education.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(education.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
-              <span className='text-left lg:text-xl'>
+              <span className='text-left text-lg lg:text-xl'>
                 <PortableText value={education.description} components={components}/>
               </span>
           </article>
