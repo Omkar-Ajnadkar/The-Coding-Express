@@ -13,7 +13,7 @@ interface Props {
 const Hero = ({ profile }: Props) => {
   const [text] = useTypewriter(
     {
-      words: ['x', 'y', 'z'],
+      words: ['Student', 'Tinkerer', 'Developer'],
       loop: true,
       delaySpeed: 2000
     }
