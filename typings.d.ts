@@ -56,8 +56,7 @@ export interface Experience extends SanityBody {
 export interface Skill extends SanityBody {
   _type: 'skill'
   title: string
-  image: Image
-  progress: number
+  category: string
 }
 
 export interface Education extends SanityBody {

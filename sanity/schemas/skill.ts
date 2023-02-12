@@ -11,18 +11,9 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'image',
-      title: 'Image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-    }),
-    defineField({
-      name: 'progress',
-      title: 'Progress',
-      type: 'number',
-      validation: (Rule) => Rule.min(0).max(100)
+      name: 'category',
+      title: 'Category',
+      type: 'string',
     }),
   ],
 })
