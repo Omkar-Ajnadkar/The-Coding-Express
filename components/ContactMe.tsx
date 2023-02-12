@@ -27,11 +27,7 @@ const ContactMe = ({ profile }: Props) => {
     <div className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left'>
       <h3 className='absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500'>Contact</h3>
       <div className='flex flex-col space-y-10'>
-        <h4 className='text-center text-4xl font-semibold'>
-          I have got just what you need. {' '}
-          <span className='underline decoration-[#F7AB0A]/50'>Lets Talk</span>
-        </h4>
-        <div className='space-y-10'>
+        <div className='space-y-5'>
           <div className='flex items-center justify-center space-x-5'>
             <PhoneIcon className='h-7 w-7 animate-pulse text-[#F7AB0A]'/>
             <p className='text-2xl'>{profile?.phoneNumber}</p>
