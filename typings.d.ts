@@ -82,6 +82,15 @@ export interface Project extends SanityBody {
   technologies: Technology[]
 }
 
+export interface Hackathon extends SanityBody {
+  _type: 'hackathon'
+  title: string
+  image: Image
+  link: string
+  year: date
+  description: string
+}
+
 export interface Publication extends SanityBody {
   _type: 'publication'
   title: string
@@ -101,4 +110,5 @@ export interface Data {
   publications: Publication[]
   educations: Education[]
   projects: Project[]
+  hackathons: Hackathon[]
 }
