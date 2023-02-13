@@ -24,7 +24,7 @@ const About = ({ profile }: Props) => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src={profileImageUrl}
-        className='-mb-20 h-56 w-56 shrink-0 rounded-full object-cover md:mb-0 md:max-h-96 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
+        className='-mb-20 h-32 w-32 shrink-0 rounded-full object-cover sm:h-56 sm:w-56 md:mb-0 md:max-h-96 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
       />
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold'>
