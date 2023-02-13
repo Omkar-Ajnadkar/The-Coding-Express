@@ -85,6 +85,7 @@ export interface Project extends SanityBody {
 export interface Hackathon extends SanityBody {
   _type: 'hackathon'
   title: string
+  organizer: string
   image: Image
   link: string
   year: date
