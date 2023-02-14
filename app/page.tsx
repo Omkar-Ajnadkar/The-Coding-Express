@@ -1,4 +1,4 @@
-import { type Social, type Skill, type Profile, type Experience, type Project, type Data, type Education, type Publication } from '../typings'
+import { type Social, type Skill, type Profile, type Experience, type Project, type Data, type Education, type Publication, type Hackathon } from '../typings'
 
 import { groq } from 'next-sanity'
 import { sanityClient } from '@/lib/sanity'
@@ -27,7 +27,10 @@ const fetcherNew = async () => {
   const publicationsQuery = groq`*[_type == "publication"]`
   const publications: Publication[] = await sanityClient.fetch(publicationsQuery)
 
-  const data = { profile, socials, experiences, skills, publications, educations, projects }
+  const hackathonsQuery = groq`*[_type == "hackathon"]`
+  const hackathons: Hackathon[] = await sanityClient.fetch(hackathonsQuery)
+
+  const data = { profile, socials, experiences, skills, publications, educations, projects, hackathons }
 
   return data
 }
