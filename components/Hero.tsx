@@ -51,6 +51,9 @@ const Hero = ({ profile }: Props) => {
           <a href='#publications'>
             <button className="heroButton">Publications</button>
           </a>
+          <a href='#hackathons'>
+            <button className="heroButton">Hackathons</button>
+          </a>
           <a href='#educations'>
             <button className="heroButton">Education</button>
           </a>
