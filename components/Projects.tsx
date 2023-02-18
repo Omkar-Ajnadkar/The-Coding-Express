@@ -1,5 +1,5 @@
 import React, { type ReactNode } from 'react'
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 import { type Project } from '@/typings'
 import moment from 'moment'
 

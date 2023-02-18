@@ -1,8 +1,8 @@
 import React, { type ReactNode } from 'react'
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 import { type Education } from '@/typings'
 import moment from 'moment'
-import PortableText from '../app/libraries/portabletext'
+import PortableText from '../libraries/portabletext'
 
 interface Props {
   children?: ReactNode

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
 import React, { type ReactNode } from 'react'
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 import { type Publication } from '@/typings'
 import moment from 'moment'
 

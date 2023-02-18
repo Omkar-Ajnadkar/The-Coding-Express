@@ -1,6 +1,6 @@
 import { urlFor } from '@/lib/sanity'
 import { type Profile } from '@/typings'
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 import { type ReactNode } from 'react'
 
 interface Props {

@@ -1,4 +1,4 @@
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 
 const BackgroundCircles = () => {
   return (

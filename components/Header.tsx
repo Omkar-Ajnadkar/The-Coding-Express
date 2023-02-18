@@ -1,5 +1,5 @@
 import { SocialIcon } from 'react-social-icons'
-import motion from '../app/libraries/motion'
+import motion from '../libraries/motion'
 import { type Social } from '@/typings'
 import { type ReactNode } from 'react'
 
