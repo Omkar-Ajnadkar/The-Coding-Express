@@ -29,6 +29,7 @@ const Hero = ({ profile }: Props) => {
         alt={'Profile Photo'}
         height={128}
         width={128}
+        priority={true}
       />
       <div className="z-20">
         <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-500">
