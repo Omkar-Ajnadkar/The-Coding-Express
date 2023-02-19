@@ -10,8 +10,8 @@ interface Props {
 
 const WorkExperience = ({ experiences = [] }: Props) => {
   experiences.sort(function (a, b) {
-    const keyA = new Date(a.dateEnded)
-    const keyB = new Date(b.dateEnded)
+    const keyA = new Date(a.dateStarted)
+    const keyB = new Date(b.dateStarted)
     if (keyA < keyB) return 1
     if (keyA > keyB) return -1
     return 0
