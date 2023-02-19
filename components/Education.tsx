@@ -35,7 +35,7 @@ const Educations = ({ educations = [] }: Props) => {
         {educations.map(education => (
           <article
             key={education._id}
-            className='flex w-[500px] shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]'>
+            className='flex w-[500px] shrink-0 cursor-pointer snap-center snap-always flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]'>
               <h4 className='text-3xl font-light underline decoration-[#F7AB0A]'>{education.title}</h4>
               <a href={education.educationLink} target='_blank'>
                 <p className='mt-1 text-2xl'>{education.university}</p>
