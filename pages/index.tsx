@@ -6,7 +6,7 @@ import { sanityClient } from '@/lib/sanity'
 import Main from '@/components/Main'
 import { useState } from 'react'
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const profileQuery = groq`*[_type == "profile"][0]`
   const profile: Profile = await sanityClient.fetch(profileQuery)
 
