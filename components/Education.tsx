@@ -44,7 +44,7 @@ const Educations = ({ educations = [] }: Props) => {
                 {education.gpa}  <br/>
                 {(moment(education.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {(moment(education.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
               </p>
-              <span className='text-left text-lg lg:text-xl'>
+              <span className='text-left text-base lg:text-lg'>
                 <PortableText value={education.description} components={components}/>
               </span>
           </article>

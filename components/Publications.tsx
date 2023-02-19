@@ -41,7 +41,7 @@ const Projects = ({ publications = [] }: Props) => {
               </p>
               <>
                {publication.description.map((item, index) => (
-                  <p className='text-center lg:text-xl' key={index}>
+                  <p className='text-center text-base lg:text-lg' key={index}>
                    {item}
                  </p>
                ))}

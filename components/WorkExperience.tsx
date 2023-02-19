@@ -36,7 +36,7 @@ const WorkExperience = ({ experiences = [] }: Props) => {
             {experience.location}  <br/>
             {(moment(experience.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {experience.isCurrentlyWorking ? 'Present' : (moment(experience.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
             </p>
-            <ul className='ml-5 list-disc space-y-4 text-left text-lg lg:text-xl'>
+            <ul className='ml-5 list-disc space-y-4 text-left text-base lg:text-lg'>
               {experience.description.map((item, index) => (
                 <li key={index}>
                   {item}
