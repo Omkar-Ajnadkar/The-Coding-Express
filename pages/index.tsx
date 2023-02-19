@@ -5,6 +5,7 @@ import { sanityClient } from '@/lib/sanity'
 
 import Main from '@/components/Main'
 import { useState } from 'react'
+import Head from 'next/head'
 
 export const getStaticProps = async () => {
   const profileQuery = groq`*[_type == "profile"][0]`
@@ -44,8 +45,17 @@ export default function Home (props: { data: Data }) {
   const [data] = useState(props.data)
 
   return (
-    <main className="z-0 h-screen snap-y snap-mandatory overflow-y-scroll bg-[rgb(36,36,36)] text-white overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
-      <Main data={data}/>
-    </main>
+    <>
+      <Head>
+        <title>Omkar Ajnadkar | blackbird71SR</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="Personal Website of Omkar Ajnadkar" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="z-0 h-screen snap-y snap-mandatory overflow-y-scroll bg-[rgb(36,36,36)] text-white overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+        <Main data={data}/>
+      </main>
+    </>
+
   )
 }
