@@ -1,7 +1,7 @@
 import React, { type ReactNode } from 'react'
 import { type Hackathon } from '@/typings'
 import moment from 'moment'
-import { urlFor } from '@/lib/sanity'
+// import { urlFor } from '@/lib/sanity'
 
 interface Props {
   children?: ReactNode
@@ -24,10 +24,10 @@ const Hackathons = ({ hackathons = [] }: Props) => {
       <div className='columns-2 gap-0 sm:gap-3 md:gap-5'>
         {hackathons.map(hackathon => (
           <div key={hackathon._id} className='flex break-inside-avoid-column flex-col items-center justify-center border border-gray-500 p-2'>
-            <img
+            {/* <img
                 className='h-10 w-10 cursor-pointer rounded-full grayscale hover:grayscale-0'
                 src={(hackathon?.image) == null ? '' : urlFor(hackathon?.image).url()}
-                alt="Hackathon Logo" />
+                alt="Hackathon Logo" /> */}
             <div>
               <h4 className='p-2 text-2xl font-light underline decoration-[#F7AB0A]'>{hackathon.title}</h4>
               <p className='text-center text-base font-semibold opacity-60 sm:text-xl'>{hackathon.organizer} <br/>
