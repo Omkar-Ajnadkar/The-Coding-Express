@@ -16,39 +16,39 @@ const Skills = ({ skills = [] }: Props) => {
         {coreSkills.map(skill => (
           <div key={skill._id} className='break-inside-avoid-column border border-gray-500 p-1'>
             <div>
-              <p className='text-center text-base font-semibold opacity-60 md:text-xl'>{skill.title}</p>
+              <p className='text-center text-sm font-semibold opacity-60 sm:text-base md:text-xl'>{skill.title}</p>
             </div>
           </div>
         ))}
       </div>
       <div className='m-5'>
         <div>
-          <h4 className="text-xl tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] md:text-2xl">{skills.filter(skill => skill.category === 'Programming Languages')[0].category}</h4>
-          <p className='p-5 text-center text-lg font-light opacity-60 md:text-xl'>
+          <h4 className="text-lg tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] sm:text-xl md:text-2xl">{skills.filter(skill => skill.category === 'Programming Languages')[0].category}</h4>
+          <p className='p-2 text-center text-base font-light opacity-60 sm:p-5 sm:text-lg md:text-xl'>
             {skills.filter(skill => skill.category === 'Programming Languages')[0].title}
           </p>
         </div>
         <div>
-          <h4 className="text-xl tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] md:text-2xl">{skills.filter(skill => skill.category === 'Web Frameworks')[0].category}</h4>
-          <p className='p-5 text-center text-lg font-light opacity-60 md:text-xl'>
+          <h4 className="text-lg tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] sm:text-xl md:text-2xl">{skills.filter(skill => skill.category === 'Web Frameworks')[0].category}</h4>
+          <p className='p-2 text-center text-base font-light opacity-60 sm:p-5 sm:text-lg md:text-xl'>
             {skills.filter(skill => skill.category === 'Web Frameworks')[0].title}
           </p>
         </div>
         <div>
-          <h4 className="text-xl tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] md:text-2xl">{skills.filter(skill => skill.category === 'ML Frameworks')[0].category}</h4>
-          <p className='p-5 text-center text-lg font-light opacity-60 md:text-xl'>
+          <h4 className="text-lg tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] sm:text-xl md:text-2xl">{skills.filter(skill => skill.category === 'ML Frameworks')[0].category}</h4>
+          <p className='p-2 text-center text-base font-light opacity-60 sm:p-5 sm:text-lg md:text-xl'>
             {skills.filter(skill => skill.category === 'ML Frameworks')[0].title}
           </p>
         </div>
         <div>
-          <h4 className="text-xl tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] md:text-2xl">{skills.filter(skill => skill.category === 'Data Analysis')[0].category}</h4>
-          <p className='p-5 text-center text-xl font-light opacity-60'>
+          <h4 className="text-lg tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] sm:text-xl md:text-2xl">{skills.filter(skill => skill.category === 'Data Analysis')[0].category}</h4>
+          <p className='p-2 text-center text-base font-light opacity-60 sm:p-5 sm:text-xl'>
             {skills.filter(skill => skill.category === 'Data Analysis')[0].title}
           </p>
         </div>
         <div>
-          <h4 className="text-xl tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] md:text-2xl">{skills.filter(skill => skill.category === 'Databases')[0].category}</h4>
-          <p className='p-5 text-center text-lg font-light opacity-60 md:text-xl'>
+          <h4 className="text-lg tracking-[1px] text-gray-500 underline decoration-[#F7AB0A] sm:text-xl md:text-2xl">{skills.filter(skill => skill.category === 'Databases')[0].category}</h4>
+          <p className='p-2 text-center text-base font-light opacity-60 sm:p-5 sm:text-lg md:text-xl'>
             {skills.filter(skill => skill.category === 'Databases')[0].title}
           </p>
         </div>
