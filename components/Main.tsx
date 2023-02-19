@@ -20,37 +20,37 @@ interface Props {
 
 const Main = ({ data }: Props) => {
   return (
-    <>
+    <div className='snap-mandatory'>
       <Header socials={data?.socials}/>
-      <section id="hero" className="snap-start">
+      <section id="hero" className="snap-start snap-always">
         <Hero profile={data?.profile}/>
       </section>
-      <section id='about' className="snap-center">
+      <section id='about' className="snap-center snap-always">
         <About profile={data?.profile}/>
       </section>
-      <section id='experience' className='snap-center'>
+      <section id='experience' className='snap-center snap-always'>
         <WorkExperience experiences={data?.experiences}/>
       </section>
-      <section id='skills' className='snap-start'>
+      <section id='skills' className='snap-center snap-always'>
         <Skills skills={data?.skills}/>
       </section>
-      <section id='publications' className='snap-center'>
+      <section id='publications' className='snap-center snap-always'>
         <Publications publications={data?.publications}/>
       </section>
-      <section id='hackathons' className='snap-center'>
+      <section id='hackathons' className='snap-center snap-always'>
         <Hackathons hackathons={data?.hackathons}/>
       </section>
-      <section id='educations' className='snap-center'>
+      <section id='educations' className='snap-center snap-always'>
         <Educations educations={data?.educations}/>
       </section>
-      <section id='projects' className='snap-center'>
+      <section id='projects' className='snap-center snap-always'>
         <Projects projects={data?.projects}/>
       </section>
-      <section id="contact" className='snap-start'>
+      <section id="contact" className='snap-center snap-always'>
         <ContactMe profile={data?.profile}/>
       </section>
       <Footer/>
-    </>
+    </div>
   )
 }
 
