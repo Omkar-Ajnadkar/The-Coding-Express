@@ -27,12 +27,12 @@ const WorkExperience = ({ experiences = [] }: Props) => {
         {experiences.map(experience => (
           <article
             key={experience._id}
-            className='flex w-[500px] shrink-0 cursor-pointer snap-center snap-always flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 md:w-[600px] xl:w-[600px]'>
+            className='flex w-[500px] shrink-0 cursor-pointer snap-center snap-always flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#E5E1DA] p-10 opacity-90 transition-opacity duration-200 hover:opacity-100 dark:bg-[#292929] md:w-[600px] xl:w-[600px]'>
             <h4 className='text-3xl font-light underline decoration-[#F7AB0A]'>{experience.jobTitle}</h4>
             <a href={experience.companyLink} target='_blank'>
               <p className='mt-1 text-2xl'>{experience.company}</p>
             </a>
-            <p className='text-gray-300 lg:text-lg'>
+            <p className='text-black dark:text-gray-300 lg:text-lg'>
             {experience.location}  <br/>
             {(moment(experience.dateStarted, 'YYYY-MM-DD')).format('MMM YYYY')} - {experience.isCurrentlyWorking ? 'Present' : (moment(experience.dateEnded, 'YYYY-MM-DD')).format('MMM YYYY')}
             </p>

@@ -32,7 +32,7 @@ const Hero = ({ profile }: Props) => {
         priority={true}
       />
       <div className="z-20">
-        <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-500">
+        <h2 className="pb-2 text-sm uppercase tracking-[15px] text-black dark:text-gray-500">
           {profile?.role}
         </h2>
         <h1 className="px-10 text-5xl font-semibold lg:text-6xl">

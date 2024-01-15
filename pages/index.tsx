@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/no-custom-classname */
+/* eslint-disable tailwindcss/classnames-order */
 import { type Social, type Skill, type Profile, type Experience, type Project, type Data, type Education, type Publication, type Hackathon } from '../typings'
 
 import { groq } from 'next-sanity'
@@ -52,7 +54,7 @@ export default function Home (props: { data: Data }) {
         <meta name="description" content="Personal Website of Omkar Ajnadkar" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="z-0 h-screen snap-y snap-mandatory overflow-y-scroll bg-[rgb(36,36,36)] text-white overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <main className="bg-[rgb(251, 249, 241)] z-0 h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll text-black scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 dark:bg-[rgb(36,36,36)] dark:text-white">
         <Main data={data}/>
       </main>
     </>
